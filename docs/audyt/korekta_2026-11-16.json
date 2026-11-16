@@ -1,0 +1,479 @@
+[
+ {
+  "id": 41,
+  "akcja": "zmiana",
+  "przed": [
+   "Słowo stało się ciałem",
+   [
+    41,
+    311
+   ],
+   "Coś zapowiedzianego rzeczywiście się wydarzyło."
+  ],
+  "po": [
+   "Słowo stało się ciałem",
+   [
+    41,
+    310
+   ],
+   "Coś zapowiedzianego rzeczywiście się wydarzyło."
+  ],
+  "powod": "311 (ważyć słowa) dołączony błędnie; 310 to wariant tego samego hasła"
+ },
+ {
+  "id": 309,
+  "akcja": "usunięty",
+  "przed": [
+   "A słowo stało się ciałem",
+   [
+    310
+   ],
+   "gra"
+  ],
+  "scalony_do": 41,
+  "powod": "semantyczny duplikat #41 w talii"
+ },
+ {
+  "id": 382,
+  "akcja": "nowy rekord",
+  "po": [
+   "Ważyć słowa",
+   [
+    311
+   ],
+   "wypowiadać się z namysłem"
+  ],
+  "powod": "pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 200,
+  "akcja": "zmiana",
+  "przed": [
+   "Tak, tak — nie, nie",
+   [
+    200,
+    336
+   ],
+   "Mówić w sposób prosty i jednoznaczny, bez wykrętów."
+  ],
+  "po": [
+   "Tak, tak — nie, nie",
+   [
+    200,
+    335
+   ],
+   "Mówić w sposób prosty i jednoznaczny, bez wykrętów."
+  ],
+  "powod": "336 (talenta) dołączony błędnie; 335 to wariant tego samego hasła"
+ },
+ {
+  "id": 334,
+  "akcja": "usunięty",
+  "przed": [
+   "Tak, tak",
+   [
+    335
+   ],
+   "gra"
+  ],
+  "scalony_do": 200,
+  "powod": "semantyczny duplikat #200 w talii"
+ },
+ {
+  "id": 383,
+  "akcja": "nowy rekord",
+  "po": [
+   "Nie wszyscy mają jednakie talenty",
+   [
+    336
+   ],
+   "każdy ma inny talent od Boga"
+  ],
+  "powod": "pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 344,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Uczony w Piśmie",
+   4,
+   "gra"
+  ],
+  "po": [
+   "Dobry uczynek",
+   null,
+   "do weryfikacji"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję; duplikat #343 usunięty z talii"
+ },
+ {
+  "id": 350,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Wet za wet",
+   1,
+   "do weryfikacji"
+  ],
+  "po": [
+   "Wiara góry przenosi",
+   2,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #351)"
+ },
+ {
+  "id": 351,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Wiara góry przenosi",
+   2,
+   "gra"
+  ],
+  "po": [
+   "Kto sieje wiatr, zbiera burzę",
+   3,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #352)"
+ },
+ {
+  "id": 352,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Kto sieje wiatr, zbiera burzę",
+   3,
+   "gra"
+  ],
+  "po": [
+   "Rzucać słowa na wiatr",
+   3,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #353)"
+ },
+ {
+  "id": 353,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Rzucać słowa na wiatr",
+   3,
+   "gra"
+  ],
+  "po": [
+   "Rozpędzić kogoś na cztery wiatry",
+   null,
+   "do weryfikacji"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję; pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 23,
+  "akcja": "zmiana",
+  "przed": [
+   "Wierzyć jak w Ewangelię",
+   [
+    23,
+    357
+   ],
+   "Wierzyć w coś bezgranicznie, traktować coś jako niepodważalną prawdę."
+  ],
+  "po": [
+   "Wierzyć jak w Ewangelię",
+   [
+    23,
+    356
+   ],
+   "Wierzyć w coś bezgranicznie, traktować coś jako niepodważalną prawdę."
+  ],
+  "powod": "357 (istna wieża Babel) dołączony błędnie; 356 to ten sam frazeologizm"
+ },
+ {
+  "id": 355,
+  "akcja": "usunięty",
+  "przed": [
+   "Wiedzieć, skąd wieje wiatr",
+   [
+    356
+   ],
+   "gra"
+  ],
+  "scalony_do": 23,
+  "powod": "przesunięcie tytułu o jedną pozycję; tytuł był duplikatem #354, pozycja 356 = #23"
+ },
+ {
+  "id": 18,
+  "akcja": "zmiana",
+  "przed": [
+   "Wieża Babel",
+   [
+    18
+   ],
+   "Wielkie zamieszanie, chaos, pomieszanie języków lub poglądów."
+  ],
+  "po": [
+   "Wieża Babel",
+   [
+    18,
+    357,
+    358
+   ],
+   "Wielkie zamieszanie, chaos, pomieszanie języków lub poglądów."
+  ],
+  "powod": "357 i 358 to warianty tego samego hasła (BIB-006)"
+ },
+ {
+  "id": 357,
+  "akcja": "usunięty",
+  "przed": [
+   "Wieża Babel",
+   [
+    358,
+    359
+   ],
+   "gra"
+  ],
+  "scalony_do": 18,
+  "powod": "duplikat #18 w talii; 359 (wieża z kości słoniowej) był dołączony błędnie"
+ },
+ {
+  "id": 384,
+  "akcja": "nowy rekord",
+  "po": [
+   "Zamknąć się w wieży z kości słoniowej",
+   [
+    359
+   ],
+   "odizolować się od życia lub otoczenia, w celu zajęcia się sprawami wznioślejszymi, np: twórczością artystyczną"
+  ],
+  "powod": "pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 360,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Rwać włosy z głowy",
+   2,
+   "gra"
+  ],
+  "po": [
+   "Włos z głowy nie spadnie",
+   2,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #361)"
+ },
+ {
+  "id": 361,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Włos z głowy nie spadnie",
+   2,
+   "gra"
+  ],
+  "po": [
+   "Włosy stają dęba",
+   3,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #362)"
+ },
+ {
+  "id": 362,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Włosy stają dęba",
+   3,
+   "gra"
+  ],
+  "po": [
+   "Wybiła czyjaś ostatnia godzina",
+   3,
+   "gra"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję (tytuł z dawnego #363)"
+ },
+ {
+  "id": 363,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Wybiła czyjaś ostatnia godzina",
+   3,
+   "gra"
+  ],
+  "po": [
+   "Wybiła godzina",
+   null,
+   "do weryfikacji"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję; pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 366,
+  "akcja": "zmiana",
+  "przed": [
+   "budować zamki na piasku",
+   [
+    367
+   ],
+   "robić rzecz nietrwałą, snuć marzenia, projekty niemające żadnych szans urzeczywistnienia się, opierać się na niepewnych podstawach"
+  ],
+  "po": [
+   "budować zamki na piasku",
+   [
+    367,
+    368
+   ],
+   "robić rzecz nietrwałą, snuć marzenia, projekty niemające żadnych szans urzeczywistnienia się, opierać się na niepewnych podstawach"
+  ],
+  "powod": "368 (zamki na lodzie/piasku) to wariant tego samego hasła"
+ },
+ {
+  "id": 367,
+  "akcja": "usunięty",
+  "przed": [
+   "Budować zamki na piasku",
+   [
+    368,
+    369
+   ],
+   "gra"
+  ],
+  "scalony_do": 366,
+  "powod": "duplikat #366 w talii"
+ },
+ {
+  "id": 369,
+  "akcja": "zmiana",
+  "przed": [
+   "Zamknąć na siedem spustów",
+   [
+    370
+   ],
+   "nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami"
+  ],
+  "po": [
+   "Zamknąć na siedem spustów",
+   [
+    369
+   ],
+   "zamknąć coś dokładnie, na mocne zamki, wzbronić przystępu, uczynić niedostępnym"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję"
+ },
+ {
+  "id": 385,
+  "akcja": "nowy rekord",
+  "po": [
+   "Zaprzeć się kogoś, czegoś, samego siebie",
+   [
+    370
+   ],
+   "nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami"
+  ],
+  "powod": "pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 24,
+  "akcja": "zmiana",
+  "przed": [
+   "Błędna owca",
+   [
+    24,
+    372
+   ],
+   "Człowiek, który się pogubił, zbłądził lub odszedł od przyjętych zasad."
+  ],
+  "po": [
+   "Błędna owca",
+   [
+    24
+   ],
+   "Człowiek, który się pogubił, zbłądził lub odszedł od przyjętych zasad."
+  ],
+  "powod": "372 (zgrzytać zębami) dołączony błędnie"
+ },
+ {
+  "id": 372,
+  "akcja": "zmiana",
+  "przed": [
+   "Zgrzytać zębami",
+   [
+    373
+   ],
+   "umieć rozpoznać, co jest prawdziwe, odróżniać rzeczy wartościowe od bezwartościowych, prawdę od kłamstwa"
+  ],
+  "po": [
+   "Zgrzytać zębami",
+   [
+    372
+   ],
+   "złościć się, wpaść w furię"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję"
+ },
+ {
+  "id": 373,
+  "akcja": "zmiana",
+  "przed": [
+   "Oddzielić ziarno od plew",
+   [
+    374
+   ],
+   "wywołać zarzewie nieporozumienia, sporu, kłótni"
+  ],
+  "po": [
+   "Oddzielić ziarno od plew",
+   [
+    373
+   ],
+   "umieć rozpoznać, co jest prawdziwe, odróżniać rzeczy wartościowe od bezwartościowych, prawdę od kłamstwa"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję"
+ },
+ {
+  "id": 374,
+  "akcja": "zmiana",
+  "przed": [
+   "Siać ziarno niezgody",
+   [
+    375
+   ],
+   "rodzaj przekleństwa"
+  ],
+  "po": [
+   "Siać ziarno niezgody",
+   [
+    374
+   ],
+   "wywołać zarzewie nieporozumienia, sporu, kłótni"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję"
+ },
+ {
+  "id": 386,
+  "akcja": "nowy rekord",
+  "po": [
+   "Bodaj cię święta ziemia nie nosiła!",
+   [
+    375
+   ],
+   "rodzaj przekleństwa"
+  ],
+  "powod": "pozycja źródłowa bez własnego rekordu (zgubiona przy przesunięciu)"
+ },
+ {
+  "id": 376,
+  "akcja": "nowy tytuł",
+  "przed": [
+   "Niech mnie ziemia pochłonie!",
+   2,
+   "gra"
+  ],
+  "po": [
+   "Ziemia obiecana",
+   null,
+   "do weryfikacji"
+  ],
+  "powod": "przesunięcie tytułu o jedną pozycję; duplikat #375 usunięty z talii"
+ }
+]

@@ -2,7 +2,7 @@
 
 Multizestaw do kalamburów na lekcji i do samodzielnej nauki frazeologizmów. Jedna aplikacja HTML działa offline na telefonie i komputerze, ma dwie talie (Biblizmy i Mitologizmy), a każda talia ma osobną historię i postęp.
 
-> **Stan: prototyp roboczy, NIE zatwierdzony dydaktycznie.** Talia biblijna zawiera karty z cudzą definicją (patrz `docs/RAPORT_SCALENIA_2026-11-16.md`). Nie używać z uczniami, dopóki nie zostanie wykonany Etap A z `docs/handoff/POLECENIE_DLA_CLAUDE.md`.
+> **Stan: prototyp roboczy.** 16.11.2026 naprawiono przesunięcie haseł i znaczeń w talii biblijnej oraz usunięto duplikaty (patrz `docs/RAPORT_SCALENIA_2026-11-16.md`). Poziomy i selekcja kart są nadal robocze; pełnej kolacji ze słownikiem nie wykonano.
 
 ## Uruchomienie
 Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować. Postęp zapisuje się w `localStorage` danej przeglądarki.
@@ -11,10 +11,12 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować. Postęp za
 | Ścieżka | Zawartość |
 |---|---|
 | `index.html` | scalona aplikacja (generowana, nie edytować ręcznie) |
-| `apps/kalambury_biblia_v5.html` | źródło: aplikacja i talia biblijna (235 kart) |
+| `apps/kalambury_biblia_v5.html` | źródło interfejsu (jego osadzone dane biblijne są nieaktualne i ignorowane) |
 | `apps/kalambury_mitologia_v3.html` | źródło: talia mitologiczna (202 karty), działa też samodzielnie |
 | `tools/build_multizestaw.py` | buduje `index.html` z dwóch plików w `apps/` |
-| `data/` | robocza baza biblizmów (JSON, 347 rekordów) i transkrypcje uczniowskie |
+| `data/biblia_baza_kanoniczna.json` | **jedyne źródło danych biblijnych**: 347 rekordów, status `gra` = karta w talii |
+| `data/` (pozostałe) | transkrypcje uczniowskie, archiwum bazy z 10.11.2026 |
+| `tools/audit/` | skrypty audytu i korekty bazy; dziennik zmian w `docs/audyt/` |
 | `docs/handoff/` | paczka przekazania z 16.11.2026 (polecenie, stan, manifest) |
 | `docs/qa/` | raport QA z paczki, lista błędów krytycznych, zrzuty |
 | `archive/apps/` | wcześniejsze wersje mitologii; nie używać jako bazy |

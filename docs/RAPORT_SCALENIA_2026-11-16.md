@@ -44,3 +44,35 @@ Interfejs działa, ale **talia biblijna uczy błędnych znaczeń**.
 
 ## Następny krok
 Etap A z polecenia: rekolacja zakresu biblijnego #300 do #382 ze skanem Godynia i oryginałem uczniowskim, naprawa JSON-u, przebudowa talii, usunięcie duplikatów.
+
+---
+
+# Korekta danych biblijnych (16.11.2026, druga część)
+
+## Diagnoza
+Rekordy w bazie miały poprawne **numery, znaczenia i warianty**, ale część **tytułów** (hasło, poziom, status) była przesunięta o jedną pozycję. Przy usuwaniu duplikatów przesunięte tytuły „sklejały się” z innymi rekordami, dlatego do #23, #24, #41, #200 i #357 trafiły obce numery źródłowe.
+
+## Weryfikacja
+- Pary hasło–znaczenie w zapisie uczniowskim porównano ze skanem Godynia dla haseł ZĄB, ZIARNO, ZAMEK/ZAMKNĄĆ, WŁOS, WIATR, ZIEMIA. Wszystkie zgodne.
+- Automatyczna kontrola wszystkich 347 rekordów: każde hasło pasuje do swoich numerów źródłowych. Pozostałe 13 sygnałów to prawdziwe warianty jednego hasła (np. „alfa i omega” + „być dla kogoś alfą i omegą”).
+- Każdy z 382 numerów uczniowskich należy do dokładnie jednego rekordu.
+
+## Zmiany (pełny dziennik: `docs/audyt/korekta_2026-11-16.json`, skrypt: `tools/audit/fix_przesuniecie_2026-11-16.py`)
+- Tytuły przeniesione na właściwe pozycje: Wiara góry przenosi, Kto sieje wiatr…, Rzucać słowa na wiatr, Włos z głowy nie spadnie, Włosy stają dęba, Wybiła czyjaś ostatnia godzina, Zamknąć na siedem spustów, Zgrzytać zębami, Oddzielić ziarno od plew, Siać ziarno niezgody.
+- Duplikaty scalone: Wieża Babel (#357 → #18), Uczony w Piśmie, Rwać włosy z głowy, Budować zamki na piasku (#367 → #366), Słowo stało się ciałem (#309 → #41), Tak, tak — nie, nie (#334 → #200), Wierzyć jak w Ewangelię (#355 → #23).
+- Obce numery odpięte od #23, #24, #41, #200.
+- Talia: **227 kart** (było 235), 0 duplikatów. Baza: 347 rekordów (gra 227, poza grą 83, do weryfikacji 37).
+- Baza `data/biblia_baza_kanoniczna.json` jest teraz jedynym źródłem; `index.html` buduje się z niej. Stara baza: `data/archiwum_biblia_baza_ROBOCZA_2026-11-10.json`.
+
+## Do decyzji Adama: 9 odzyskanych haseł (status „do weryfikacji”, bez poziomu)
+Te pozycje źródłowe wcześniej nie miały własnej karty. Do talii wejdą dopiero po nadaniu poziomu:
+Ważyć słowa · Nie wszyscy mają jednakie talenty · Dobry uczynek · Rozpędzić kogoś na cztery wiatry · Zamknąć się w wieży z kości słoniowej · Wybiła godzina · Zaprzeć się kogoś, czegoś, samego siebie · Bodaj cię święta ziemia nie nosiła! · Ziemia obiecana
+
+## Testy po korekcie (localhost)
+Pełne losowanie Biblizmów 227/227 i Mitologizmów 202/202 bez powtórek numerów i nazw; filtr poziomu; zapis po przeładowaniu; brak błędów JS: PASS.
+
+## Nie zrobiono
+- Karta „Wersja czysta” w Google Docs nie została zsynchronizowana (zmiana zewnętrzna, wymaga osobnej zgody).
+- Brak pełnej kolacji 381 pozycji ze skanem; poziomy trudności nadal robocze.
+- #263 „Raj na ziemi” łączy „jak w raju” i „raj na ziemi”: do decyzji, czy rozdzielić.
+- Mitologia: bez zmian (#196 nadal bez znaczenia).
