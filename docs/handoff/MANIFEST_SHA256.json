@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-11-16",
+  "files": [
+    {
+      "path": "00_CLAUDE/POLECENIE_DLA_CLAUDE.md",
+      "size": 5879,
+      "sha256": "ff785010390240fd3a9cac6a390c26634971d87452594cce4aa535edd3de3f1e"
+    },
+    {
+      "path": "00_CLAUDE/ZRODLA_I_DOSTEP.md",
+      "size": 1261,
+      "sha256": "e84eadec8d5edc50f22188083a29fd98f5f29ffd6531e5517d6fac88f7b3e6d5"
+    },
+    {
+      "path": "01_APLIKACJE/AKTUALNE/kalambury_biblia_v5.html",
+      "size": 129202,
+      "sha256": "ea6835796657e4868d68f4f4b099e87d790918a4158dfedb69438031910c0287"
+    },
+    {
+      "path": "01_APLIKACJE/AKTUALNE/kalambury_mitologia_v3.html",
+      "size": 66151,
+      "sha256": "7037f1c7f7cc78b17c54143d60279151c577eecb08002ce51e9a05cc69bd0fb3"
+    },
+    {
+      "path": "01_APLIKACJE/ARCHIWUM/mitologia_interaktywne_wczesny_prototyp.html",
+      "size": 120903,
+      "sha256": "87bff0d1fe4208a035222a886d92d5ac05e7b250b8dd5593a865f91c6b6dad93"
+    },
+    {
+      "path": "01_APLIKACJE/ARCHIWUM/mitologia_v1.html",
+      "size": 41394,
+      "sha256": "25efe320549e8fee3aff3f2a59092e83ea0af3feba7c0c2aef4c642d1e150df4"
+    },
+    {
+      "path": "01_APLIKACJE/ARCHIWUM/mitologia_v2.html",
+      "size": 60123,
+      "sha256": "102cb7e080577b627287fbbbb7d476dec3647c3ac2839d05af932ec3acac8ec7"
+    },
+    {
+      "path": "02_DANE/biblia_baza_kanoniczna_ROBOCZA.json",
+      "size": 148442,
+      "sha256": "ccc4c04637695ac226a5a64a4b0a2c5a0a95d8118f442d1d64c29fc96f1c84f9"
+    },
+    {
+      "path": "02_DANE/biblia_czysta_robocza.txt",
+      "size": 45636,
+      "sha256": "197e40d4088752fe9f903872f133a729c83ea831d8ac739f96c9f9bfcacd4380"
+    },
+    {
+      "path": "02_DANE/biblia_zapis_po_pierwszych_korektach.txt",
+      "size": 40075,
+      "sha256": "6ed16975199c5967e4e0ee30c1652288b003810a185c48a9612028c3932b698d"
+    },
+    {
+      "path": "02_DANE/mitologia_oryginal_kopia.md",
+      "size": 20077,
+      "sha256": "890bc8fdb1613db5f9028c96ef6d4e5589291a60b7f201ea8d3b20dd96d23adc"
+    },
+    {
+      "path": "02_DANE/mitologia_uczniowska.md",
+      "size": 20077,
+      "sha256": "890bc8fdb1613db5f9028c96ef6d4e5589291a60b7f201ea8d3b20dd96d23adc"
+    },
+    {
+      "path": "03_ZRODLA/Jan_Godyn_Od_Adama_i_Ewy_zaczynac_skan.pdf",
+      "size": 19661800,
+      "sha256": "b7cd7b7a65a5af2073dc57d49c1293672f5802aed5fbc9ac81d4a63c7e94d430"
+    },
+    {
+      "path": "03_ZRODLA/Magdalena_Puda_Blokesz_Po_nitce_do_klebka_skan.pdf",
+      "size": 4299573,
+      "sha256": "27d8d6c4633d884d978e49b22d563edcf61a2404aab13d6aee78a8298744f509"
+    },
+    {
+      "path": "04_DOKUMENT_GOOGLE/Oryginal_uczniowski_snapshot_z_Docs.txt",
+      "size": 35210,
+      "sha256": "46eb459539a68e442428efe2791f00a1132fe5339afca42f01a0cb7e5cb8a36e"
+    },
+    {
+      "path": "04_DOKUMENT_GOOGLE/Wersja_czysta_snapshot_z_Docs.txt",
+      "size": 41724,
+      "sha256": "627ab1bd544b9be4a9eeea435aa24498713509d81a28347a9d46562ca39fadc7"
+    },
+    {
+      "path": "04_DOKUMENT_GOOGLE/biblia_dwie_karty_eksport_z_Drive.docx",
+      "size": 45345,
+      "sha256": "19af4f5ba881a49a15fa9dbe34f78811405dc16c75a53205f084b2936103a930"
+    },
+    {
+      "path": "05_QA/KRYTYCZNE_BLEDY.json",
+      "size": 3047,
+      "sha256": "2b2331284ab6e9a3d576f1e64d4035abe21448b9973fff95ab88c90b1fce8199"
+    },
+    {
+      "path": "05_QA/QA_RAPORT.md",
+      "size": 1645,
+      "sha256": "cba6201610161cdf8f4821af9f09d0980bf3eedb3f5cdf0631ce0e38320eeebe"
+    },
+    {
+      "path": "05_QA/ROZNICE_GOOGLE_DOCS_VS_JSON_AUDYT.json",
+      "size": 15493,
+      "sha256": "398a30790426095886265df32a5c5fdc1dedce17fb07a94dab8c72af743a76f9"
+    },
+    {
+      "path": "05_QA/podglad_biblia_desktop.png",
+      "size": 254634,
+      "sha256": "b59b2ece949acb77e7cb8677020cb4d5478efabba23fc51cccaf42388895bfcd"
+    },
+    {
+      "path": "05_QA/podglad_biblia_telefon.png",
+      "size": 143372,
+      "sha256": "7f66d6178e9516dc0ef0718433c8846faaba4b9bb2173fd0a04262090b5a2859"
+    },
+    {
+      "path": "05_QA/testy_interfejsu_2026-11-16.json",
+      "size": 1038,
+      "sha256": "d0f78e60a015b6f5da1a0817adc0ff428fa5ad55621020ff964c94baeb17734e"
+    },
+    {
+      "path": "06_ARCHIWUM_NIEZATWIERDZONE/mitologia_karty.pdf",
+      "size": 165183,
+      "sha256": "97a22c9b863083d00e9838413b707fbf5b2854751770deb6e61856ae9e5fe623"
+    },
+    {
+      "path": "06_ARCHIWUM_NIEZATWIERDZONE/mitologia_scenariusz_i_dublety.docx",
+      "size": 43066,
+      "sha256": "8a649903563dfa69b1f3656b7398ab1719073d6837bd6a7f4f8ccf840f4b91d8"
+    },
+    {
+      "path": "06_ARCHIWUM_NIEZATWIERDZONE/mitologia_scenariusz_i_dublety.pdf",
+      "size": 130471,
+      "sha256": "3e0ae8d4afcf29fea79395984e63b27a27e3b9bbdb17fa6f1f396c1accb62c7f"
+    },
+    {
+      "path": "META_STAN.json",
+      "size": 1752,
+      "sha256": "f5b5baab71af8a3751ae5ec64db1771143b2b2e1c9b47c73da591f811b8bf293"
+    },
+    {
+      "path": "README_START_TUTAJ.md",
+      "size": 2435,
+      "sha256": "aa76218b6f061c3ea5a4145483dea8333dd5fe5e14f2ca50b6412e64e61eed13"
+    }
+  ],
+  "total_files": 28,
+  "total_bytes": 25545008
+}

@@ -1,0 +1,4933 @@
+{
+  "version": "2026-11-10",
+  "source": "Jan Godyń / uczniowska transkrypcja",
+  "records": [
+    {
+      "id": 1,
+      "numery_uczniowskie": [
+        1
+      ],
+      "haslo": "pójść do Abrahama na piwo",
+      "znaczenie": "pot., żart. ‘umrzeć’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "pójść do Abrahama na piwo —  pot., żart. ‘umrzeć’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 2,
+      "numery_uczniowskie": [
+        2
+      ],
+      "haslo": "Przenieść się na łono Abrahama",
+      "znaczenie": "pot., żart. ‘umrzeć’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "przenieść się (pójść) na łono Abrahama — pot., żart. ‘umrzeć’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 3,
+      "numery_uczniowskie": [
+        3
+      ],
+      "haslo": "jabłko Adama",
+      "znaczenie": "anat. ‘chrząstka tarczowata tworząca wyniosłość krtaniową, widoczna zwłaszcza u szczupłych mężczyzn; wystająca grdyka’. Według legendy kawałek zakazanego owocu miał utkwić Adamowi w gardle (por. Rdz 3, 1–24)",
+      "poziom": 1,
+      "status": "poza grą",
+      "warianty": [
+        "jabłko Adama — anat. ‘chrząstka tarczowata tworząca wyniosłość krtaniową, widoczna zwłaszcza u szczupłych mężczyzn; wystająca grdyka’. Według legendy kawałek zakazanego owocu miał utkwić Adamowi w gardle (por. Rdz 3, 1–24)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 4,
+      "numery_uczniowskie": [
+        4
+      ],
+      "haslo": "Od czasów Adama i Ewy",
+      "znaczenie": "‘od samego początku; od dawien dawna’",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "od (czasów) Adama i Ewy — ‘od samego początku; od dawien dawna’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 5,
+      "numery_uczniowskie": [
+        5
+      ],
+      "haslo": "W stroju Adama",
+      "znaczenie": "żart. ‘nago’ (o mężczyźnie)",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "w stroju Adamowym albo w stroju Adama — żart. ‘nago’ (o mężczyźnie)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 6,
+      "numery_uczniowskie": [
+        6
+      ],
+      "haslo": "zaczynać od Adama i Ewy",
+      "znaczenie": "‘wywodzić rzecz niepotrzebnie od samego początku’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "zaczynać od Adama i Ewy — ‘wywodzić rzecz niepotrzebnie od samego początku’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 7,
+      "numery_uczniowskie": [
+        7
+      ],
+      "haslo": "żebro Adama",
+      "znaczenie": "żart. ‘kobieta’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "żebro Adama — żart. ‘kobieta’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 8,
+      "numery_uczniowskie": [
+        8,
+        9
+      ],
+      "haslo": "Alfa i omega",
+      "znaczenie": "Początek i koniec; ktoś będący autorytetem w danej dziedzinie.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "alfa i omega — przen. ‘początek i koniec; absolutny autorytet w jakiejś dziedzinie, wyrocznia’.",
+        "być, stać się dla kogoś alfą i omegą - “być dla kogoś autorytetem w danej dziedzinie”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 10,
+      "numery_uczniowskie": [
+        10
+      ],
+      "haslo": "anioł stróż",
+      "znaczenie": "przen. ‘opiekun, obrońca, nieodstępny towarzysz’; żart. i iron. także ‘osoba pilnująca kogoś’, np. policjant lub strażnik",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "anioł stróż — przen. ‘opiekun, obrońca, nieodstępny towarzysz’; żart. i iron. także ‘osoba pilnująca kogoś’, np. policjant lub strażnik."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 11,
+      "numery_uczniowskie": [
+        11,
+        12
+      ],
+      "haslo": "Chodzić od Annasza do Kajfasza",
+      "znaczenie": "Być odsyłanym od jednej osoby lub instytucji do drugiej, bez załatwienia sprawy.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "chodzić od Annasza do Kajfasza — ‘chodzić od jednego urzędu lub człowieka do drugiego bez rezultatu’. Annasz i Kajfasz byli arcykapłanami związanymi z procesem Jezusa.",
+        "odsyłać od Annasza do Kajfasza - “być odsyłanym do wielu miejsc”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 13,
+      "numery_uczniowskie": [
+        13
+      ],
+      "haslo": "antychryst",
+      "znaczenie": "przen. “zły człowiek, nieuczciwy”",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "antychryst - przen. “zły człowiek, nieuczciwy”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 14,
+      "numery_uczniowskie": [
+        14
+      ],
+      "haslo": "apokalipsa",
+      "znaczenie": "przen., pot. ‘katastrofa, zagłada, koniec świata; wydarzenie budzące grozę’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "apokalipsa — przen., pot. ‘katastrofa, zagłada, koniec świata; wydarzenie budzące grozę’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 15,
+      "numery_uczniowskie": [
+        15
+      ],
+      "haslo": "czterej jeźdźcy Apokalipsy",
+      "znaczenie": "“zaraza, głód, wojna i śmierć”",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "czterej jeźdźcy Apokalipsy - “zaraza, głód, wojna i śmierć”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 16,
+      "numery_uczniowskie": [
+        16
+      ],
+      "haslo": "apokaliptyczny",
+      "znaczenie": "‘dotyczący Apokalipsy; zwiastujący koniec świata, budzący grozę, tajemniczy; o zjawisku: ogromnych rozmiarów’",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "apokaliptyczny — ‘dotyczący Apokalipsy; zwiastujący koniec świata, budzący grozę, tajemniczy; o zjawisku: ogromnych rozmiarów’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 17,
+      "numery_uczniowskie": [
+        17
+      ],
+      "haslo": "arka przymierza",
+      "znaczenie": "przen. “to, co łączy teraźniejszość z przeszłością”",
+      "poziom": 2,
+      "status": "do weryfikacji",
+      "warianty": [
+        "arka przymierza - przen. “to, co łączy teraźniejszość z przeszłością”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 18,
+      "numery_uczniowskie": [
+        18
+      ],
+      "haslo": "Wieża Babel",
+      "znaczenie": "Wielkie zamieszanie, chaos, pomieszanie języków lub poglądów.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "istna wieża Babel - “chaos, zamęt”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 19,
+      "numery_uczniowskie": [
+        19
+      ],
+      "haslo": "cichy jak baranek",
+      "znaczenie": "pot. “ktoś potulny i nieszkodliwy”",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "cichy jak baranek (owca, trusia) - pot. “ktoś potulny i nieszkodliwy”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 20,
+      "numery_uczniowskie": [
+        20,
+        21
+      ],
+      "haslo": "Beniaminek",
+      "znaczenie": "Ulubieniec rodziny lub innej grupy, osoba szczególnie faworyzowana.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "beniaminek - pot. “ulubione dziecko”",
+        "być beniaminkiem rodziny a. w rodzinie - “być ulubionym, najbardziej faworyzowanym dzieckiem w rodzinie”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 22,
+      "numery_uczniowskie": [
+        22
+      ],
+      "haslo": "biblia",
+      "znaczenie": "przen., czasem iron. ‘książka będąca dla kogoś autorytetem, wyrocznią, źródłem wzorów postępowania’",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "biblia — przen., czasem iron. ‘książka będąca dla kogoś autorytetem, wyrocznią, źródłem wzorów postępowania’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 23,
+      "numery_uczniowskie": [
+        23,
+        357
+      ],
+      "haslo": "Wierzyć jak w Ewangelię",
+      "znaczenie": "Wierzyć w coś bezgranicznie, traktować coś jako niepodważalną prawdę.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "wierzyć w coś jak w ewangelię (biblię) - “wierzyć w coś całkowicie, nabożnie”",
+        "istna (prawdziwa) wieża Babel - zamieszanie, zamęt, nieład; pomieszanie języków, wielojęzyczne zbiorowisko ludzi"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 24,
+      "numery_uczniowskie": [
+        24,
+        372
+      ],
+      "haslo": "Błędna owca",
+      "znaczenie": "Człowiek, który się pogubił, zbłądził lub odszedł od przyjętych zasad.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "błędna owca - przen. “człowiek pozbawiony celu, sensu życia”",
+        "zgrzytać zębami - złościć się, wpaść w furię"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 25,
+      "numery_uczniowskie": [
+        25
+      ],
+      "haslo": "błędne drogi",
+      "znaczenie": "“postępowanie społecznie nieakceptowane; manowce”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "błędne drogi (ścieżki) - “postępowanie społecznie nieakceptowane; manowce”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 26,
+      "numery_uczniowskie": [
+        26
+      ],
+      "haslo": "chodzić jak błędna owca",
+      "znaczenie": "pot. “chodzić bez celu, zachowywać się w sposób niezrozumiały”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "chodzić jak błędna owca - pot. “chodzić bez celu, zachowywać się w sposób niezrozumiały”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 27,
+      "numery_uczniowskie": [
+        27
+      ],
+      "haslo": "chodzić jak błędny",
+      "znaczenie": "“zachowywać się jak osoba nieprzytomna”",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "chodzić jak błędny - “zachowywać się jak osoba nieprzytomna”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 28,
+      "numery_uczniowskie": [
+        28
+      ],
+      "haslo": "Bóg dał, Bóg wziął",
+      "znaczenie": "przysłowie przywoływane wobec nieodwracalnej straty, szczególnie śmierci; słowa Hioba (Hi 1, 21)",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "Bóg dał, Bóg wziął — przysłowie przywoływane wobec nieodwracalnej straty, szczególnie śmierci; słowa Hioba (Hi 1, 21)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 29,
+      "numery_uczniowskie": [
+        29
+      ],
+      "haslo": "Bóg mi świadkiem",
+      "znaczenie": "rodzaj przysięgi czy zaklęcia, które wzmacnia prawdziwość wypowiedzi",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "Bóg mi świadkiem - rodzaj przysięgi czy zaklęcia, które wzmacnia prawdziwość wypowiedzi"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 30,
+      "numery_uczniowskie": [
+        30
+      ],
+      "haslo": "jak go Pan Bóg stworzył",
+      "znaczenie": "“nagi; prosty, nieobyty, nieskomplikowany”",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "taki, jak go Pan Bóg stworzył - “nagi; prosty, nieobyty, nieskomplikowany”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 31,
+      "numery_uczniowskie": [
+        31
+      ],
+      "haslo": "Jeden buduje, drugi rujnuje",
+      "znaczenie": "przysłowie mówiące o bezcelowej pracy",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "jeden buduje, drugi rujnuje (psuje) - przysłowie mówiące o bezcelowej pracy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 32,
+      "numery_uczniowskie": [
+        32
+      ],
+      "haslo": "kto nie jest z nami, ten przeciw nam",
+      "znaczenie": "sentencja; pochodzi od Jezusa, który wypowiedział ją do swoich uczniów",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "kto nie jest z nami, ten przeciw nam - sentencja; pochodzi od Jezusa, który wypowiedział ją do swoich uczniów"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 33,
+      "numery_uczniowskie": [
+        33
+      ],
+      "haslo": "Co cesarskie cesarzowi, co boskie Bogu",
+      "znaczenie": "przysłowie, zwykle z czasownikiem „oddawać”; używane m.in. w sporach o relacje między państwem a Kościołem (Mt 22, 21)",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "Co cesarskie — cesarzowi, co boskie — Bogu — przysłowie, zwykle z czasownikiem „oddawać”; używane m.in. w sporach o relacje między państwem a Kościołem (Mt 22, 21)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 34,
+      "numery_uczniowskie": [
+        34
+      ],
+      "haslo": "cham",
+      "znaczenie": "obelga; “ktoś nieobyty, ordynarny, grubiański”",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "cham - obelga; “ktoś nieobyty, ordynarny, grubiański”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 35,
+      "numery_uczniowskie": [
+        35
+      ],
+      "haslo": "na chama",
+      "znaczenie": "“bezczelnie, nie zważając na nic”",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "na chama - “bezczelnie, nie zważając na nic”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 36,
+      "numery_uczniowskie": [
+        36
+      ],
+      "haslo": "chleb powszedni",
+      "znaczenie": "‘codzienne pożywienie konieczne do życia’; przen. ‘rzecz codzienna, zwykła, nic nadzwyczajnego’",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "chleb powszedni — ‘codzienne pożywienie konieczne do życia’; przen. ‘rzecz codzienna, zwykła, nic nadzwyczajnego’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 37,
+      "numery_uczniowskie": [
+        37
+      ],
+      "haslo": "nie samym chlebem człowiek żyje",
+      "znaczenie": "przysłowie, które wskazuje na to, że człowiek powinien dążyć do czegoś więcej niż właśnie tego przysłowiowego chleba",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "nie samym chlebem człowiek żyje - przysłowie, które wskazuje na to, że człowiek powinien dążyć do czegoś więcej niż właśnie tego przysłowiowego chleba"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 38,
+      "numery_uczniowskie": [
+        38
+      ],
+      "haslo": "Chrystusowe lata",
+      "znaczenie": "inaczej “wiek Chrystusa”; “33 lata”, czyli tyle, ile Jezus Chrystus miał, gdy został ukrzyżowany",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "Chrystusowe lata - inaczej “wiek Chrystusa”; “33 lata”, czyli tyle, ile Jezus Chrystus miał, gdy został ukrzyżowany"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 39,
+      "numery_uczniowskie": [
+        39
+      ],
+      "haslo": "Przejść chrzest bojowy",
+      "znaczenie": "“pierwszy udział w jakiejś sytuacji, najczęściej wojennej”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "przejść chrzest ogniowy (bojowy) - “pierwszy udział w jakiejś sytuacji, najczęściej wojennej”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 40,
+      "numery_uczniowskie": [
+        40
+      ],
+      "haslo": "chwiać się jak trzcina",
+      "znaczenie": "przen. “być niezdecydowanym”",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "chwiać się jak trzcina - przen. “być niezdecydowanym”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 41,
+      "numery_uczniowskie": [
+        41,
+        311
+      ],
+      "haslo": "Słowo stało się ciałem",
+      "znaczenie": "Coś zapowiedzianego rzeczywiście się wydarzyło.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "stało się ciałem, oblekło się w ciało coś - “coś się urzeczywistniło”",
+        "ważyć (dobierać) słowa ‘wypowiadać się z namysłem’"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 42,
+      "numery_uczniowskie": [
+        42,
+        43
+      ],
+      "haslo": "Czcić złotego cielca",
+      "znaczenie": "Czcić bogactwo i pieniądze, traktować je jako wartość najwyższą.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "czcić złotego cielca - przen. “uczynić celem życia zysk, pieniądze, bogactwo”",
+        "kłaniać się złotemu cielcowi — przen. ‘czynić z bogactwa, zysku i pieniędzy najwyższą wartość’ (por. 42)."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 44,
+      "numery_uczniowskie": [
+        44
+      ],
+      "haslo": "złoty cielec",
+      "znaczenie": "przen. “symbol bogactwa, pieniędzy, majątku”",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "złoty cielec - przen. “symbol bogactwa, pieniędzy, majątku”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 45,
+      "numery_uczniowskie": [
+        45
+      ],
+      "haslo": "ciemności egipskie",
+      "znaczenie": "‘wielka, gęsta, nieprzenikniona ciemność’",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "ciemności egipskie — ‘wielka, gęsta, nieprzenikniona ciemność’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 46,
+      "numery_uczniowskie": [
+        46
+      ],
+      "haslo": "być kogoś ciężarem",
+      "znaczenie": "“być dla kogoś zawadą, problemem; sprawiać komuś kłopot”",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "być, stać się dla kogoś ciężarem - “być dla kogoś zawadą, problemem; sprawiać komuś kłopot”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 47,
+      "numery_uczniowskie": [
+        47
+      ],
+      "haslo": "wybrać lepszą cząstkę",
+      "znaczenie": "“wybrać co właściwe, bardziej wartościowe”",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "wybrać, obrać lepszą cząstkę - “wybrać co właściwe, bardziej wartościowe”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 48,
+      "numery_uczniowskie": [
+        48
+      ],
+      "haslo": "człowiek małej wiary",
+      "znaczenie": "“ktoś, kogo trudno do czegoś przekonać; ktoś niedowierzący”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "człowiek małej wiary - “ktoś, kogo trudno do czegoś przekonać; ktoś niedowierzący”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 49,
+      "numery_uczniowskie": [
+        49,
+        164,
+        165
+      ],
+      "haslo": "Letni człowiek",
+      "znaczenie": "O człowieku obojętnym, pozbawionym gorliwości lub żywszych uczuć.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "letni człowiek - przen. “ktoś pozbawiony żywych uczuć, temperamentu”",
+        "letni — ‘pozbawiony gorliwości, żarliwości; obojętny’.",
+        "letni człowiek — ‘człowiek pozbawiony żywszych uczuć, temperamentu, gorliwości’."
+      ],
+      "liczba_wariantow": 3
+    },
+    {
+      "id": 50,
+      "numery_uczniowskie": [
+        50
+      ],
+      "haslo": "źle człowiekowi być samemu",
+      "znaczenie": "sentencja, przysłowie; samotny człowiek nie może być w pełni szczęśliwy",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "źle człowiekowi być samemu - sentencja, przysłowie; samotny człowiek nie może być w pełni szczęśliwy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 51,
+      "numery_uczniowskie": [
+        51,
+        52
+      ],
+      "haslo": "Mieć miedziane czoło",
+      "znaczenie": "Być bezczelnym, pozbawionym wstydu i skrupułów.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "mieć miedziane czoło - “być bezczelnym, cynicznym, bez skrupułów, honoru”",
+        "miedziane (wytarte) czoło - “brak ambicji, honoru, skrupułów”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 53,
+      "numery_uczniowskie": [
+        53
+      ],
+      "haslo": "nie czyń drugiemu, co tobie niemiło",
+      "znaczenie": "przysłowie nakazujące nie wyrządzać innym tego, czego samemu nie chciałoby się doznać; por. Tb 4, 16",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "Nie czyń drugiemu, co tobie niemiło — przysłowie nakazujące nie wyrządzać innym tego, czego samemu nie chciałoby się doznać; por. Tb 4, 16."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 54,
+      "numery_uczniowskie": [
+        54
+      ],
+      "haslo": "dałbym sobie oko wyłupić",
+      "znaczenie": "rodzaj przysięgi, która wzmacnia prawdziwość wypowiedzi",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "dałbym sobie oko wyłupić - rodzaj przysięgi, która wzmacnia prawdziwość wypowiedzi"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 55,
+      "numery_uczniowskie": [
+        55
+      ],
+      "haslo": "dary boże, dar boży",
+      "znaczenie": "pot. “chleb, pożywienie”",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "dary boże, dar boży - pot. “chleb, pożywienie”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 56,
+      "numery_uczniowskie": [
+        56
+      ],
+      "haslo": "Jak Dawid przy Goliacie",
+      "znaczenie": "“ktoś słabej postury, niski”",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "wygląda jak Dawid przy Goliacie - “ktoś słabej postury, niski”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 57,
+      "numery_uczniowskie": [
+        57
+      ],
+      "haslo": "dekalog",
+      "znaczenie": "przen. “zbiór obowiązujących przepisów, zasad”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "dekalog - przen. “zbiór obowiązujących przepisów, zasad”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 58,
+      "numery_uczniowskie": [
+        58
+      ],
+      "haslo": "Diabeł nie śpi",
+      "znaczenie": "zawsze grozi coś złego",
+      "poziom": 2,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Diabeł (szatan, czart, licho) nie śpi (nie próżnuje)- “zawsze grozi coś złego”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 59,
+      "numery_uczniowskie": [
+        59
+      ],
+      "haslo": "mieć więcej długów niż włosów na głowie",
+      "znaczenie": "mieć bardzo wiele długów",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "mieć więcej długów niż włosów na głowie- “mieć bardzo wiele długów”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 60,
+      "numery_uczniowskie": [
+        60
+      ],
+      "haslo": "dobro zwycięża zło",
+      "znaczenie": "sentencja nawiązująca sensem do przysłowia „Kto na ciebie kamieniem, ty na niego chlebem”",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "Dobro zwycięża zło — sentencja nawiązująca sensem do przysłowia „Kto na ciebie kamieniem, ty na niego chlebem”."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 61,
+      "numery_uczniowskie": [
+        61
+      ],
+      "haslo": "Dolina łez",
+      "znaczenie": "świat, ziemia jako miejsce cierpień człowieka",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "dolina łez, płaczu- “świat, ziemia jako miejsce cierpień człowieka”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 62,
+      "numery_uczniowskie": [
+        62
+      ],
+      "haslo": "kopać pod kimś dołki",
+      "znaczenie": "działać potajemnie na czyjąś szkodę",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "kopać pod kimś dołki- “działać potajemnie na czyjąś szkodę”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 63,
+      "numery_uczniowskie": [
+        63
+      ],
+      "haslo": "kto pod kim dołki kopie, ten sam w nie wpada",
+      "znaczenie": "wpaść we własne sidła",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "kto pod kim dołki kopie, ten sam w nie wpada- przysłowie znaczące: “wpaść we własne sidła”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 64,
+      "numery_uczniowskie": [
+        64,
+        236
+      ],
+      "haslo": "Dom zbudowany na piasku",
+      "znaczenie": "Budować coś na nietrwałych, niepewnych podstawach.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "dom zbudowany na piasku — ‘coś o nietrwałych, niepewnych podstawach; przedsięwzięcie bez solidnego fundamentu’.",
+        "budować (zbudować) coś na (z) piasku ‘robić (zrobić) rzecz nietrwała, mieć nierealne, bezpodstawne plany, zamiary, marzenia’"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 65,
+      "numery_uczniowskie": [
+        65
+      ],
+      "haslo": "chodzić prostą drogą",
+      "znaczenie": "żyć uczciwie, postępować szczerze, otwarcie",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "chodzić, iść prostą drogą- “żyć uczciwie, postępować szczerze, otwarcie”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 66,
+      "numery_uczniowskie": [
+        66
+      ],
+      "haslo": "chodzić krętymi drogami",
+      "znaczenie": "żyć nieuczciwie, postępować niezgodnie z zasadami etyki",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "chodzić krętymi drogami (ścieżkami)- “żyć nieuczciwie, postępować niezgodnie z zasadami etyki”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 67,
+      "numery_uczniowskie": [
+        67
+      ],
+      "haslo": "Droga krzyżowa",
+      "znaczenie": "życie pełne cierpień",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "droga krzyżowa (cierniowa, przez mękę)- “życie pełne cierpień”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 68,
+      "numery_uczniowskie": [
+        68
+      ],
+      "haslo": "sprowadzić na złą drogę",
+      "znaczenie": "nakłonić kogoś do niewłaściwego postępowania",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "sprowadzić kogoś z prostej drogi a. sprowadzić kogoś na złą drogę- “nakłonić kogoś do niewłaściwego postępowania”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 69,
+      "numery_uczniowskie": [
+        69
+      ],
+      "haslo": "Zejść na złą drogę",
+      "znaczenie": "postępować, prowadzić się niemoralnie, zmienić postępowanie na gorsze, wykoleić się",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "wejść (zejść) na złą (śliską) drogę a. zejść, zboczyć z prostej drogi- “postępować, prowadzić się niemoralnie, zmienić postępowanie na gorsze, wykoleić się”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 70,
+      "numery_uczniowskie": [
+        70
+      ],
+      "haslo": "dobry duch",
+      "znaczenie": "ten, który pozytywnie wpływa na czyjeś postępowanie, oddziałuje na coś",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "dobry duch czyjś, czegoś- “ten, który pozytywnie wpływa na czyjeś postępowanie, oddziałuje na coś”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 71,
+      "numery_uczniowskie": [
+        71,
+        75
+      ],
+      "haslo": "Duch i litera prawa",
+      "znaczenie": "Zarówno dosłowne brzmienie przepisów, jak i ich głębszy sens.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "duch i litera prawa — ‘istotna treść i sens prawa oraz jego dosłowne, formalne brzmienie’ (por. 75).",
+        "zgodnie z duchem i literą prawa- “zgodnie nie tylko z dosłownym brzmieniem, stroną formalną tekstu prawa, ale także z istotną treścią, charakterem, sensem prawa”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 72,
+      "numery_uczniowskie": [
+        72
+      ],
+      "haslo": "Duch ochoczy, ale ciało mdłe",
+      "znaczenie": "chciałby ktoś coś wykonać, ale brakuje komuś do tego sił fizycznych",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "duch (wprawdzie) ochoczy, ale ciało mdłe- żart “chciałby ktoś coś wykonać, ale brakuje komuś do tego sił fizycznych”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 73,
+      "numery_uczniowskie": [
+        73
+      ],
+      "haslo": "wyzionąć ducha",
+      "znaczenie": "‘umrzeć’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "oddać (wyzionąć) ducha — ‘umrzeć’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 74,
+      "numery_uczniowskie": [
+        74
+      ],
+      "haslo": "Ubogi duchem",
+      "znaczenie": "o człowieku: prosty, prymitywny, o niskim poziomie moralnym lub intelektualnym",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "ubogi duchem- “o człowieku: prosty, prymitywny, o niskim poziomie moralnym lub intelektualnym”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 76,
+      "numery_uczniowskie": [
+        76
+      ],
+      "haslo": "zły duch czyjś",
+      "znaczenie": "ten, kto zachęca, podżega do złych uczynków; element destrukcyjny jakiejś zbiorowości",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "zły duch czyjś- “ten, kto zachęca, podżega do złych uczynków; element destrukcyjny jakiejś zbiorowości”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 77,
+      "numery_uczniowskie": [
+        77
+      ],
+      "haslo": "Nie znać dnia ani godziny",
+      "znaczenie": "nie wiedzieć kiedy coś nastąpi, żyć w niepewności, niepokoju",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "nie być pewnym, nie wiedzieć, nie znać dnia ani godziny- “nie wiedzieć kiedy coś nastąpi, żyć w niepewności, niepokoju”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 78,
+      "numery_uczniowskie": [
+        78
+      ],
+      "haslo": "co mnie dziś, tobie jutro",
+      "znaczenie": "przysłowie, wariant frazy: dziś mnie, jutro tobie",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "co mnie dziś, tobie jutro- przysłowie, wariant frazy: dziś mnie, jutro tobie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 79,
+      "numery_uczniowskie": [
+        79
+      ],
+      "haslo": "kwiatek dla Ewy",
+      "znaczenie": "zwyczaj obdarowywania kobiet kwiatami z okazji Dnia Kobiet",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "kwiatek dla Ewy- “zwyczaj obdarowywania kobiet kwiatami z okazji Dnia Kobiet”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 80,
+      "numery_uczniowskie": [
+        80
+      ],
+      "haslo": "córka Ewy",
+      "znaczenie": "o kobiecie uwodzicielskiej,ciekawskiej, kusicielce",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "nieodrodna (prawdziwa) córka Ewy- żart, “o kobiecie uwodzicielskiej,ciekawskiej, kusicielce”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 81,
+      "numery_uczniowskie": [
+        81
+      ],
+      "haslo": "ewangelia",
+      "znaczenie": "zespół niewzruszonych zasad, nakazów moralnych; wyrocznia, powaga, autorytet zwłaszcza moralny",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "ewangelia- przen. “zespół niewzruszonych zasad, nakazów moralnych; wyrocznia, powaga, autorytet zwłaszcza moralny”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 82,
+      "numery_uczniowskie": [
+        82
+      ],
+      "haslo": "exodus",
+      "znaczenie": "‘masowe wyjście lub wyjazd skądś’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "exodus — ‘masowe wyjście lub wyjazd skądś’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 83,
+      "numery_uczniowskie": [
+        83
+      ],
+      "haslo": "Faryzeusz",
+      "znaczenie": "człowiek obłudny, fałszywy, udający wielką pobożność; bigot, świętoszek, hipokryta",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "faryzeusz- “człowiek obłudny, fałszywy, udający wielką pobożność; bigot, świętoszek, hipokryta”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 84,
+      "numery_uczniowskie": [
+        84
+      ],
+      "haslo": "faryzeizm",
+      "znaczenie": "zespół cech charakteryzujących faryzeusz; fałszywa pobożność, bigoteria, hipokryzja",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "faryzeuszostwo (faryzeizm)- “zespół cech charakteryzujących faryzeusz; fałszywa pobożność, bigoteria, hipokryzja”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 85,
+      "numery_uczniowskie": [
+        85
+      ],
+      "haslo": "Gałązka oliwna",
+      "znaczenie": "znak, symbol pokoju, zgody",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "gałązka oliwna- “znak, symbol pokoju, zgody”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 86,
+      "numery_uczniowskie": [
+        86,
+        87
+      ],
+      "haslo": "Gehenna",
+      "znaczenie": "Wielkie, długotrwałe cierpienie; bolesne przejścia.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "gehenna — dawn. ‘piekło, miejsce wiecznych cierpień’; przen. ‘bolesne, ciężkie przejścia; wielkie i długotrwałe cierpienia fizyczne lub psychiczne’.",
+        "przeżyć, przejść, cierpieć gehennę- “przeżyć, przejść bolesne, ciężkie przejście, wielkie i długotrwałe cierpienie psychiczne lub fizyczne”"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 88,
+      "numery_uczniowskie": [
+        88
+      ],
+      "haslo": "Zamknąć komuś usta",
+      "znaczenie": "‘zmusić kogoś do milczenia, np. przez zapłatę; sprawić, by przestał się skarżyć lub sprzeciwiać’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "zatkać, zamknąć komuś gębę (usta) — ‘zmusić kogoś do milczenia, np. przez zapłatę; sprawić, by przestał się skarżyć lub sprzeciwiać’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 89,
+      "numery_uczniowskie": [
+        89
+      ],
+      "haslo": "z jednej, lepszej, innej gliny ulepiony",
+      "znaczenie": "o człowieku: taki sam, lepszy, inny",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "z jednej, lepszej, innej gliny ulepiony- “o człowieku: taki sam, lepszy, inny”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 90,
+      "numery_uczniowskie": [
+        90
+      ],
+      "haslo": "Głos wołającego na puszczy",
+      "znaczenie": "rady, polecenia, prośby itp. bezskuteczne, nie znajdujące posłuchu, oddźwięku u kogoś",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "głos wołającego na puszczy- “rady, polecenia, prośby itp. bezskuteczne, nie znajdujące posłuchu, oddźwięku u kogoś”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 91,
+      "numery_uczniowskie": [
+        91
+      ],
+      "haslo": "wołać wielkim głosem",
+      "znaczenie": "usilnie, dobitnie zwracać czyjąś uwagę; wskazywać na coś; domagać się czegoś, nawoływać do czegoś",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "wołać (krzyczeć) wielkim głosem- “usilnie, dobitnie zwracać czyjąś uwagę; wskazywać na coś; domagać się czegoś, nawoływać do czegoś”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 92,
+      "numery_uczniowskie": [
+        92
+      ],
+      "haslo": "głowa kościoła",
+      "znaczenie": "zwierzchnik",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "głowa kościoła- “zwierzchnik”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 93,
+      "numery_uczniowskie": [
+        93
+      ],
+      "haslo": "kłaść zdrową głowę pod Ewangelię",
+      "znaczenie": "niepotrzebnie się narażać na nieuniknione przykrości, niebezpieczeństwo",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "kłaść (położyć, włożyć) zdrową głowę pod Ewangelię- “niepotrzebnie się narażać na nieuniknione przykrości, niebezpieczeństwo”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 94,
+      "numery_uczniowskie": [
+        94
+      ],
+      "haslo": "nie mieć gdzie głowy skłonić",
+      "znaczenie": "nie mieć mieszkania, nie mieć gdzie się podziać, schronić; być w skrajnej biedzie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "nie mieć gdzie głowy skłonić (przytulić)- “nie mieć mieszkania, nie mieć gdzie się podziać, schronić; być w skrajnej biedzie”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 95,
+      "numery_uczniowskie": [
+        95
+      ],
+      "haslo": "golgota",
+      "znaczenie": "męka, cierpienie, zwłaszcza moralne; źródło cierpienia",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "golgota- “męka, cierpienie, zwłaszcza moralne; źródło cierpienia”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 96,
+      "numery_uczniowskie": [
+        96
+      ],
+      "haslo": "goliat",
+      "znaczenie": "człowiek dobrze zbudowany, silny; osiłek; olbrzym, siłacz, wielkolud",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "goliat- “człowiek dobrze zbudowany, silny; osiłek; olbrzym, siłacz, wielkolud”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 97,
+      "numery_uczniowskie": [
+        97
+      ],
+      "haslo": "Gołąb pokoju",
+      "znaczenie": "wyobrażenie gołębia (zwykle białego i z gałązką oliwną w dziobie) jako symbol pokoju",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "gołąb (gołąbek) pokoju-  “wyobrażenie gołębia (zwykle białego i z gałązką oliwną w dziobie) jako symbol pokoju”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 98,
+      "numery_uczniowskie": [
+        98
+      ],
+      "haslo": "Kielich goryczy",
+      "znaczenie": "cierpienie, boleść, strapienie",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "kielich (czara) goryczy- “cierpienie, boleść, strapienie”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 99,
+      "numery_uczniowskie": [
+        99
+      ],
+      "haslo": "napoić kogoś żółcią, goryczą",
+      "znaczenie": "sprawić komuś przykrość, rozgoryczyć kogoś",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "napoić kogoś żółcią, goryczą- “sprawić komuś przykrość, rozgoryczyć kogoś”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 100,
+      "numery_uczniowskie": [
+        100
+      ],
+      "haslo": "Wypić kielich goryczy do dna",
+      "znaczenie": "do końca coś odcierpieć, nie doznać ulgi aż do ostatniej chwili trwającego cierpienia; nacierpieć się",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "wychylić, wypić, spełnić do dna kielich (czarę) goryczy- “do końca coś odcierpieć, nie doznać ulgi aż do ostatniej chwili trwającego cierpienia; nacierpieć się”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 101,
+      "numery_uczniowskie": [
+        101
+      ],
+      "haslo": "Co do grosza",
+      "znaczenie": "wszystkie pieniądze, ostatnie pieniądze, wszystko",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "co do (ostatniego) grosza-  “wszystkie pieniądze, ostatnie pieniądze, wszystko”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 102,
+      "numery_uczniowskie": [
+        102
+      ],
+      "haslo": "wydać, stracić, oddać, przegrać ostatni grosz",
+      "znaczenie": "wydać, stracić oddać, przegrać resztę pieniędzy",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "wydać, stracić, oddać, przegrać ostatni grosz- “wydać, stracić oddać, przegrać resztę pieniędzy”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 103,
+      "numery_uczniowskie": [
+        103
+      ],
+      "haslo": "Pobielane groby",
+      "znaczenie": "pozory, złudzenie czegoś",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "pobielane groby- przestarz. “pozory, złudzenie czegoś”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 104,
+      "numery_uczniowskie": [
+        104
+      ],
+      "haslo": "wierny aż po grób",
+      "znaczenie": "wierny do końca, na zawsze",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "wierny aż po grób (do śmierci)- “wierny do końca, na zawsze”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 105,
+      "numery_uczniowskie": [
+        105
+      ],
+      "haslo": "grzech pierworodny",
+      "znaczenie": "praprzyczyna zła",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "grzech pierworodny- przen. “praprzyczyna zła”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 106,
+      "numery_uczniowskie": [
+        106
+      ],
+      "haslo": "grzech śmiertelny",
+      "znaczenie": "przekroczenie przykazania w rzeczy ważnej z pełną świadomością i dobrowolnie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "grzech śmiertelny, ciężki- “przekroczenie przykazania w rzeczy ważnej z pełną świadomością i dobrowolnie”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 107,
+      "numery_uczniowskie": [
+        107
+      ],
+      "haslo": "grzechy młodości",
+      "znaczenie": "czyny wykraczające przeciw przyjętym normom postępowania, popełnione w młodym wieku nie w pełni świadomie, a mogące mieć skutki w późniejszym życiu",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "grzechy młodości- “czyny wykraczające przeciw przyjętym normom postępowania, popełnione w młodym wieku nie w pełni świadomie, a mogące mieć skutki w późniejszym życiu”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 108,
+      "numery_uczniowskie": [
+        108
+      ],
+      "haslo": "gwiazda przewodnia",
+      "znaczenie": "‘ideał, do którego się dąży; cel przyświecający komuś’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "gwiazda przewodnia — ‘ideał, do którego się dąży; cel przyświecający komuś’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 109,
+      "numery_uczniowskie": [
+        109
+      ],
+      "haslo": "Herod-baba",
+      "znaczenie": "kobieta despotyczna, brutalna, skłonna do kłótni",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "herod-baba- “kobieta despotyczna, brutalna, skłonna do kłótni” żart. “o kobiecie wielkiego wzrostu i siły”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 110,
+      "numery_uczniowskie": [
+        110
+      ],
+      "haslo": "Hiobowa wieść",
+      "znaczenie": "wiadomość zła, tragiczna, przerażająca; o nieszczęściu",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "hiobowa wieść (wiadomość)- “wiadomość zła, tragiczna, przerażająca; o nieszczęściu”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 111,
+      "numery_uczniowskie": [
+        111
+      ],
+      "haslo": "dobre imię-",
+      "znaczenie": "dodatnio oceniana sława, rozgłos, honor",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "dobre imię (reputacja, opinia)- “dodatnio oceniana sława, rozgłos, honor”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 112,
+      "numery_uczniowskie": [
+        112
+      ],
+      "haslo": "Jaskinia zbójców",
+      "znaczenie": "siedlisko grzechu",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "istna (prawdziwa) jaskinia zbójców - siedlisko grzechu"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 113,
+      "numery_uczniowskie": [
+        113
+      ],
+      "haslo": "jaskinia zła, grzechu",
+      "znaczenie": "ośrodek zła, siedziba grzechu",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "jaskinia zła, grzechu- ośrodek zła, siedziba grzechu"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 114,
+      "numery_uczniowskie": [
+        114
+      ],
+      "haslo": "jeremiada",
+      "znaczenie": "‘długie, żałosne narzekanie, lamentacja’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "jeremiada — ‘długie, żałosne narzekanie, lamentacja’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 115,
+      "numery_uczniowskie": [
+        115
+      ],
+      "haslo": "mury jerychońskie",
+      "znaczenie": "[Do uzupełnienia po weryfikacji źródła]",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "mury jerychońskie (Jerycha)- przeszkody dające się obalić"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 116,
+      "numery_uczniowskie": [
+        116
+      ],
+      "haslo": "Trąba jerychońska",
+      "znaczenie": "silny, głośny dźwięk; żartobliwie, czasem obelżywie: głuptas, dureń, krzykacz, prostak",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "trąba jerychońska - silny, głośny dźwięk; żartobliwie, czasem obelżywie: głuptas, dureń, krzykacz, prostak"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 117,
+      "numery_uczniowskie": [
+        117
+      ],
+      "haslo": "Jaszczurczy język",
+      "znaczenie": "‘o ludziach zdradliwych, podstępnych, podłych, szerzących plotki lub oszczerstwa’",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "język jaszczurczy (smoczy) — ‘o ludziach zdradliwych, podstępnych, podłych, szerzących plotki lub oszczerstwa’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 118,
+      "numery_uczniowskie": [
+        118
+      ],
+      "haslo": "Mieć cięty język",
+      "znaczenie": "‘wypowiadać się dowcipnie, ostro, często złośliwie; umieć celnie odpowiadać’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "mieć język cięty (złośliwy, ostry) — ‘wypowiadać się dowcipnie, ostro, często złośliwie; umieć celnie odpowiadać’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 119,
+      "numery_uczniowskie": [
+        119
+      ],
+      "haslo": "Dostać się na ludzkie języki",
+      "znaczenie": "‘stać się przedmiotem plotek, obmowy i oszczerstw’",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "wziąć kogoś (dostać się, narażać się) na ludzkie, na złe języki — ‘stać się przedmiotem plotek, obmowy i oszczerstw’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 120,
+      "numery_uczniowskie": [
+        120
+      ],
+      "haslo": "co do joty",
+      "znaczenie": "do najdrobniejszych szczegółów",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "co do joty- do najdrobniejszych szczegółów"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 121,
+      "numery_uczniowskie": [
+        121
+      ],
+      "haslo": "Jota w jotę",
+      "znaczenie": "dokładnie",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "jota w jotę- dokładnie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 122,
+      "numery_uczniowskie": [
+        122
+      ],
+      "haslo": "Ani na jotę",
+      "znaczenie": "ani na jotę- ani trochę",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "na jotę —  ani na jotę- ani trochę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 123,
+      "numery_uczniowskie": [
+        123
+      ],
+      "haslo": "fałszywy jak Judasz",
+      "znaczenie": "człowiek nieszczery",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "fałszywy jak Judasz- człowiek nieszczery"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 124,
+      "numery_uczniowskie": [
+        124
+      ],
+      "haslo": "judasz",
+      "znaczenie": "‘człowiek fałszywy, obłudny; zdrajca’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "judasz — ‘człowiek fałszywy, obłudny; zdrajca’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 125,
+      "numery_uczniowskie": [
+        125
+      ],
+      "haslo": "mina Judasza",
+      "znaczenie": "fałszywy wyraz twarzy",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "mina Judasza- fałszywy wyraz twarzy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 126,
+      "numery_uczniowskie": [
+        126
+      ],
+      "haslo": "judaszowski",
+      "znaczenie": "‘fałszywy, obłudny, zdradziecki’",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "judaszowski — ‘fałszywy, obłudny, zdradziecki’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 127,
+      "numery_uczniowskie": [
+        127
+      ],
+      "haslo": "Pocałunek Judasza",
+      "znaczenie": "[Do uzupełnienia po weryfikacji źródła]",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "judaszowski (judaszowy) pocałunek (pozdrowienie)- fałszywa czułość"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 128,
+      "numery_uczniowskie": [
+        128
+      ],
+      "haslo": "po judaszowsku",
+      "znaczenie": "fałszywie (zrobić coś)",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "po judaszowsku- fałszywie (zrobić coś)"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 129,
+      "numery_uczniowskie": [
+        129
+      ],
+      "haslo": "kainowy",
+      "znaczenie": "‘dotyczący Kaina, właściwy Kainowi; bratobójczy’",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "kainowy — ‘dotyczący Kaina, właściwy Kainowi; bratobójczy’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 130,
+      "numery_uczniowskie": [
+        130
+      ],
+      "haslo": "Kainowe plemię",
+      "znaczenie": "‘bratobójca; bratobójczy’ (wyrażenie nawiązujące do Kaina)",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "kainowe plemię — ‘bratobójca; bratobójczy’ (wyrażenie nawiązujące do Kaina)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 131,
+      "numery_uczniowskie": [
+        131
+      ],
+      "haslo": "Piętno Kaina",
+      "znaczenie": "‘znamię zbrodniarza, zabójcy; zwłaszcza bratobójcy lub zabójcy rodaka’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "piętno kainowe — ‘znamię zbrodniarza, zabójcy; zwłaszcza bratobójcy lub zabójcy rodaka’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 132,
+      "numery_uczniowskie": [
+        132
+      ],
+      "haslo": "Zbrodnia Kaina",
+      "znaczenie": "bratobójstwo",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "zbrodnia kainowa- bratobójstwo"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 133,
+      "numery_uczniowskie": [
+        133
+      ],
+      "haslo": "kalwaria",
+      "znaczenie": "relig. ‘cykl przedstawień męki Chrystusa albo miejsce ze stacjami drogi krzyżowej’; książk., przen. ‘męka, cierpienie, związane z nimi okoliczności lub miejsce’",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "kalwaria — relig. ‘cykl przedstawień męki Chrystusa albo miejsce ze stacjami drogi krzyżowej’; książk., przen. ‘męka, cierpienie, związane z nimi okoliczności lub miejsce’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 134,
+      "numery_uczniowskie": [
+        134
+      ],
+      "haslo": "Być komuś kamieniem u szyi",
+      "znaczenie": "być ciężarem dla kogoś",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "być kamieniem u szyi komuś- być ciężarem dla kogoś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 135,
+      "numery_uczniowskie": [
+        135
+      ],
+      "haslo": "i kamień by się poruszył",
+      "znaczenie": "‘coś wzruszyłoby każdego i wywołałoby współczucie, lecz osoba, której rzecz dotyczy, pozostaje obojętna’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "I kamień by się poruszył — ‘coś wzruszyłoby każdego i wywołałoby współczucie, lecz osoba, której rzecz dotyczy, pozostaje obojętna’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 136,
+      "numery_uczniowskie": [
+        136,
+        137
+      ],
+      "haslo": "Nie zostawić kamienia na kamieniu",
+      "znaczenie": "Doszczętnie zburzyć, zniszczyć coś.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "kamienia na kamieniu nie zostawić- zburzyć (coś)",
+        "kamień na kamieniu nie zostanie (nie został)- zburzone (miasta, budowle)"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 138,
+      "numery_uczniowskie": [
+        138
+      ],
+      "haslo": "kamień obrazy",
+      "znaczenie": "powód obrazy",
+      "poziom": 1,
+      "status": "poza grą",
+      "warianty": [
+        "kamień obrazy- powód obrazy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 139,
+      "numery_uczniowskie": [
+        139
+      ],
+      "haslo": "kamień węgielny",
+      "znaczenie": "‘kamień narożny; pierwszy kamień wmurowany w fundament’; książk., przen. ‘główna podstawa, zasada czegoś, warunek podstawowy, początek’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "kamień węgielny — ‘kamień narożny; pierwszy kamień wmurowany w fundament’; książk., przen. ‘główna podstawa, zasada czegoś, warunek podstawowy, początek’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 140,
+      "numery_uczniowskie": [
+        140,
+        210
+      ],
+      "haslo": "Kto na ciebie kamieniem, ty na niego chlebem",
+      "znaczenie": "Odpłacać dobrem za doznane zło.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "kto na ciebie kamieniem, ty na niego chlebem- odpłacaj dobrem za zło",
+        "odpłacaj dobrem na zło - nie reagowaniem złem na wyrządzone nam krzywdy"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 141,
+      "numery_uczniowskie": [
+        141
+      ],
+      "haslo": "Rzucić w kogoś kamieniem",
+      "znaczenie": "potępiać kogoś",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "rzucać, rzucić kamieniem na kogoś, na coś, w kogoś, w coś- potępiać kogoś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 142,
+      "numery_uczniowskie": [
+        142
+      ],
+      "haslo": "Mieć miękki kark",
+      "znaczenie": "ulegać czyjejś przemocy",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "mieć kark miękki, giętki- ulegać czyjejś przemocy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 143,
+      "numery_uczniowskie": [
+        143
+      ],
+      "haslo": "Mieć twardy kark",
+      "znaczenie": "być niezależnym",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "mieć sztywny, twardy kark- być niezależnym"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 144,
+      "numery_uczniowskie": [
+        144
+      ],
+      "haslo": "Ugiąć kark",
+      "znaczenie": "ulegać czyjejś przemocy",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "pochylać, zginać, giąć itp. kark- ulegać czyjejś przemocy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 145,
+      "numery_uczniowskie": [
+        145
+      ],
+      "haslo": "każde pole rodzi kąkole",
+      "znaczenie": "przysłowie: w każdym środowisku obok dobra może pojawić się zło (w słowniku bez osobnej definicji)",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Każde pole rodzi kąkole — przysłowie: w każdym środowisku obok dobra może pojawić się zło (w słowniku bez osobnej definicji)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 146,
+      "numery_uczniowskie": [
+        146
+      ],
+      "haslo": "kto sieje kąkol, zbiera kąkol",
+      "znaczenie": "przysłowie; por. „Kto sieje wiatr, zbiera burzę” (w słowniku bez osobnej definicji)",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Kto sieje kąkol, zbiera kąkol — przysłowie; por. „Kto sieje wiatr, zbiera burzę” (w słowniku bez osobnej definicji)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 147,
+      "numery_uczniowskie": [
+        147
+      ],
+      "haslo": "Siać kąkol",
+      "znaczenie": "dawn., przen. ‘wzniecać niezgodę, wywoływać niesnaski, budzić zawiść, szerzyć zło’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "siać (rozsiewać) kąkol — dawn., przen. ‘wzniecać niezgodę, wywoływać niesnaski, budzić zawiść, szerzyć zło’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 148,
+      "numery_uczniowskie": [
+        148
+      ],
+      "haslo": "kolos na glinianych nogach",
+      "znaczenie": "‘coś stwarzającego pozory mocy i potęgi, w rzeczywistości słabe, bliskie upadku lub załamania’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "kolos na glinianych nogach — ‘coś stwarzającego pozory mocy i potęgi, w rzeczywistości słabe, bliskie upadku lub załamania’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 149,
+      "numery_uczniowskie": [
+        149
+      ],
+      "haslo": "do końca świata",
+      "znaczenie": "‘nie wiadomo jak długo; zawsze; bardzo długo’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "do końca świata — ‘nie wiadomo jak długo; zawsze; bardzo długo’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 150,
+      "numery_uczniowskie": [
+        150
+      ],
+      "haslo": "koniec świata",
+      "znaczenie": "fraza oznaczająca zdziwienie, zgorszenie, przerażenie",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "koniec świata- fraza oznaczająca zdziwienie, zgorszenie, przerażenie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 151,
+      "numery_uczniowskie": [
+        151
+      ],
+      "haslo": "Cierniowa korona",
+      "znaczenie": "męka, cierpienie",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "cierniowa (ciernista) korona- męka, cierpienie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 152,
+      "numery_uczniowskie": [
+        152
+      ],
+      "haslo": "Trzymać coś pod korcem",
+      "znaczenie": "ukrywać coś",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "chować, kryć coś pod korzec a. pod korcem; trzymać coś pod korcem- ukrywać coś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 153,
+      "numery_uczniowskie": [
+        153,
+        154
+      ],
+      "haslo": "Kozioł ofiarny",
+      "znaczenie": "Osoba, na którą zrzuca się winę za niepowodzenia lub cudze błędy.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "być, stać się, zostać kozłem ofiarnym- być odpowiedzialnym za coś czego się nie zrobiło",
+        "kozioł ofiarny- (o kimś, o czymś) na co zrzuca się winę"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 155,
+      "numery_uczniowskie": [
+        155
+      ],
+      "haslo": "Krew z krwi, kość z kości",
+      "znaczenie": "‘o bliskim pokrewieństwie lub pochodzeniu od kogoś; własny potomek’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "krew z krwi, kość z (czyjejś) kości — ‘o bliskim pokrewieństwie lub pochodzeniu od kogoś; własny potomek’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 156,
+      "numery_uczniowskie": [
+        156
+      ],
+      "haslo": "Przelać krew",
+      "znaczenie": "narazić dla kogoś życie",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "przelewać (przelać) krew dla kogoś, dla czegoś- narazić dla kogoś życie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 157,
+      "numery_uczniowskie": [
+        157
+      ],
+      "haslo": "z krwi i kości",
+      "znaczenie": "autentyczny, prawdziwy",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "z krwi i kości- autentyczny, prawdziwy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 158,
+      "numery_uczniowskie": [
+        158
+      ],
+      "haslo": "kropla drąży skałę",
+      "znaczenie": "[Do uzupełnienia po weryfikacji źródła]",
+      "poziom": 1,
+      "status": "poza grą",
+      "warianty": [
+        "kropla drąży skałę-długie, wytrwałe działanie przynoszące w końcu rezultaty."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 159,
+      "numery_uczniowskie": [
+        159
+      ],
+      "haslo": "krzyż",
+      "znaczenie": "cierpienie",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "krzyż- cierpienie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 160,
+      "numery_uczniowskie": [
+        160
+      ],
+      "haslo": "mieć z kimś krzyż pański",
+      "znaczenie": "mieć z czyjegoś powodu kłopoty",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mieć z kimś krzyż pański- mieć z czyjegoś powodu kłopoty."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 161,
+      "numery_uczniowskie": [
+        161
+      ],
+      "haslo": "Dźwigać swój krzyż",
+      "znaczenie": "mieć życie pełne cierpień",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "nosić (dźwigać) swój krzyż- mieć życie pełne cierpień"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 162,
+      "numery_uczniowskie": [
+        162
+      ],
+      "haslo": "Księga zamknięta na siedem pieczęci",
+      "znaczenie": "coś niejasnego niezrozumiałego",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "księga zamknięta na siedem pieczęci- coś niejasnego niezrozumiałego"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 163,
+      "numery_uczniowskie": [
+        163
+      ],
+      "haslo": "Lekarzu, ulecz samego siebie!",
+      "znaczenie": "książk., maksyma (Łk 4, 23); w słowniku bez osobnej definicji",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Lekarzu, ulecz samego siebie! — książk., maksyma (Łk 4, 23); w słowniku bez osobnej definicji."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 166,
+      "numery_uczniowskie": [
+        166
+      ],
+      "haslo": "Nie wie lewica, co czyni prawica",
+      "znaczenie": "‘działać dyskretnie, nie rozgłaszać swoich czynów; zachować coś w tajemnicy’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "nie wie lewica, co czyni prawica — ‘działać dyskretnie, nie rozgłaszać swoich czynów; zachować coś w tajemnicy’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 167,
+      "numery_uczniowskie": [
+        167
+      ],
+      "haslo": "listek figowy",
+      "znaczenie": "coś, co ma ukryć to, czego z jakichś względów nie chce się ujawniać",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "listek figowy - coś, co ma ukryć to, czego z jakichś względów nie chce się ujawniać"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 168,
+      "numery_uczniowskie": [
+        168
+      ],
+      "haslo": "martwa litera",
+      "znaczenie": "ustawa lub inne ustalenie mające moc prawną, które nie jest respektowane",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "martwa litera - ustawa lub inne ustalenie mające moc prawną, które nie jest respektowane"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 169,
+      "numery_uczniowskie": [
+        169
+      ],
+      "haslo": "trzymać się litery prawa",
+      "znaczenie": "działać zgodnie z prawem",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "trzymać się litery prawa - działać zgodnie z prawem"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 170,
+      "numery_uczniowskie": [
+        170
+      ],
+      "haslo": "Z Bożej łaski",
+      "znaczenie": "‘o osobie zdolnej, utalentowanej’; iron. ‘o osobie bez przygotowania fachowego, amatorze’",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "z bożej łaski — ‘o osobie zdolnej, utalentowanej’; iron. ‘o osobie bez przygotowania fachowego, amatorze’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 171,
+      "numery_uczniowskie": [
+        171
+      ],
+      "haslo": "znaleźć łaskę w czyichś oczach",
+      "znaczenie": "zyskać aprobatę",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "znaleźć łaskę w czyichś oczach - zyskać aprobatę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 172,
+      "numery_uczniowskie": [
+        172,
+        174
+      ],
+      "haslo": "Biedny jak Łazarz",
+      "znaczenie": "Osoba bardzo uboga, nędzarz.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "biedny jak łazarz - człowiek ubogi",
+        "łazarz - nędzarz"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 173,
+      "numery_uczniowskie": [
+        173,
+        175
+      ],
+      "haslo": "Wyglądać jak Łazarz",
+      "znaczenie": "Wyglądać na człowieka bardzo osłabionego, schorowanego.",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "leżeć jak łazarz - ktoś wycieńczony",
+        "wyglądać jak łazarz - wyglądać na osłabionego"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 176,
+      "numery_uczniowskie": [
+        176
+      ],
+      "haslo": "łoże boleści",
+      "znaczenie": "łóżko ciężko chorego",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "łoże boleści - łóżko ciężko chorego"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 177,
+      "numery_uczniowskie": [
+        177
+      ],
+      "haslo": "Łuski spadły komuś z oczu",
+      "znaczenie": "‘ktoś przejrzał na oczy, zrozumiał prawdę, pozbył się złudzeń’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "łuska (łuski) spadła komuś z oczu — ‘ktoś przejrzał na oczy, zrozumiał prawdę, pozbył się złudzeń’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 178,
+      "numery_uczniowskie": [
+        178
+      ],
+      "haslo": "maczać w czymś palce",
+      "znaczenie": "brać potajemnie udział w nieuczciwej sprawie",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "maczać w czymś palce (ręce) - brać potajemnie udział w nieuczciwej sprawie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 179,
+      "numery_uczniowskie": [
+        179
+      ],
+      "haslo": "mamona",
+      "znaczenie": "pieniądze, majątek",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mamona - pieniądze, majątek"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 180,
+      "numery_uczniowskie": [
+        180
+      ],
+      "haslo": "służyć mamonie",
+      "znaczenie": "‘przedkładać bogactwo i pieniądze nad inne wartości, podporządkowywać im życie’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "służyć mamonie — ‘przedkładać bogactwo i pieniądze nad inne wartości, podporządkowywać im życie’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 181,
+      "numery_uczniowskie": [
+        181,
+        182
+      ],
+      "haslo": "Manna z nieba",
+      "znaczenie": "Nieoczekiwany dar, ratunek lub pomoc pojawiająca się w potrzebie.",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "jak manna z nieba spadł - nieoczekiwana pomoc",
+        "Manna z nieba spadnie, spada komuś - coś przychodzi komuś łatwo"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 183,
+      "numery_uczniowskie": [
+        183,
+        184
+      ],
+      "haslo": "Żyć manną bożą",
+      "znaczenie": "Utrzymywać się bez widocznych, stałych środków do życia.",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Manną bożą żyje - utrzymywać się bez stałego środka zarobku",
+        "żywić się, żyć manną bożą (a. niebieską) - żyć nie wiadomo z czego"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 185,
+      "numery_uczniowskie": [
+        185,
+        260
+      ],
+      "haslo": "Marność nad marnościami",
+      "znaczenie": "Wszystkie rzeczy doczesne są nietrwałe i przemijają.",
+      "poziom": 2,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Wszystko (na świecie) marność — sentencja o nietrwałości i znikomości rzeczy doczesnych; wariant „Marność nad marnościami”.",
+        "Wszystko na świecie próżność — sentencja: ‘wszystko jest nietrwałe, znikome, bezcelowe’; wariant sensu „Wszystko marność” (por. 185)."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 186,
+      "numery_uczniowskie": [
+        186,
+        187,
+        188
+      ],
+      "haslo": "Jaka matka, taka córka",
+      "znaczenie": "Dzieci bywają podobne do rodziców; córka do matki.",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "jaka mać, taka nać - córka jest podobna do matki",
+        "jaka matka, taka córka - patrz 186.",
+        "jakie matki, takie dziatki - jaka matka, takie są jej dzieci"
+      ],
+      "liczba_wariantow": 3
+    },
+    {
+      "id": 189,
+      "numery_uczniowskie": [
+        189
+      ],
+      "haslo": "Matuzalem",
+      "znaczenie": "człowiek o sędziwym wieku",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "matuzal, matuzalem - człowiek o sędziwym wieku"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 190,
+      "numery_uczniowskie": [
+        190,
+        191,
+        192
+      ],
+      "haslo": "Jaką miarką mierzysz, taką ci odmierzą",
+      "znaczenie": "Odpłacać komuś w taki sam sposób, w jaki sam postępuje wobec innych.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "jaką miarką mierzysz, taką ci odmierzą - odpłacić komuś za coś tym samym",
+        "miarka za miarkę - odwzajemniać",
+        "odpłacić komuś równą miarką - potraktować kogoś tak samo"
+      ],
+      "liczba_wariantow": 3
+    },
+    {
+      "id": 193,
+      "numery_uczniowskie": [
+        193
+      ],
+      "haslo": "kto mieczem wojuje, od miecza ginie",
+      "znaczenie": "przysłowie: kto używa przemocy, sam może paść jej ofiarą; por. „Kto pod kim dołki kopie, sam w nie wpada”",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "Kto mieczem wojuje, od miecza ginie — przysłowie: kto używa przemocy, sam może paść jej ofiarą; por. „Kto pod kim dołki kopie, sam w nie wpada”."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 194,
+      "numery_uczniowskie": [
+        194
+      ],
+      "haslo": "Przekuwać miecze na lemiesze",
+      "znaczenie": "rezygnować z walki na rzecz pokoju",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "miecze przekuwać na lemiesze - rezygnować z walki na rzecz pokoju"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 195,
+      "numery_uczniowskie": [
+        195
+      ],
+      "haslo": "miecz obosieczny",
+      "znaczenie": "rzecz, która może mieć dwojakie skutki",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "miecz obosieczny - rzecz, która może mieć dwojakie skutki"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 196,
+      "numery_uczniowskie": [
+        196
+      ],
+      "haslo": "pierwsza miłość",
+      "znaczenie": "pierwsza osoba, do której żywiło się uczucia",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "pierwsza miłość - pierwsza osoba, do której żywiło się uczucia"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 197,
+      "numery_uczniowskie": [
+        197
+      ],
+      "haslo": "Kraina mlekiem i miodem płynąca",
+      "znaczenie": "urodzajna, bogata kraina",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "kraj, ziemia, kraina (itp.) mlekiem i miodem płynąca - urodzajna, bogata kraina"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 198,
+      "numery_uczniowskie": [
+        198
+      ],
+      "haslo": "moloch",
+      "znaczenie": "przen. ‘coś ogromnego i potężnego, pochłaniającego wielkie ofiary lub zasoby’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "moloch — przen. ‘coś ogromnego i potężnego, pochłaniającego wielkie ofiary lub zasoby’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 199,
+      "numery_uczniowskie": [
+        199
+      ],
+      "haslo": "mowa jest srebrem, a milczenie złotem",
+      "znaczenie": "przysłowie przeciwstawiające wartość mówienia większej wartości milczenia; Godyń wskazuje biblijne nawiązanie pierwszej części",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "Mowa jest srebrem, a milczenie złotem — przysłowie przeciwstawiające wartość mówienia większej wartości milczenia; Godyń wskazuje biblijne nawiązanie pierwszej części."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 200,
+      "numery_uczniowskie": [
+        200,
+        336
+      ],
+      "haslo": "Tak, tak — nie, nie",
+      "znaczenie": "Mówić w sposób prosty i jednoznaczny, bez wykrętów.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mówić: tak, tak, nie, nie - mówić jednoznacznie",
+        "nie wszyscy mają jednakie talenta - każdy ma inny talent od Boga"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 201,
+      "numery_uczniowskie": [
+        201
+      ],
+      "haslo": "Brać niebo i ziemię za świadków",
+      "znaczenie": "‘przysięgać, zaklinać się na potwierdzenie prawdziwości swoich słów’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "brać niebo i ziemię za świadków — ‘przysięgać, zaklinać się na potwierdzenie prawdziwości swoich słów’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 202,
+      "numery_uczniowskie": [
+        202
+      ],
+      "haslo": "być w siódmym niebie",
+      "znaczenie": "być bardzo zadowolonym, zachwyconym",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "być w siódmym niebie - być bardzo zadowolonym, zachwyconym"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 203,
+      "numery_uczniowskie": [
+        203,
+        205
+      ],
+      "haslo": "Między niebem a ziemią",
+      "znaczenie": "Znajdować się w stanie zawieszenia i niepewności.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "być zawieszonym (pozostawać, tkwić) między niebem a ziemią — ‘znajdować się w stanie zawieszenia, niepewności, bez jednoznacznego rozstrzygnięcia’.",
+        "między niebem a ziemią — ‘w stanie zawieszenia, niepewności’."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 204,
+      "numery_uczniowskie": [
+        204
+      ],
+      "haslo": "jak w niebie",
+      "znaczenie": "niezwykle dobrze",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "jak w niebie - niezwykle dobrze"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 206,
+      "numery_uczniowskie": [
+        206
+      ],
+      "haslo": "poruszyć niebo i ziemię",
+      "znaczenie": "zrobić coś za wszelką cenę",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "poruszyć niebo i ziemię - zrobić coś za wszelką cenę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 207,
+      "numery_uczniowskie": [
+        207
+      ],
+      "haslo": "przysięgać na niebo i ziemię",
+      "znaczenie": "przywołać wszystko, co możliwe, dla zachowania prawdziwości swoich słów",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "przysięgać na niebo i ziemię - przywołać wszystko, co możliwe, dla zachowania prawdziwości swoich słów"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 208,
+      "numery_uczniowskie": [
+        208
+      ],
+      "haslo": "niewierny Tomasz",
+      "znaczenie": "o osobie nieufnej, sceptycznej",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "niewierny Tomasz - o osobie nieufnej, sceptycznej"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 209,
+      "numery_uczniowskie": [
+        209
+      ],
+      "haslo": "żywy obraz i podobieństwo czyjeś, czegoś",
+      "znaczenie": "coś wykazującego ogromne podobieństwo do kogoś/czegoś",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "żywy obraz i podobieństwo czyjeś, czegoś  - coś wykazującego ogromne podobieństwo do kogoś/czegoś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 211,
+      "numery_uczniowskie": [
+        211
+      ],
+      "haslo": "wchodzić oknem, nie drzwiami",
+      "znaczenie": "zakradać się w złych zamiarach",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "wchodzić (wejść) oknem, nie drzwiami - zakradać się w złych zamiarach"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 212,
+      "numery_uczniowskie": [
+        212
+      ],
+      "haslo": "Czego oczy nie widzą, tego sercu nie żal",
+      "znaczenie": "łatwe jest znoszenie straty, o której nie wiedzieliśmy",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "czego oko (oczy) nie widzi (nie widzą), tego sercu nie żal -  łatwe jest znoszenie straty, o której nie wiedzieliśmy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 213,
+      "numery_uczniowskie": [
+        213
+      ],
+      "haslo": "mieć oczy do patrzenia, a uszy do słyszenia",
+      "znaczenie": "‘umieć dostrzegać i rozumieć to, co się dzieje; być spostrzegawczym’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "mieć oczy do patrzenia, a uszy do słyszenia (słuchania) — ‘umieć dostrzegać i rozumieć to, co się dzieje; być spostrzegawczym’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 214,
+      "numery_uczniowskie": [
+        214
+      ],
+      "haslo": "oko za oko, ząb za ząb",
+      "znaczenie": "inaczej “odpłacać pięknym za nadobne”",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "oko za oko, ząb za ząb -  inaczej “odpłacać pięknym za nadobne”"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 215,
+      "numery_uczniowskie": [
+        215
+      ],
+      "haslo": "otworzyć komuś oczy",
+      "znaczenie": "pokazać komuś prawdę",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "otworzyć komuś oczy - pokazać komuś prawdę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 216,
+      "numery_uczniowskie": [
+        216
+      ],
+      "haslo": "patrzeć krzywym, złym okiem na kogoś, na coś",
+      "znaczenie": "patrzeć na coś/kogoś z pogardą",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "patrzeć krzywym, złym okiem na kogoś, na coś - patrzeć na coś/kogoś z pogardą"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 217,
+      "numery_uczniowskie": [
+        217,
+        218
+      ],
+      "haslo": "Strzec jak oka w głowie",
+      "znaczenie": "Chronić kogoś lub coś z wyjątkową troską.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "strzec kogoś, czegoś jak źrenicy oka  - troszczyć się o kogoś najbliższego",
+        "strzec, pilnować kogoś, czegoś jak oka w głowie - patrz 217."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 219,
+      "numery_uczniowskie": [
+        219
+      ],
+      "haslo": "Widzieć źdźbło w cudzym oku, a nie widzieć belki w swoim",
+      "znaczenie": "dostrzegać czyjeś małe wady, a nie widzieć swoich większych",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "widzieć źdźbło w cudzym oku, a w swoim belki nie widzieć - dostrzegać czyjeś małe wady, a nie widzieć swoich większych."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 220,
+      "numery_uczniowskie": [
+        220
+      ],
+      "haslo": "wypłakać wypłakiwać sobie oczy mocno",
+      "znaczenie": "pot. ‘długo i mocno płakać, żalić się po stracie kogoś lub czegoś’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "wypłakać (wypłakiwać) sobie oczy — pot. ‘długo i mocno płakać, żalić się po stracie kogoś lub czegoś’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 221,
+      "numery_uczniowskie": [
+        221
+      ],
+      "haslo": "Mieć olej w głowie",
+      "znaczenie": "być rozumnym, mądrym",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mieć olej w głowie ‘być rozumnym, mądrym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 222,
+      "numery_uczniowskie": [
+        222
+      ],
+      "haslo": "Nie mieć oleju w głowie",
+      "znaczenie": "zwrot o znaczeniu przeciwstawnym czyli być nie rozumnym, głupim",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "nie mieć oleju w głowie por. ‘zwrot o znaczeniu przeciwstawnym czyli być nie rozumnym, głupim’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 223,
+      "numery_uczniowskie": [
+        223
+      ],
+      "haslo": "onanizm",
+      "znaczenie": "‘masturbacja’; wyraz wywodzony od imienia biblijnego Onana (termin słownikowy, nie frazeologizm wielowyrazowy)",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "onanizm (onania) — ‘masturbacja’; wyraz wywodzony od imienia biblijnego Onana (termin słownikowy, nie frazeologizm wielowyrazowy)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 224,
+      "numery_uczniowskie": [
+        224
+      ],
+      "haslo": "Budować na opoce",
+      "znaczenie": "budować coś na trwałej podstawie, na porządnych fundamentach",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "budować (zbudować) coś na opoce ‘budować coś na trwałej podstawie, na porządnych fundamentach’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 225,
+      "numery_uczniowskie": [
+        225
+      ],
+      "haslo": "Być dla kogoś opoką",
+      "znaczenie": "być dla kogoś silnym oparciem, niewzruszonym fundamentem",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "być (stać się) dla kogoś opoką ‘być dla kogoś silnym oparciem, niewzruszonym fundamentem’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 226,
+      "numery_uczniowskie": [
+        226
+      ],
+      "haslo": "opoka książ.",
+      "znaczenie": "niewzruszona podstawa, fundament, podwalina",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "opoka książ. przen. ‘niewzruszona podstawa, fundament, podwalina’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 227,
+      "numery_uczniowskie": [
+        227
+      ],
+      "haslo": "twardy jak opoka",
+      "znaczenie": "o kimś pewnym, nie ulegającym wpływom, mogącym być oparciem dla kogoś",
+      "poziom": 3,
+      "status": "poza grą",
+      "warianty": [
+        "twardy jak opoka (skała) ‘o kimś pewnym, nie ulegającym wpływom, mogącym być oparciem dla kogoś’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 228,
+      "numery_uczniowskie": [
+        228
+      ],
+      "haslo": "Trudno przeciw ościeniowi wierzgać",
+      "znaczenie": "trudno walczyć (przeciwstawiać się) z siłą wyższą",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "trudno przeciw ościeniowi wierzgać przestarz. ‘trudno walczyć (przeciwstawiać się) z siłą wyższą’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 229,
+      "numery_uczniowskie": [
+        229
+      ],
+      "haslo": "Padół łez",
+      "znaczenie": "ziemia świat ( zwykle w przeciwstawieniu się do nieba, raju ) także życie na ziemi, życie doczesne, pełne trosk i kłopotów,",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "padół płaczu, łez podn. a. żart. ‘ziemia świat ( zwykle w przeciwstawieniu się do nieba, raju ) także życie na ziemi, życie doczesne, pełne trosk i kłopotów,"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 230,
+      "numery_uczniowskie": [
+        230
+      ],
+      "haslo": "Palcem nie kiwnąć",
+      "znaczenie": "nie zdobyć się na najmniejszy wysiłek; nic nie zrobić w jakiejś sytuacji, nie pomóc",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "palcem nie kiwnąć, nie ruszyć ‘nie zdobyć się na najmniejszy wysiłek; nic nie zrobić w jakiejś sytuacji, nie pomóc’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 231,
+      "numery_uczniowskie": [
+        231
+      ],
+      "haslo": "Palec Boży",
+      "znaczenie": "zjawisko poczytywane za omen, znak interwencji sił nadprzyrodzonych; kara boska",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "palec boży (opatrzności) podn, ‘zjawisko poczytywane za omen, znak interwencji sił nadprzyrodzonych; kara boska’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 232,
+      "numery_uczniowskie": [
+        232
+      ],
+      "haslo": "Pan i władca",
+      "znaczenie": "człowiek mający władzę nad kimś nad czymś",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "pan i władca iron, ‘człowiek mający władzę nad kimś nad czymś’, żart. ‘mąż’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 233,
+      "numery_uczniowskie": [
+        233
+      ],
+      "haslo": "pan stworzenia",
+      "znaczenie": "człowiek",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "pan stworzenia iron. ‘człowiek’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 234,
+      "numery_uczniowskie": [
+        234
+      ],
+      "haslo": "Trudno dwom panom służyć",
+      "znaczenie": "nie sposób opowiadać się za dwoma przeciwnymi wartościami w sensie moralnym",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "trudno dwom panom służyć przysłowie. ‘nie sposób opowiadać się za dwoma przeciwnymi wartościami w sensie moralnym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 235,
+      "numery_uczniowskie": [
+        235
+      ],
+      "haslo": "Rzucać perły przed wieprze",
+      "znaczenie": "‘dawać komuś coś cennego, czego ten nie potrafi docenić’",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "rzucać (miotać) perły przed (między) wieprze (świnie) — ‘dawać komuś coś cennego, czego ten nie potrafi docenić’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 237,
+      "numery_uczniowskie": [
+        237,
+        239
+      ],
+      "haslo": "Bić się w piersi",
+      "znaczenie": "Okazać skruchę, przyznać się do winy.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "bić się, uderzyć się w piersi ‘uderzać się ręką ( zwykle zwinięta w pięść w dłoń) w pierś na znak skruchy lub potwierdzenie prawdziwości słów, okazać skruchę, przyznawać się do winy’",
+        "uderz się w piersi ‘przyznaj się do winy, upokorz się’"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 238,
+      "numery_uczniowskie": [
+        238
+      ],
+      "haslo": "bić się w cudze piersi",
+      "znaczenie": "nie przyznać się do winy, zwalając ją na kogoś innego",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "bić się w cudze piersi ‘nie przyznać się do winy, zwalając ją na kogoś innego’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 240,
+      "numery_uczniowskie": [
+        240
+      ],
+      "haslo": "Lepszy żywy pies od zdechłego lwa",
+      "znaczenie": "przysłowie (Koh 9, 4); u Godynia bez osobnego objaśnienia",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Lepszy żywy pies od zdechłego lwa — przysłowie (Koh 9, 4); u Godynia bez osobnego objaśnienia."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 241,
+      "numery_uczniowskie": [
+        241
+      ],
+      "haslo": "Jak Piłat w credo",
+      "znaczenie": "książk. ‘być niepotrzebnym; zbędnie, niestosownie, nie w porę’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "jak Piłat w credo (być potrzebnym, dostać się, trafić, wleźć, znaleźć się) — książk. ‘być niepotrzebnym; zbędnie, niestosownie, nie w porę’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 242,
+      "numery_uczniowskie": [
+        242
+      ],
+      "haslo": "plagi egipskie",
+      "znaczenie": "zwykle o czymś bardzo dokuczliwym",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "plagi egipskie przen. ‘zwykle o czymś bardzo dokuczliwym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 243,
+      "numery_uczniowskie": [
+        243
+      ],
+      "haslo": "Płacz i zgrzytanie zębów",
+      "znaczenie": "ewangeliczne określenie mąk piekielnych; smutek żałoba rozpacz",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "płacz i zgrzytanie zębów ‘ewangeliczne określenie mąk piekielnych; smutek żałoba rozpacz’ żart. ‘ciężka sytuacja, zmartwienie, kłopot’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 244,
+      "numery_uczniowskie": [
+        244
+      ],
+      "haslo": "być podnóżkiem czyimś",
+      "znaczenie": "być usłużnym, służalczym wobec kogoś",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "być podnóżkiem czyimś ‘być usłużnym, służalczym wobec kogoś’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 245,
+      "numery_uczniowskie": [
+        245
+      ],
+      "haslo": "na podobieństwo czyjeś, czegoś",
+      "znaczenie": "wzorując się na kimś, na czymś, podobnie do kogoś, czegoś, na wzór na kształt",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "na podobieństwo czyjeś, czegoś ‘wzorując się na kimś, na czymś, podobnie do kogoś, czegoś, na wzór na kształt’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 246,
+      "numery_uczniowskie": [
+        246
+      ],
+      "haslo": "pokarm duchowy",
+      "znaczenie": "książk., czasem żart. ‘literatura, czasopisma lub inne dobra kultury zaspokajające potrzeby intelektualne i kulturalne człowieka’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "pokarm duchowy (dawn. strawa, obrok) — książk., czasem żart. ‘literatura, czasopisma lub inne dobra kultury zaspokajające potrzeby intelektualne i kulturalne człowieka’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 247,
+      "numery_uczniowskie": [
+        247
+      ],
+      "haslo": "wołać o pomstę do nieba",
+      "znaczenie": "coś jest w okropnym stanie, wywołującym grozę, oburzenie; rażąca niesprawiedliwość",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "woła coś o pomstę do nieba ‘coś jest w okropnym stanie, wywołującym grozę, oburzenie; rażąca niesprawiedliwość’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 248,
+      "numery_uczniowskie": [
+        248
+      ],
+      "haslo": "Obrócić w proch",
+      "znaczenie": "spalić, zburzyć, zrujnować zniszczyć coś zupełnie, doszczętnie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "obrócić (się), zamienić (się) coś w popiół (proch) ‘spalić, zburzyć, zrujnować zniszczyć coś zupełnie, doszczętnie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 249,
+      "numery_uczniowskie": [
+        249
+      ],
+      "haslo": "posypać głowę popiołem",
+      "znaczenie": "‘okazać żal, skruchę, pokutować’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "posypać głowę popiołem — ‘okazać żal, skruchę, pokutować’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 250,
+      "numery_uczniowskie": [
+        250
+      ],
+      "haslo": "Pracować w pocie czoła",
+      "znaczenie": "pracować bardzo ciężko (na swoje utrzymanie); z wysiłkiem uprawiać coś; zarobić z trudem, z duzym nakladem pracy",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "pracować, zarabiać, uprawiać coś w pocie czoła ‘pracować bardzo ciężko (na swoje utrzymanie); z wysiłkiem uprawiać coś; zarobić z trudem, z duzym nakladem pracy’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 251,
+      "numery_uczniowskie": [
+        251
+      ],
+      "haslo": "w pocie czoła spożywać chleb",
+      "znaczenie": "ciężko pracować na swoje utrzymanie",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "w pocie czoła spożywać chleb ‘ciężko pracować na swoje utrzymanie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 252,
+      "numery_uczniowskie": [
+        252
+      ],
+      "haslo": "Potop",
+      "znaczenie": "wielka powódź obejmująca duży obszar kuli ziemskiej; synonim zniszczenia kogoś w wielkiej skali",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "potop ‘wielka powódź obejmująca duży obszar kuli ziemskiej; synonim zniszczenia kogoś w wielkiej skali’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 253,
+      "numery_uczniowskie": [
+        253
+      ],
+      "haslo": "Kto nie pracuje, ten nie je",
+      "znaczenie": "ten kto nie pracuje ten nie może dostawać owoców swej pracy",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "kto nie pracuje, ten nie je przysłowie ‘ten kto nie pracuje ten nie może dostawać owoców swej pracy’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 254,
+      "numery_uczniowskie": [
+        254
+      ],
+      "haslo": "co to jest prawda?",
+      "znaczenie": "sentencja-pytanie. Sceptyczne pytanie Piłata na słowa Chrystusa",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "co to jest prawda? ‘sentencja-pytanie. Sceptyczne pytanie Piłata na słowa Chrystusa."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 255,
+      "numery_uczniowskie": [
+        255
+      ],
+      "haslo": "słowa prawdy",
+      "znaczenie": "zdanie lub szerzej: jakieś treści wypowiedziane śmiało, szczerze, bez ogródek, prosto z mostu",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "słowa prawdy ‘zdanie lub szerzej: jakieś treści wypowiedziane śmiało, szczerze, bez ogródek, prosto z mostu’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 256,
+      "numery_uczniowskie": [
+        256
+      ],
+      "haslo": "Strząsnąć proch z sandałów",
+      "znaczenie": "zerwać z dawnym życiem, z jakimś środowiskiem; odżegnać się od czegoś całkowicie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "strząsnąć, otrząsnąć, strzepnąć proch (a. pył) z sandałów, ze stóp rzad. książk. ‘zerwać z dawnym życiem, z jakimś środowiskiem; odżegnać się od czegoś całkowicie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 257,
+      "numery_uczniowskie": [
+        257
+      ],
+      "haslo": "zetrzeć coś na proch",
+      "znaczenie": "pokonać, zniszczyć kogoś, coś całkowicie, unicestwić kogos cos",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "zetrzeć, rozbić, obrócić kogoś, coś na proch a. w proch książk. ‘pokonać, zniszczyć kogoś, coś całkowicie, unicestwić kogos cos’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 258,
+      "numery_uczniowskie": [
+        258
+      ],
+      "haslo": "Nikt nie jest prorokiem we własnym kraju",
+      "znaczenie": "najtrudniej znaleźć uznanie u swoich",
+      "poziom": 1,
+      "status": "gra",
+      "warianty": [
+        "nikt nie jest prorokiem we własnym kraju przysłowie. ‘najtrudniej znaleźć uznanie u swoich’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 259,
+      "numery_uczniowskie": [
+        259
+      ],
+      "haslo": "obym był fałszywym prorokiem",
+      "znaczenie": "oby słowa moje się nie sprawdziły; oby to, co przewiduje , nie spełniło się",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "obym był fałszywym prorokiem ‘oby słowa moje się nie sprawdziły; oby to, co przewiduje , nie spełniło się’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 261,
+      "numery_uczniowskie": [
+        261
+      ],
+      "haslo": "przedpotopowy",
+      "znaczenie": "pochodzący z bardzo odległej epoki geologicznej",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "przedpotopowy pot. ‘pochodzący z bardzo odległej epoki geologicznej’ przen. żart. ‘przestarzały, staroświecki, nieaktualny; pochodzący z minionej epoki cywilizacyjnej i kulturowej.’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 262,
+      "numery_uczniowskie": [
+        262
+      ],
+      "haslo": "Niebieski ptak",
+      "znaczenie": "człowiek lekkomyślny, nieodpowiedzialny, nie mający określonego zajęcia, żyjącym cudzym kosztem, próżniak, darmozjad; człowiek z marginesu społecznego",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "niebieski ptak (ptaszek) czasem żart. ‘człowiek lekkomyślny, nieodpowiedzialny, nie mający określonego zajęcia, żyjącym cudzym kosztem, próżniak, darmozjad; człowiek z marginesu społecznego’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 263,
+      "numery_uczniowskie": [
+        263,
+        265
+      ],
+      "haslo": "Raj na ziemi",
+      "znaczenie": "Wyjątkowo szczęśliwe i przyjemne miejsce.",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "jak w raju ‘w miejscu pięknym, uroczym, miłym, mającym szczególnie sprzyjające warunki do życia, wypoczynku, przyjemnego spędzania czasu’",
+        "raj na ziemi ‘piękne, urocze, rozkoszne, szczęśliwe miejsce’"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 264,
+      "numery_uczniowskie": [
+        264
+      ],
+      "haslo": "raj",
+      "znaczenie": "w niektórych religiach: kraina szczęśliwości, miejsce pobytu bogów i ich wybrańców(np. biblijnego Adama i Ewy); miejsce pobytu dusz zbawionych po śmierci",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "raj ‘w niektórych religiach: kraina szczęśliwości, miejsce pobytu bogów i ich wybrańców(np. biblijnego Adama i Ewy); miejsce pobytu dusz zbawionych po śmierci’ przen. ‘miejsce piękne, urocze, miłym, mającym szczególnie sprzyjające warunki do życia, wypoczynku, przyjemnego spędzania czasu’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 266,
+      "numery_uczniowskie": [
+        266
+      ],
+      "haslo": "mieć czyste ręce",
+      "znaczenie": "nie dopuścić się przestępstwa,oszustwa; być uczciwym",
+      "poziom": 1,
+      "status": "poza grą",
+      "warianty": [
+        "mieć czyste ręce ‘nie dopuścić się przestępstwa,oszustwa; być uczciwym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 267,
+      "numery_uczniowskie": [
+        267
+      ],
+      "haslo": "Nosić kogoś na rękach",
+      "znaczenie": "otaczać kogoś najczulsza opieką; okazywać komuś wyjątkowe uznanie, miec dla kogoś nadzwyczajne względy, uwielbiać, ubóstwiać; zaspokajać wszelkie zachcianki kogoś",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "na rękach nosić kogoś ‘otaczać kogoś najczulsza opieką; okazywać komuś wyjątkowe uznanie, miec dla kogoś nadzwyczajne względy, uwielbiać, ubóstwiać; zaspokajać wszelkie zachcianki kogoś’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 268,
+      "numery_uczniowskie": [
+        268
+      ],
+      "haslo": "umywać ręce",
+      "znaczenie": "zrzucić z siebie odpowiedzialność, odżegnywać się od czegoś; oświadczyć, że jest się niewinnym",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "umywać ręce ‘zrzucić z siebie odpowiedzialność, odżegnywać się od czegoś; oświadczyć, że jest się niewinnym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 269,
+      "numery_uczniowskie": [
+        269
+      ],
+      "haslo": "Lata tłuste i chude",
+      "znaczenie": "okres powodzenia, zamożności, rozwoju; okres niepowodzenie, nieurodzaju, biedy",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "lata tłuste, lata chude ‘okres powodzenia, zamożności, rozwoju; okres niepowodzenie, nieurodzaju, biedy’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 270,
+      "numery_uczniowskie": [
+        270
+      ],
+      "haslo": "Rozdzierać szaty",
+      "znaczenie": "ubolewać nad czymś (nad kimś); potępiać coś, lamentować, rozpaczać",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "rozdzierać szaty nad czymś, nad kimś ‘ubolewać nad czymś (nad kimś); potępiać coś, lamentować, rozpaczać’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 271,
+      "numery_uczniowskie": [
+        271
+      ],
+      "haslo": "niegodzien, niewart rozwiązać rzemyka u obuwia jego sentencja.",
+      "znaczenie": "o kimś kto w porównaniu z kimś innym reprezentuje małą wartość",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "niegodzien, niewart rozwiązać rzemyka u obuwia (trzewików) jego sentencja. przestarz. ‘o kimś kto w porównaniu z kimś innym reprezentuje małą wartość’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 272,
+      "numery_uczniowskie": [
+        272
+      ],
+      "haslo": "pokazywać rogi",
+      "znaczenie": "stawać się hardym, krnąbrnym, zuchwałym",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "pokazywać (pokazać) rogi ‘stawać się hardym, krnąbrnym, zuchwałym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 273,
+      "numery_uczniowskie": [
+        273
+      ],
+      "haslo": "schować rogi",
+      "znaczenie": "spotulnieć, stać się uległym, podkulić ogon",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "schować rogi ‘spotulnieć, stać się uległym, podkulić ogon’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 274,
+      "numery_uczniowskie": [
+        274
+      ],
+      "haslo": "utrzeć komuś rogów",
+      "znaczenie": "uczynić kogoś posłusznym",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "utrzeć (przytrzeć) komuś rogów ‘uczynić kogoś posłusznym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 275,
+      "numery_uczniowskie": [
+        275
+      ],
+      "haslo": "Wszystko ma swój czas",
+      "znaczenie": "wszystko ma swój moment na świecie. Jest czas do rodzenia i umierania, sadzenia i zbierania…",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "każda rzecz ma swój czas ‘wszystko ma swój moment na świecie. Jest czas do rodzenia i umierania, sadzenia i zbierania…’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 276,
+      "numery_uczniowskie": [
+        276
+      ],
+      "haslo": "rzeź niewiniątek",
+      "znaczenie": "‘masakra bezbronnych, niewinnych osób’; nawiązanie do zabicia dzieci z rozkazu Heroda",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "rzeź niewiniątek — ‘masakra bezbronnych, niewinnych osób’; nawiązanie do zabicia dzieci z rozkazu Heroda."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 277,
+      "numery_uczniowskie": [
+        277
+      ],
+      "haslo": "Z pustego i Salomon nie naleje",
+      "znaczenie": "nie można czegoś zrobić bez odpowiednich środków",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "z próżnego (pustego) i Salomon nie naleje ‘nie można czegoś zrobić bez odpowiednich środków’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 278,
+      "numery_uczniowskie": [
+        278
+      ],
+      "haslo": "Mądrość salomonowa",
+      "znaczenie": "wielka mądrość",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "mądrość salomonowa (mądry jak Salomon) ‘wielka mądrość’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 279,
+      "numery_uczniowskie": [
+        279
+      ],
+      "haslo": "salomonowy",
+      "znaczenie": "‘odznaczający się mądrością i sprawiedliwością’",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "salomonowy — ‘odznaczający się mądrością i sprawiedliwością’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 280,
+      "numery_uczniowskie": [
+        280
+      ],
+      "haslo": "Wyrok salomonowy",
+      "znaczenie": "‘rozstrzygnięcie mądre i sprawiedliwe’",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "wyrok (sąd) salomonowy — ‘rozstrzygnięcie mądre i sprawiedliwe’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 281,
+      "numery_uczniowskie": [
+        281
+      ],
+      "haslo": "Miłosierny Samarytanin",
+      "znaczenie": "[Do uzupełnienia po weryfikacji źródła]",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "samarytanin ’osoba miłosierna, niosąca pomoc potrzebującym’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 282,
+      "numery_uczniowskie": [
+        282
+      ],
+      "haslo": "sąd ostateczny",
+      "znaczenie": "ostatnie i najważniejsze osądzenie człowieka",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "sąd ostateczny ‘ostatnie i najważniejsze osądzenie człowieka’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 283,
+      "numery_uczniowskie": [
+        283,
+        285
+      ],
+      "haslo": "Sądny dzień",
+      "znaczenie": "Wielkie zamieszanie, zamęt lub popłoch; także dzień Sądu Ostatecznego.",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "istny (prawdziwy) sądny dzień — ‘zamieszanie, popłoch, rozgardiasz, awantura’.",
+        "sądny dzień — relig. ‘dzień sądu ostatecznego’; przen. ‘zamieszanie, popłoch, rozgardiasz, awantura’."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 284,
+      "numery_uczniowskie": [
+        284
+      ],
+      "haslo": "odkładać do sądnego dnia",
+      "znaczenie": "‘odkładać coś bardzo długo, w nieskończoność, beznadziejnie’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "odkładać (czekać) do sądnego dnia — ‘odkładać coś bardzo długo, w nieskończoność, beznadziejnie’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 286,
+      "numery_uczniowskie": [
+        286
+      ],
+      "haslo": "Sądny dzień ci się przyśni!",
+      "znaczenie": "‘rodzaj pogróżki’",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "Sądny dzień ci się przyśni! — ‘rodzaj pogróżki’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 287,
+      "numery_uczniowskie": [
+        287
+      ],
+      "haslo": "Nie sądź, a nie będziesz sądzony",
+      "znaczenie": "przestań osądzać innych i nie bądź hipokrytą",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "nie sądź, a nie będziesz sądzony ‘przestań osądzać innych i nie bądź hipokrytą’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 288,
+      "numery_uczniowskie": [
+        288
+      ],
+      "haslo": "nie sądź z pozoru",
+      "znaczenie": "nie oceniaj zbyt szybko",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "nie sądź z pozoru ‘nie oceniaj zbyt szybko’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 289,
+      "numery_uczniowskie": [
+        289
+      ],
+      "haslo": "lepszy sąsiad bliski, niż brat daleki",
+      "znaczenie": "przysłowie (Prz 27, 10); u Godynia bez osobnej definicji",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "Lepszy sąsiad bliski niźli brat daleki — przysłowie (Prz 27, 10); u Godynia bez osobnej definicji."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 290,
+      "numery_uczniowskie": [
+        290
+      ],
+      "haslo": "Zasnąć snem wiecznym",
+      "znaczenie": "umrzeć",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "spać, zasnąć snem wiecznym ‘umrzeć’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 291,
+      "numery_uczniowskie": [
+        291
+      ],
+      "haslo": "brać sobie coś do serca",
+      "znaczenie": "bardzo się czymś przejąć, traktować to z pełną powagą",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "brać (wziąć) sobie coś do serca ‘bardzo się czymś przejąć, traktować to z pełną powagą’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 292,
+      "numery_uczniowskie": [
+        292
+      ],
+      "haslo": "Co w sercu, to na języku",
+      "znaczenie": "coś co ktoś czuje i myśli to także to co mówi",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "co w sercu to (i) na języku (w ustach) ‘coś co ktoś czuje i myśli to także to co mówi’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 293,
+      "numery_uczniowskie": [
+        293
+      ],
+      "haslo": "Mieć gołębie serce",
+      "znaczenie": "mieć łagodne usposobienie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "mieć gołębie serce (duszę) ‘mieć łagodne usposobienie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 294,
+      "numery_uczniowskie": [
+        294
+      ],
+      "haslo": "Mieć serce z kamienia",
+      "znaczenie": "być osobą nie okazującą uczuć",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "mieć serce kamienne (z kamienia) ‘być osobą nie okazującą uczuć’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 295,
+      "numery_uczniowskie": [
+        295
+      ],
+      "haslo": "W górę serca",
+      "znaczenie": "nie tracić ducha",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "w górę serca ‘nie tracić ducha’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 296,
+      "numery_uczniowskie": [
+        296
+      ],
+      "haslo": "z całego serca i z całej duszy",
+      "znaczenie": "bardzo mocno (np. czegoś chcieć)",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "z całego serca i z całej duszy ‘bardzo mocno (np. czegoś chcieć)’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 297,
+      "numery_uczniowskie": [
+        297
+      ],
+      "haslo": "ani sieje, ani orze, a wszystko mu się rodzi",
+      "znaczenie": "o osobie lekkomyślnej i leniwej żyjącej na koszt innych",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "ani sieje, ani orze, a wszystko mu się rodzi ‘o osobie lekkomyślnej i leniwej żyjącej na koszt innych’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 298,
+      "numery_uczniowskie": [
+        298
+      ],
+      "haslo": "Lecieć na skrzydłach wiatru",
+      "znaczenie": "biec szybko, lekko, bez wysiłku, w pełni szczęścia",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "lecieć, szybować na skrzydłach wiatru ‘biec szybko, lekko, bez wysiłku, w pełni szczęścia’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 299,
+      "numery_uczniowskie": [
+        299
+      ],
+      "haslo": "oddać kogoś pod czyjeś skrzydła",
+      "znaczenie": "oddać kogoś pod czyjąś opiekę",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "oddać kogoś pod czyjeś skrzydła ‘oddać kogoś pod czyjąś opiekę’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 300,
+      "numery_uczniowskie": [
+        300
+      ],
+      "haslo": "opiekuńcze skrzydła",
+      "znaczenie": "czyjaś troskliwa opieka",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "opiekuńcze skrzydła ‘czyjaś troskliwa opieka’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 301,
+      "numery_uczniowskie": [
+        301
+      ],
+      "haslo": "schronić się, uciekać, garnąć się pod czyjeś skrzydła",
+      "znaczenie": "otrzymać pomoc, potrzebować pomocy/ opieki",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "schronić się, uciekać, garnąć się pod czyjeś skrzydła ‘otrzymać pomoc, potrzebować pomocy/ opieki’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 302,
+      "numery_uczniowskie": [
+        302
+      ],
+      "haslo": "Wziąć kogoś pod swoje skrzydła",
+      "znaczenie": "opiekować się kimś",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "wziąć kogoś pod swoje skrzydła ‘opiekować się kimś’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 303,
+      "numery_uczniowskie": [
+        303
+      ],
+      "haslo": "słodkie jarzmo",
+      "znaczenie": "pot., przen., żart. ‘dobrowolnie przyjęte zobowiązanie lub ograniczenie znoszone z miłości, sympatii albo przyjemności, choć bywa uciążliwe’",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "słodkie jarzmo (niewola, okowy, kajdany, ciężar, brzemię) — pot., przen., żart. ‘dobrowolnie przyjęte zobowiązanie lub ograniczenie znoszone z miłości, sympatii albo przyjemności, choć bywa uciążliwe’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 304,
+      "numery_uczniowskie": [
+        304
+      ],
+      "haslo": "najlepszy, najgorszy, nic lepszego, nic gorszego pod słońcem",
+      "znaczenie": "najlepszy na całym świecie",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "najlepszy, najgorszy (itp.), nic lepszego, nic gorszego (itp.) pod słońcem ‘najlepszy na całym świecie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 305,
+      "numery_uczniowskie": [
+        305,
+        306,
+        307
+      ],
+      "haslo": "Nic nowego pod słońcem",
+      "znaczenie": "Sytuacja, o której mowa, już kiedyś się wydarzyła; nic nie jest zupełnie nowe.",
+      "poziom": 5,
+      "status": "gra",
+      "warianty": [
+        "nic nowego pod słońcem — ‘wszystko już było na świecie’.",
+        "Nie masz nic nowego pod słońcem (na świecie) — ‘wszystko już było na świecie’ (wariant hasła 305)."
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 307,
+      "numery_uczniowskie": [
+        308
+      ],
+      "haslo": "pod słońcem",
+      "znaczenie": "na świecie",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "pod słońcem ‘na świecie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 308,
+      "numery_uczniowskie": [
+        309
+      ],
+      "haslo": "słońce tak dobrym, jak i złym świeci",
+      "znaczenie": "przysłowie: ‘wszyscy mają jednakie prawo do życia’",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "Słońce tak dobrym, jak i złym świeci — przysłowie: ‘wszyscy mają jednakie prawo do życia’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 309,
+      "numery_uczniowskie": [
+        310
+      ],
+      "haslo": "A słowo stało się ciałem",
+      "znaczenie": "Coś co było zapowiadane i właśnie się stalo",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "(a) słowo stało się ciałem! ‘Coś co było zapowiadane i właśnie się stalo’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 311,
+      "numery_uczniowskie": [
+        312
+      ],
+      "haslo": "gładkie słówka",
+      "znaczenie": "słowa wypowiadane bez szczególnej szczerości w celu oczarowania rozmówcy",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "gładkie słówka ‘słowa wypowiadane bez szczególnej szczerości w celu oczarowania rozmówcy’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 312,
+      "numery_uczniowskie": [
+        313
+      ],
+      "haslo": "Zamienić się w słup soli",
+      "znaczenie": "znieruchomieć",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "zamienić się w słup soli ‘znieruchomieć’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 313,
+      "numery_uczniowskie": [
+        314
+      ],
+      "haslo": "Sprzedać za miskę soczewicy",
+      "znaczenie": "oddać coś komuś z wyraźną stratą dla siebie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "oddać, sprzedać coś, zdradzić za miskę, łyżkę soczewicy ‘oddać coś komuś z wyraźną stratą dla siebie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 314,
+      "numery_uczniowskie": [
+        315
+      ],
+      "haslo": "Sodoma i Gomora",
+      "znaczenie": "‘wielkie zamieszanie, rozgardiasz, awantura; także rozpusta i niemoralne postępowanie’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "sodoma i gomora — ‘wielkie zamieszanie, rozgardiasz, awantura; także rozpusta i niemoralne postępowanie’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 315,
+      "numery_uczniowskie": [
+        316
+      ],
+      "haslo": "sodomia",
+      "znaczenie": "zoofilia, niekiedy także homoseksualizm",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "sodomia ‘zoofilia, niekiedy także homoseksualizm’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 316,
+      "numery_uczniowskie": [
+        317
+      ],
+      "haslo": "Sól ziemi",
+      "znaczenie": "najbardziej wartościowi ludzie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "sól ziemi ‘najbardziej wartościowi ludzie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 317,
+      "numery_uczniowskie": [
+        318
+      ],
+      "haslo": "Dziesięciu sprawiedliwych miasto ocalić może",
+      "znaczenie": "książk., rzad., przysłowie nawiązujące do obietnicy ocalenia Sodomy, jeśli znaleziono by w niej dziesięciu sprawiedliwych (Rdz 18, 26–32)",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Dziesięciu sprawiedliwych miasto ocalić może — książk., rzad., przysłowie nawiązujące do obietnicy ocalenia Sodomy, jeśli znaleziono by w niej dziesięciu sprawiedliwych (Rdz 18, 26–32)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 318,
+      "numery_uczniowskie": [
+        319
+      ],
+      "haslo": "Sprawiedliwi w Sodomie",
+      "znaczenie": "Ludzie uczciwi i moralni pośród społeczeństwa postępującego nieuczciwie.",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "(jedyni) sprawiedliwi w Sodomie — książk., rzad. ‘o ludziach uczciwych i moralnych na tle powszechnego lekceważenia zasad etycznych’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 319,
+      "numery_uczniowskie": [
+        320
+      ],
+      "haslo": "spać snem sprawiedliwego",
+      "znaczenie": "spać głęboko, mocno i spokojnie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "spać (zasnąć) snem sprawiedliwego ‘spać głęboko, mocno i spokojnie’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 320,
+      "numery_uczniowskie": [
+        321
+      ],
+      "haslo": "Sprzedać za trzydzieści srebrników",
+      "znaczenie": "‘zdradzić kogoś za pieniądze, dla korzyści materialnej’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "sprzedać kogoś za trzydzieści srebrników — ‘zdradzić kogoś za pieniądze, dla korzyści materialnej’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 321,
+      "numery_uczniowskie": [
+        322
+      ],
+      "haslo": "stało się!",
+      "znaczenie": "‘dokonało się coś, czego nie można już cofnąć, odwołać, odrobić’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Stało się! — ‘dokonało się coś, czego nie można już cofnąć, odwołać, odrobić’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 322,
+      "numery_uczniowskie": [
+        323
+      ],
+      "haslo": "od stóp aż do głów całkowicie",
+      "znaczenie": "‘całkowicie, od dołu do góry, w całości’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "od stóp aż do głów (rzadziej: do głowy) — ‘całkowicie, od dołu do góry, w całości’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 323,
+      "numery_uczniowskie": [
+        324
+      ],
+      "haslo": "stworzenie boże, boskie",
+      "znaczenie": "każda istota",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "stworzenie boże, boskie ‘każda istota’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 324,
+      "numery_uczniowskie": [
+        325
+      ],
+      "haslo": "Syn marnotrawny",
+      "znaczenie": "ktoś kto zbłądził, ale opamiętał się",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "syn marnotrawny (brat marnotrawny, córka marnotrawna, dziecko marnotrawne) ‘ktoś kto zbłądził, ale opamiętał się’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 325,
+      "numery_uczniowskie": [
+        326
+      ],
+      "haslo": "Kto szuka, ten znajdzie",
+      "znaczenie": "przysłowie o skuteczności wytrwałego szukania",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Kto szuka, ten znajdzie — przysłowie o skuteczności wytrwałego szukania."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 326,
+      "numery_uczniowskie": [
+        327
+      ],
+      "haslo": "iść, chodzić utartymi ścieżkami",
+      "znaczenie": "‘żyć i postępować według powszechnie przyjętych, uznanych zasad’",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "iść (przez życie), chodzić utartymi ścieżkami — ‘żyć i postępować według powszechnie przyjętych, uznanych zasad’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 327,
+      "numery_uczniowskie": [
+        328
+      ],
+      "haslo": "ścieżki czyjeś błędne, kręte prostować",
+      "znaczenie": "pomagać komuś wyjść na prostą",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "ścieżki czyjeś błędne, kręte prostować ‘pomagać komuś wyjść na prostą’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 328,
+      "numery_uczniowskie": [
+        329
+      ],
+      "haslo": "zawiłe ścieżki życia",
+      "znaczenie": "‘skomplikowane, trudne koleje życia’",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "zawiłe ścieżki życia — ‘skomplikowane, trudne koleje życia’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 329,
+      "numery_uczniowskie": [
+        330
+      ],
+      "haslo": "Ślepy ślepego prowadzi",
+      "znaczenie": "przysłowie (Mt 15, 14; Łk 6, 39); w słowniku bez osobnej definicji",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Ślepy ślepego prowadzi — przysłowie (Mt 15, 14; Łk 6, 39); w słowniku bez osobnej definicji."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 330,
+      "numery_uczniowskie": [
+        331
+      ],
+      "haslo": "dać świadectwo czemuś",
+      "znaczenie": "‘wykazywać, stwierdzać coś, poświadczać coś, świadczyć o czymś’",
+      "poziom": 4,
+      "status": "poza grą",
+      "warianty": [
+        "dać (dawać) świadectwo czemuś - ‘wykazywać, stwierdzać coś, poświadczać coś, świadczyć o czymś’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 331,
+      "numery_uczniowskie": [
+        332
+      ],
+      "haslo": "nie z tego świata ktoś lub coś",
+      "znaczenie": "‘o kimś niepraktycznym, nie życiowym lub lub o czymś niezwykłym, zadziwiającym, dziwacznym.’",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "nie z tego świata ktoś lub coś - ‘o kimś niepraktycznym, nie życiowym lub lub o czymś niezwykłym, zadziwiającym, dziwacznym.’"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 332,
+      "numery_uczniowskie": [
+        333
+      ],
+      "haslo": "Być na świeczniku",
+      "znaczenie": "być jedną z czołowych postaci w społeczeństwie; zajmować wysokie stanowisko w jakiejś hierarchii",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "być, stać (postawić kogoś) na świeczniku - być jedną z czołowych postaci w społeczeństwie; zajmować wysokie stanowisko w jakiejś hierarchii"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 333,
+      "numery_uczniowskie": [
+        334
+      ],
+      "haslo": "spaść ze świecznika",
+      "znaczenie": "utracić wysokie stanowisko w jakiejś hierarchii",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "spaść ze świecznika - utracić wysokie stanowisko w jakiejś hierarchii"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 334,
+      "numery_uczniowskie": [
+        335
+      ],
+      "haslo": "Tak, tak",
+      "znaczenie": "książk., rzad. ‘mówić, postępować, czynić coś jednoznacznie’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Tak, tak — nie, nie — książk., rzad. ‘mówić, postępować, czynić coś jednoznacznie’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 336,
+      "numery_uczniowskie": [
+        337
+      ],
+      "haslo": "pogrzebać swój talent",
+      "znaczenie": "zmarnować swoje niezwykłe, nieprzeciętne zdolności, swoje wyraźne uzdolnienia, stracić szansę, możliwość",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "pogrzebać swój talent (szansę, możliwości) - zmarnować swoje niezwykłe, nieprzeciętne zdolności, swoje wyraźne uzdolnienia, stracić szansę, możliwość"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 337,
+      "numery_uczniowskie": [
+        338
+      ],
+      "haslo": "talent",
+      "znaczenie": "szansa, możliwość, nieprzeciętna zdolność, wyraźne uzdolnienie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "talent - szansa, możliwość, nieprzeciętna zdolność, wyraźne uzdolnienie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 338,
+      "numery_uczniowskie": [
+        339
+      ],
+      "haslo": "Tchnąć w coś życie",
+      "znaczenie": "ożywić coś, uaktualnić, napełnić jakąś formę treścią",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "tchnąć w coś życie (ducha, duszę, myśl) - ożywić coś, uaktualnić, napełnić jakąś formę treścią."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 339,
+      "numery_uczniowskie": [
+        340
+      ],
+      "haslo": "twarzą w twarz, twarz w twarz",
+      "znaczenie": "blisko koło kogoś, mając twarz zwróconą w jego stronę",
+      "poziom": 5,
+      "status": "poza grą",
+      "warianty": [
+        "twarzą w twarz, twarz w twarz (stanąć, spotkać się, mówić, rozmawiać) - blisko koło kogoś, mając twarz zwróconą w jego stronę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 340,
+      "numery_uczniowskie": [
+        341
+      ],
+      "haslo": "Kto ma uszy, niechaj słucha",
+      "znaczenie": "przysłowie; por. Mt 11, 15 (u Godynia ta archaiczna postać hasła)",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "Kto ma ucha, niechaj słucha — przysłowie; por. Mt 11, 15 (u Godynia ta archaiczna postać hasła)."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 341,
+      "numery_uczniowskie": [
+        342
+      ],
+      "haslo": "Łatwiej wielbłądowi przejść przez ucho igielne",
+      "znaczenie": "Bardzo trudno, niemal niemożliwe jest osiągnięcie celu.",
+      "poziom": 2,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Łatwiej przejść przez ucho igielne — sentencja o niemożliwości dostania się lub przedostania się dokądś; por. Mt 19, 24."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 342,
+      "numery_uczniowskie": [
+        343
+      ],
+      "haslo": "Przecisnąć się przez ucho igielne",
+      "znaczenie": "z trudem przedostać się gdzieś",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "przejść, przecisnąć się przez ucho igielne - z trudem przedostać się gdzieś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 343,
+      "numery_uczniowskie": [
+        344
+      ],
+      "haslo": "uczony w Piśmie",
+      "znaczenie": "erudyta, zwłaszcza w dziedzinie spraw kulturowych; o kimś wykształconym w danej dziedzinie, znający się na czymś",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "uczony w piśmie - erudyta, zwłaszcza w dziedzinie spraw kulturowych; o kimś wykształconym w danej dziedzinie, znający się na czymś"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 344,
+      "numery_uczniowskie": [
+        345
+      ],
+      "haslo": "Uczony w Piśmie",
+      "znaczenie": "czyn zgodny z zasadami moralnymi, godny naśladowania, szlachetny, sprawiedliwy",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "dobry (miłosierny) uczynek - czyn zgodny z zasadami moralnymi, godny naśladowania, szlachetny, sprawiedliwy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 345,
+      "numery_uczniowskie": [
+        346
+      ],
+      "haslo": "chytry jak wąż",
+      "znaczenie": "[Do uzupełnienia po weryfikacji źródła]",
+      "poziom": 2,
+      "status": "do weryfikacji",
+      "warianty": [
+        "chytry jak wąż -bardzo chytry, przebiegły"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 346,
+      "numery_uczniowskie": [
+        347
+      ],
+      "haslo": "mądry jak wąż",
+      "znaczenie": "roztropny, bardzo mądry",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mądry jak wąż - roztropny, bardzo mądry"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 347,
+      "numery_uczniowskie": [
+        348
+      ],
+      "haslo": "wczorajszy",
+      "znaczenie": "staroświecki, staromodny, żyjący dawnym życiem, przeszłością, niedzisiejszy",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "wczorajszy - staroświecki, staromodny, żyjący dawnym życiem, przeszłością, niedzisiejszy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 348,
+      "numery_uczniowskie": [
+        349
+      ],
+      "haslo": "wdowi grosz",
+      "znaczenie": "niewielka suma (ofiara) złożona na jakiś cel kosztem wyrzeczeń, lecz z serca przez ludzi niezamożnych",
+      "poziom": 1,
+      "status": "do weryfikacji",
+      "warianty": [
+        "wdowi grosz (grosik) - niewielka suma (ofiara) złożona na jakiś cel kosztem wyrzeczeń, lecz z serca przez ludzi niezamożnych"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 349,
+      "numery_uczniowskie": [
+        350
+      ],
+      "haslo": "wet za wet",
+      "znaczenie": "odwzajemnić się tym samym (zwykle złem za doznane zło), odpłacić czymś za co, pięknym za nadobne",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "wet za wet - odwzajemnić się tym samym (zwykle złem za doznane zło), odpłacić czymś za co, pięknym za nadobne"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 350,
+      "numery_uczniowskie": [
+        351
+      ],
+      "haslo": "Wet za wet",
+      "znaczenie": "wiara jest tak silna, że jest w stanie ruszyć górę",
+      "poziom": 1,
+      "status": "do weryfikacji",
+      "warianty": [
+        "wiara góry przenosi - wiara jest tak silna, że jest w stanie ruszyć górę"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 351,
+      "numery_uczniowskie": [
+        352
+      ],
+      "haslo": "Wiara góry przenosi",
+      "znaczenie": "przysłowie o ciężkich konsekwencjach złych działań; por. Oz 8, 7",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "Kto sieje wiatr, zbiera burzę — przysłowie o ciężkich konsekwencjach złych działań; por. Oz 8, 7."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 352,
+      "numery_uczniowskie": [
+        353
+      ],
+      "haslo": "Kto sieje wiatr, zbiera burzę",
+      "znaczenie": "mówić, obiecywać coś w sposób  nieodpowiedzialny, bez chęci ani możliwości dotrzymania słowa",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "mówić (rzucać słowa) na wiatr - mówić, obiecywać coś w sposób  nieodpowiedzialny, bez chęci ani możliwości dotrzymania słowa"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 353,
+      "numery_uczniowskie": [
+        354
+      ],
+      "haslo": "Rzucać słowa na wiatr",
+      "znaczenie": "rozpędzić, wypędzić, wygnać brutalnie, bezwzględnie,, na wszystkie strony, bezpowrotnie",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "rozpędzić, wypędzić, wygnać itp. kogoś na cztery wiatry - rozpędzić, wypędzić, wygnać brutalnie, bezwzględnie,, na wszystkie strony, bezpowrotnie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 354,
+      "numery_uczniowskie": [
+        355
+      ],
+      "haslo": "wiedzieć, skąd wieje wiatr",
+      "znaczenie": "znać (przewidywać) prawdziwy stan rzeczy, zamiary osób wpływowych, życzenia władz",
+      "poziom": 2,
+      "status": "poza grą",
+      "warianty": [
+        "wiedzieć (patrzeć, orientować się) skąd wieje wiatr - znać (przewidywać) prawdziwy stan rzeczy, zamiary osób wpływowych, życzenia władz"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 355,
+      "numery_uczniowskie": [
+        356
+      ],
+      "haslo": "Wiedzieć, skąd wieje wiatr",
+      "znaczenie": "wierzyć w coś bardzo, niezachwianie, całkowicie",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "wierzyć w coś jak w ewangelię (biblię) - wierzyć w coś bardzo, niezachwianie, całkowicie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 357,
+      "numery_uczniowskie": [
+        358,
+        359
+      ],
+      "haslo": "Wieża Babel",
+      "znaczenie": "Chaos, zamieszanie, pomieszanie języków i poglądów.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "wieża Babel - zbiorowisko ludzi mówiących różnymi językami; zamęt, bezład, różnorodność poglądów, zdań",
+        "zamknąć się w wieży z kości słoniowej - odizolować się od życia lub otoczenia, w celu zajęcia się sprawami wznioślejszymi, np: twórczością artystyczną"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 359,
+      "numery_uczniowskie": [
+        360
+      ],
+      "haslo": "rwać włosy z głowy",
+      "znaczenie": "rozpaczać, czasem czyniąc przy tym gest sugerujący wyrywanie sobie włosów z głowy",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "rwać, drzeć włosy z głowy - rozpaczać, czasem czyniąc przy tym gest sugerujący wyrywanie sobie włosów z głowy"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 360,
+      "numery_uczniowskie": [
+        361
+      ],
+      "haslo": "Rwać włosy z głowy",
+      "znaczenie": "nie grozi żadne niebezpieczeństwo, ktoś jest całkowicie bezpieczny, komuś gwarantuje się całkowite bezpieczeństwo",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "włos komuś z głowy nie spadnie - nie grozi żadne niebezpieczeństwo, ktoś jest całkowicie bezpieczny, komuś gwarantuje się całkowite bezpieczeństwo"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 361,
+      "numery_uczniowskie": [
+        362
+      ],
+      "haslo": "Włos z głowy nie spadnie",
+      "znaczenie": "kogoś ogarnia ogromny strach, przerażenie",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "włosy się komuś jeżą, stają dęba - kogoś ogarnia ogromny strach, przerażenie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 362,
+      "numery_uczniowskie": [
+        363
+      ],
+      "haslo": "Włosy stają dęba",
+      "znaczenie": "nadeszła chwila czyjejś śmierci",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "wybiła czyjaś ostatnia godzina (chwila) - nadeszła chwila czyjejś śmierci"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 363,
+      "numery_uczniowskie": [
+        364
+      ],
+      "haslo": "Wybiła czyjaś ostatnia godzina",
+      "znaczenie": "nadszedł czas",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "wybiła godzina - nadszedł czas"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 364,
+      "numery_uczniowskie": [
+        365
+      ],
+      "haslo": "wyzuty ze czci i wiary",
+      "znaczenie": "pozbawiony godności osobistej, honoru, upadły moralnie",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "wyzuty ze czci i wiary - pozbawiony godności osobistej, honoru, upadły moralnie"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 365,
+      "numery_uczniowskie": [
+        366
+      ],
+      "haslo": "zakazany owoc",
+      "znaczenie": "rzecz niedostępna, niedozwolona i dlatego pociągająca, pożądana",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "zakazany owoc - rzecz niedostępna, niedozwolona i dlatego pociągająca, pożądana"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 366,
+      "numery_uczniowskie": [
+        367
+      ],
+      "haslo": "budować zamki na piasku",
+      "znaczenie": "robić rzecz nietrwałą, snuć marzenia, projekty niemające żadnych szans urzeczywistnienia się, opierać się na niepewnych podstawach",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "budować, stawiać zamki na lodzie (na piasku) - robić rzecz nietrwałą, snuć marzenia, projekty niemające żadnych szans urzeczywistnienia się, opierać się na niepewnych podstawach"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 367,
+      "numery_uczniowskie": [
+        368,
+        369
+      ],
+      "haslo": "Budować zamki na piasku",
+      "znaczenie": "Snucie nierealnych planów; budowanie czegoś na niepewnych podstawach.",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "zamki na lodzie (piasku) - nierealne projekty, nieżyciowe projekty, utopijne plany",
+        "zamknąć coś na siedem (cztery, wszystkie) spustów (zamków) - zamknąć coś dokładnie, na mocne zamki, wzbronić przystępu, uczynić niedostępnym"
+      ],
+      "liczba_wariantow": 2
+    },
+    {
+      "id": 369,
+      "numery_uczniowskie": [
+        370
+      ],
+      "haslo": "Zamknąć na siedem spustów",
+      "znaczenie": "nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "zaprzeć się kogoś, czegoś, samego siebie - nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 370,
+      "numery_uczniowskie": [
+        371
+      ],
+      "haslo": "zabłąkana owieczka",
+      "znaczenie": "ktoś, kto popełnił błąd, zgrzeszył; grzesznik, odstępca",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "zabłąkana owieczka - ktoś, kto popełnił błąd, zgrzeszył; grzesznik, odstępca"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 372,
+      "numery_uczniowskie": [
+        373
+      ],
+      "haslo": "Zgrzytać zębami",
+      "znaczenie": "umieć rozpoznać, co jest prawdziwe, odróżniać rzeczy wartościowe od bezwartościowych, prawdę od kłamstwa",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "odróżniać, (oddzielić) ziarno od plewy (plew) - umieć rozpoznać, co jest prawdziwe, odróżniać rzeczy wartościowe od bezwartościowych, prawdę od kłamstwa"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 373,
+      "numery_uczniowskie": [
+        374
+      ],
+      "haslo": "Oddzielić ziarno od plew",
+      "znaczenie": "wywołać zarzewie nieporozumienia, sporu, kłótni",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "posiać, rozsiać, zasiać ziarno niezgody - wywołać zarzewie nieporozumienia, sporu, kłótni"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 374,
+      "numery_uczniowskie": [
+        375
+      ],
+      "haslo": "Siać ziarno niezgody",
+      "znaczenie": "rodzaj przekleństwa",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "bodaj (żeby) cię święta ziemia nie nosiła! (niewart, żę go swięta ziemia nosi) - rodzaj przekleństwa"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 375,
+      "numery_uczniowskie": [
+        376
+      ],
+      "haslo": "niech mnie ziemia pochłonie",
+      "znaczenie": "rodzaj zaklęcia jako dowód prawdomówności",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "niech mnie ziemia pochłonie (pogrzebie)! - rodzaj zaklęcia jako dowód prawdomówności"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 376,
+      "numery_uczniowskie": [
+        377
+      ],
+      "haslo": "Niech mnie ziemia pochłonie!",
+      "znaczenie": "miejsce najbardziej pożądane, wydające się rajem; kraj szczęśliwości i bogactwa",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "ziemia obiecana - miejsce najbardziej pożądane, wydające się rajem; kraj szczęśliwości i bogactwa"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 377,
+      "numery_uczniowskie": [
+        378
+      ],
+      "haslo": "ani zimny, ani ciepły",
+      "znaczenie": "‘o człowieku pozbawionym żywszych uczuć i temperamentu, mało gorliwym’",
+      "poziom": 2,
+      "status": "gra",
+      "warianty": [
+        "ani zimny, ani ciepły — ‘o człowieku pozbawionym żywszych uczuć i temperamentu, mało gorliwym’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 378,
+      "numery_uczniowskie": [
+        379
+      ],
+      "haslo": "znak czasu",
+      "znaczenie": "cecha charakterystyczna, właściwa danemu momentowi lub okresowi historii",
+      "poziom": 3,
+      "status": "gra",
+      "warianty": [
+        "znak czasu - cecha charakterystyczna, właściwa danemu momentowi lub okresowi historii"
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 379,
+      "numery_uczniowskie": [
+        380
+      ],
+      "haslo": "Znaki na niebie i ziemi",
+      "znaczenie": "‘zachodzą wydarzenia lub zjawiska, które interpretuje się jako zapowiedź czegoś, co nastąpi’",
+      "poziom": 4,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Znaki na niebie i ziemi wskazują coś, zapowiadają coś — ‘zachodzą wydarzenia lub zjawiska, które interpretuje się jako zapowiedź czegoś, co nastąpi’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 380,
+      "numery_uczniowskie": [
+        381
+      ],
+      "haslo": "Zrównać z ziemią",
+      "znaczenie": "‘zniszczyć, zburzyć coś doszczętnie, np. zabudowania lub miasto’",
+      "poziom": 4,
+      "status": "gra",
+      "warianty": [
+        "zrównać coś z ziemią — ‘zniszczyć, zburzyć coś doszczętnie, np. zabudowania lub miasto’."
+      ],
+      "liczba_wariantow": 1
+    },
+    {
+      "id": 381,
+      "numery_uczniowskie": [
+        382
+      ],
+      "haslo": "Dobra żona — męża korona",
+      "znaczenie": "przysłowie (Prz 12, 4); Godyń przywołuje również nawiązanie z „Pieśni” Jana Kochanowskiego",
+      "poziom": 5,
+      "status": "do weryfikacji",
+      "warianty": [
+        "Niedobra żona — cierniowa korona. Dobra żona — męża korona — przysłowie (Prz 12, 4); Godyń przywołuje również nawiązanie z „Pieśni” Jana Kochanowskiego."
+      ],
+      "liczba_wariantow": 1
+    }
+  ]
+}

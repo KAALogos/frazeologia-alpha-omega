@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-11-16",
+  "scope": "przekazanie projektu dla Claude, bez publikacji",
+  "counts": {
+    "mitologia_source": 202,
+    "biblia_student_numbers": 382,
+    "biblia_source_paragraphs": 381,
+    "biblia_canonical_records": 347,
+    "biblia_game_cards": 235,
+    "biblia_statuses": {
+      "gra": 235,
+      "poza grą": 83,
+      "do weryfikacji": 29
+    },
+    "game_levels": {
+      "1": 35,
+      "2": 61,
+      "3": 67,
+      "4": 52,
+      "5": 20
+    }
+  },
+  "duplicates_in_bible_game": [
+    {
+      "haslo": "wieża babel",
+      "powtorzenia": 2
+    },
+    {
+      "haslo": "uczony w piśmie",
+      "powtorzenia": 2
+    },
+    {
+      "haslo": "rwać włosy z głowy",
+      "powtorzenia": 2
+    },
+    {
+      "haslo": "budować zamki na piasku",
+      "powtorzenia": 2
+    }
+  ],
+  "documents": [
+    {
+      "type": "google_docs",
+      "name": "Frazeologizmy biblijne",
+      "url": "https://docs.google.com/document/d/12SzsaVvnJM4YPYScROJpodngWH2QzewZZckpGgirwnM/edit",
+      "tabs": [
+        "Oryginał — zapis uczniowski",
+        "Wersja czysta"
+      ],
+      "note": "Karty dokumentu są zachowane; eksport DOCX i teksty to tylko migawka stanu."
+    },
+    {
+      "type": "source_pdf",
+      "name": "Godyń",
+      "url": "https://drive.google.com/file/d/1-2KpsdyvWGs2QrxYv2VrF0PZDTHHBL0c/view?usp=sharing"
+    }
+  ],
+  "audit_limits": [
+    "Oryginał uczniowski został odzyskany z osobnej karty Google Docs w eksporcie DOCX.",
+    "Nie przeprowadzono pełnej kolacji 381 pozycji ze skanem Godynia.",
+    "Poziomy i flagi selekcji do gry są robocze; nie wszystkie przykłady nadają się do kalamburów.",
+    "Skany słowników są do wewnętrznej pracy: nie zakładać prawa do ich publikowania."
+  ]
+}

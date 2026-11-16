@@ -1,0 +1,66 @@
+[
+  {
+    "id": "BIB-001",
+    "priority": "BLOCKER",
+    "example": "Zamknąć na siedem spustów",
+    "issue": "W danych HTML hasło ma definicję „nie przyznać się do związków...” z innego hasła (zaprzeć się), zamiast zamknięcia na mocne zamki.",
+    "evidence": "HTML karta z id=369; oryginał nr 369–370.",
+    "fix": "Dopasować hasło, znaczenie i indeks źródłowy, ponownie zbudować grę."
+  },
+  {
+    "id": "BIB-002",
+    "priority": "BLOCKER",
+    "example": "Zgrzytać zębami",
+    "issue": "W HTML definicja dotyczy oddzielania ziarna od plew, a nie wyrażania złości.",
+    "evidence": "HTML karta z id=372; oryginał nr 372–373.",
+    "fix": "Przypisać właściwe znaczenie."
+  },
+  {
+    "id": "BIB-003",
+    "priority": "BLOCKER",
+    "example": "Oddzielić ziarno od plew",
+    "issue": "W HTML definicja dotyczy siania niezgody, nie rozróżniania rzeczy wartościowych.",
+    "evidence": "HTML karta z id=373; oryginał nr 373–374.",
+    "fix": "Przypisać właściwe znaczenie."
+  },
+  {
+    "id": "BIB-004",
+    "priority": "BLOCKER",
+    "example": "Siać ziarno niezgody",
+    "issue": "W HTML definicja dotyczy przekleństwa, nie wywoływania konfliktu.",
+    "evidence": "HTML karta z id=374; oryginał nr 374–375.",
+    "fix": "Przypisać właściwe znaczenie."
+  },
+  {
+    "id": "BIB-005",
+    "priority": "BLOCKER",
+    "example": "Wybiła czyjaś ostatnia godzina",
+    "issue": "Przynajmniej jedna karta ma znaczenie „nadszedł czas”, zamiast „zbliża się śmierć”.",
+    "evidence": "HTML wpis o tej nazwie; oryginał nr 363–364.",
+    "fix": "Odróżnić „wybiła godzina” od „wybiła ostatnia godzina”."
+  },
+  {
+    "id": "BIB-006",
+    "priority": "HIGH",
+    "example": "Wieża Babel; Uczony w Piśmie; Rwać włosy z głowy; Budować zamki na piasku",
+    "issue": "Talia 235 wciąż zawiera powtórzenia haseł (różnica wielkości liter lub równoważne postacie).",
+    "evidence": "Automatyczne porównanie 235 etykiet kart bez uwzględnienia wielkości liter.",
+    "fix": "Scalić kanonicznie, zachować odsyłacze do wszystkich źródeł; ponownie policzyć talie."
+  },
+  {
+    "id": "BIB-007",
+    "priority": "HIGH",
+    "example": "Dokument Google vs JSON",
+    "issue": "Istnieją dwa różne zbiory „wersji czystej”: obecna karta Google Docs i lokalny JSON/TXT. Część nazw i postaci haseł jest rozbieżna.",
+    "evidence": "Porównanie 347 pozycji; automatyczny raport różnic (mogą być fałszywe alarmy przy wyrażeniach z myślnikiem).",
+    "fix": "Wyznaczyć jeden kanoniczny plik źródłowy z wersją i datą, zsynchronizować dokument i aplikację."
+  },
+  {
+    "id": "BIB-008",
+    "priority": "HIGH",
+    "example": "Zestaw „Mitologizmy” w aplikacji biblijnej",
+    "issue": "HTML v5 ma DATASETS.myth=[]; dwie gry pozostają oddzielne, a nie w jednym działającym serwisie.",
+    "evidence": "Statyczna analiza osadzonej bazy danych w HTML v5.",
+    "fix": "Scalanie dopiero po zakończeniu audytu obu zasobów."
+  }
+]

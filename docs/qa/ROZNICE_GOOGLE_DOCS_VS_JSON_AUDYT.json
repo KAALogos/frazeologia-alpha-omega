@@ -1,0 +1,632 @@
+{
+  "note": "Automatyczny wykaz potencjalnych różnic etykiet; porównanie przed pierwszym myślnikiem jest niedoskonałe i wymaga oceny człowieka.",
+  "rows_docs": 347,
+  "rows_json": 347,
+  "possible_name_differences": [
+    {
+      "id": 27,
+      "google_doc_phrase_candidate": "taki, jak go Pan Bóg stworzył",
+      "json_phrase": "jak go Pan Bóg stworzył",
+      "source_nums": [
+        30
+      ]
+    },
+    {
+      "id": 30,
+      "google_doc_phrase_candidate": "Co cesarskie",
+      "json_phrase": "Co cesarskie cesarzowi, co boskie Bogu",
+      "source_nums": [
+        33
+      ]
+    },
+    {
+      "id": 42,
+      "google_doc_phrase_candidate": "być stać się dla kogoś ciężarem",
+      "json_phrase": "być kogoś ciężarem",
+      "source_nums": [
+        46
+      ]
+    },
+    {
+      "id": 43,
+      "google_doc_phrase_candidate": "wybrać, obrać lepszą cząstkę",
+      "json_phrase": "wybrać lepszą cząstkę",
+      "source_nums": [
+        47
+      ]
+    },
+    {
+      "id": 58,
+      "google_doc_phrase_candidate": "kto pod kim dołki kopie, ten sam w nie wpada- przysłowie znaczące:",
+      "json_phrase": "kto pod kim dołki kopie, ten sam w nie wpada",
+      "source_nums": [
+        63
+      ]
+    },
+    {
+      "id": 60,
+      "google_doc_phrase_candidate": "chodzić, iść prostą drogą",
+      "json_phrase": "chodzić prostą drogą",
+      "source_nums": [
+        65
+      ]
+    },
+    {
+      "id": 63,
+      "google_doc_phrase_candidate": "sprowadzić kogoś z prostej drogi",
+      "json_phrase": "sprowadzić na złą drogę",
+      "source_nums": [
+        68
+      ]
+    },
+    {
+      "id": 65,
+      "google_doc_phrase_candidate": "dobry duch czyjś, czegoś",
+      "json_phrase": "dobry duch",
+      "source_nums": [
+        70
+      ]
+    },
+    {
+      "id": 68,
+      "google_doc_phrase_candidate": "oddać ducha",
+      "json_phrase": "wyzionąć ducha",
+      "source_nums": [
+        73
+      ]
+    },
+    {
+      "id": 72,
+      "google_doc_phrase_candidate": "co mnie dziś, tobie jutro- przysłowie, wariant frazy: dziś mnie, jutro tobie",
+      "json_phrase": "co mnie dziś, tobie jutro",
+      "source_nums": [
+        78
+      ]
+    },
+    {
+      "id": 74,
+      "google_doc_phrase_candidate": "nieodrodna córka Ewy- żart,",
+      "json_phrase": "córka Ewy",
+      "source_nums": [
+        80
+      ]
+    },
+    {
+      "id": 75,
+      "google_doc_phrase_candidate": "ewangelia- przen.",
+      "json_phrase": "ewangelia",
+      "source_nums": [
+        81
+      ]
+    },
+    {
+      "id": 78,
+      "google_doc_phrase_candidate": "faryzeuszostwo",
+      "json_phrase": "faryzeizm",
+      "source_nums": [
+        84
+      ]
+    },
+    {
+      "id": 98,
+      "google_doc_phrase_candidate": "grzech pierworodny- przen.",
+      "json_phrase": "grzech pierworodny",
+      "source_nums": [
+        105
+      ]
+    },
+    {
+      "id": 99,
+      "google_doc_phrase_candidate": "grzech śmiertelny, ciężki",
+      "json_phrase": "grzech śmiertelny",
+      "source_nums": [
+        106
+      ]
+    },
+    {
+      "id": 104,
+      "google_doc_phrase_candidate": "dobre imię",
+      "json_phrase": "dobre imię-",
+      "source_nums": [
+        111
+      ]
+    },
+    {
+      "id": 106,
+      "google_doc_phrase_candidate": "jaskinia zła, grzechu- ośrodek zła, siedziba grzechu",
+      "json_phrase": "jaskinia zła, grzechu",
+      "source_nums": [
+        113
+      ]
+    },
+    {
+      "id": 108,
+      "google_doc_phrase_candidate": "mury jerychońskie- przeszkody dające się obalić",
+      "json_phrase": "mury jerychońskie",
+      "source_nums": [
+        115
+      ]
+    },
+    {
+      "id": 110,
+      "google_doc_phrase_candidate": "język jaszczurczy",
+      "json_phrase": "Jaszczurczy język",
+      "source_nums": [
+        117
+      ]
+    },
+    {
+      "id": 112,
+      "google_doc_phrase_candidate": "wziąć kogoś na ludzkie, na złe języki",
+      "json_phrase": "Dostać się na ludzkie języki",
+      "source_nums": [
+        119
+      ]
+    },
+    {
+      "id": 113,
+      "google_doc_phrase_candidate": "co do joty- do najdrobniejszych szczegółów",
+      "json_phrase": "co do joty",
+      "source_nums": [
+        120
+      ]
+    },
+    {
+      "id": 116,
+      "google_doc_phrase_candidate": "fałszywy jak Judasz- człowiek nieszczery",
+      "json_phrase": "fałszywy jak Judasz",
+      "source_nums": [
+        123
+      ]
+    },
+    {
+      "id": 118,
+      "google_doc_phrase_candidate": "mina Judasza- fałszywy wyraz twarzy",
+      "json_phrase": "mina Judasza",
+      "source_nums": [
+        125
+      ]
+    },
+    {
+      "id": 121,
+      "google_doc_phrase_candidate": "po judaszowsku- fałszywie",
+      "json_phrase": "po judaszowsku",
+      "source_nums": [
+        128
+      ]
+    },
+    {
+      "id": 130,
+      "google_doc_phrase_candidate": "kamień obrazy- powód obrazy",
+      "json_phrase": "kamień obrazy",
+      "source_nums": [
+        138
+      ]
+    },
+    {
+      "id": 134,
+      "google_doc_phrase_candidate": "mieć kark miękki, giętki- ulegać czyjejś przemocy",
+      "json_phrase": "Mieć miękki kark",
+      "source_nums": [
+        142
+      ]
+    },
+    {
+      "id": 135,
+      "google_doc_phrase_candidate": "mieć sztywny, twardy kark- być niezależnym",
+      "json_phrase": "Mieć twardy kark",
+      "source_nums": [
+        143
+      ]
+    },
+    {
+      "id": 136,
+      "google_doc_phrase_candidate": "pochylać, zginać, giąć kark- ulegać czyjejś przemocy",
+      "json_phrase": "Ugiąć kark",
+      "source_nums": [
+        144
+      ]
+    },
+    {
+      "id": 142,
+      "google_doc_phrase_candidate": "koniec świata- fraza oznaczająca zdziwienie, zgorszenie, przerażenie",
+      "json_phrase": "koniec świata",
+      "source_nums": [
+        150
+      ]
+    },
+    {
+      "id": 144,
+      "google_doc_phrase_candidate": "trzymać pod korcem",
+      "json_phrase": "Trzymać coś pod korcem",
+      "source_nums": [
+        152
+      ]
+    },
+    {
+      "id": 147,
+      "google_doc_phrase_candidate": "przelewać krew dla kogoś, dla czegoś- narazić dla kogoś życie",
+      "json_phrase": "Przelać krew",
+      "source_nums": [
+        156
+      ]
+    },
+    {
+      "id": 148,
+      "google_doc_phrase_candidate": "z krwi i kości- autentyczny, prawdziwy",
+      "json_phrase": "z krwi i kości",
+      "source_nums": [
+        157
+      ]
+    },
+    {
+      "id": 149,
+      "google_doc_phrase_candidate": "kropla drąży skałę-długie, wytrwałe działanie przynoszące w końcu rezultaty.",
+      "json_phrase": "kropla drąży skałę",
+      "source_nums": [
+        158
+      ]
+    },
+    {
+      "id": 150,
+      "google_doc_phrase_candidate": "krzyż- cierpienie",
+      "json_phrase": "krzyż",
+      "source_nums": [
+        159
+      ]
+    },
+    {
+      "id": 151,
+      "google_doc_phrase_candidate": "mieć z kimś krzyż pański- mieć z czyjegoś powodu kłopoty.",
+      "json_phrase": "mieć z kimś krzyż pański",
+      "source_nums": [
+        160
+      ]
+    },
+    {
+      "id": 181,
+      "google_doc_phrase_candidate": "tak, tak",
+      "json_phrase": "Tak, tak — nie, nie",
+      "source_nums": [
+        200,
+        336
+      ]
+    },
+    {
+      "id": 191,
+      "google_doc_phrase_candidate": "czego oko nie widzi, tego sercu nie żal",
+      "json_phrase": "Czego oczy nie widzą, tego sercu nie żal",
+      "source_nums": [
+        212
+      ]
+    },
+    {
+      "id": 198,
+      "google_doc_phrase_candidate": "wypłakać sobie oczy",
+      "json_phrase": "wypłakać wypłakiwać sobie oczy mocno",
+      "source_nums": [
+        220
+      ]
+    },
+    {
+      "id": 200,
+      "google_doc_phrase_candidate": "nie mieć oleju w głowie por.",
+      "json_phrase": "Nie mieć oleju w głowie",
+      "source_nums": [
+        222
+      ]
+    },
+    {
+      "id": 204,
+      "google_doc_phrase_candidate": "opoka książ. przen.",
+      "json_phrase": "opoka książ.",
+      "source_nums": [
+        226
+      ]
+    },
+    {
+      "id": 206,
+      "google_doc_phrase_candidate": "trudno przeciw ościeniowi wierzgać przestarz.",
+      "json_phrase": "Trudno przeciw ościeniowi wierzgać",
+      "source_nums": [
+        228
+      ]
+    },
+    {
+      "id": 208,
+      "google_doc_phrase_candidate": "palcem nie kiwnąć, nie ruszyć",
+      "json_phrase": "Palcem nie kiwnąć",
+      "source_nums": [
+        230
+      ]
+    },
+    {
+      "id": 210,
+      "google_doc_phrase_candidate": "pan i władca iron,",
+      "json_phrase": "Pan i władca",
+      "source_nums": [
+        232
+      ]
+    },
+    {
+      "id": 211,
+      "google_doc_phrase_candidate": "pan stworzenia iron.",
+      "json_phrase": "pan stworzenia",
+      "source_nums": [
+        233
+      ]
+    },
+    {
+      "id": 212,
+      "google_doc_phrase_candidate": "trudno dwom panom służyć przysłowie.",
+      "json_phrase": "Trudno dwom panom służyć",
+      "source_nums": [
+        234
+      ]
+    },
+    {
+      "id": 218,
+      "google_doc_phrase_candidate": "plagi egipskie przen.",
+      "json_phrase": "plagi egipskie",
+      "source_nums": [
+        242
+      ]
+    },
+    {
+      "id": 223,
+      "google_doc_phrase_candidate": "woła coś o pomstę do nieba",
+      "json_phrase": "wołać o pomstę do nieba",
+      "source_nums": [
+        247
+      ]
+    },
+    {
+      "id": 224,
+      "google_doc_phrase_candidate": "obrócić, zamienić coś w popiół",
+      "json_phrase": "Obrócić w proch",
+      "source_nums": [
+        248
+      ]
+    },
+    {
+      "id": 229,
+      "google_doc_phrase_candidate": "kto nie pracuje, ten nie je przysłowie",
+      "json_phrase": "Kto nie pracuje, ten nie je",
+      "source_nums": [
+        253
+      ]
+    },
+    {
+      "id": 233,
+      "google_doc_phrase_candidate": "zetrzeć, rozbić, obrócić kogoś, coś na proch",
+      "json_phrase": "zetrzeć coś na proch",
+      "source_nums": [
+        257
+      ]
+    },
+    {
+      "id": 236,
+      "google_doc_phrase_candidate": "przedpotopowy pot.",
+      "json_phrase": "przedpotopowy",
+      "source_nums": [
+        261
+      ]
+    },
+    {
+      "id": 245,
+      "google_doc_phrase_candidate": "niegodzien, niewart rozwiązać rzemyka u obuwia jego sentencja. przestarz.",
+      "json_phrase": "niegodzien, niewart rozwiązać rzemyka u obuwia jego sentencja.",
+      "source_nums": [
+        271
+      ]
+    },
+    {
+      "id": 249,
+      "google_doc_phrase_candidate": "każda rzecz ma swój czas",
+      "json_phrase": "Wszystko ma swój czas",
+      "source_nums": [
+        275
+      ]
+    },
+    {
+      "id": 251,
+      "google_doc_phrase_candidate": "z próżnego i Salomon nie naleje",
+      "json_phrase": "Z pustego i Salomon nie naleje",
+      "source_nums": [
+        277
+      ]
+    },
+    {
+      "id": 262,
+      "google_doc_phrase_candidate": "Lepszy sąsiad bliski niźli brat daleki",
+      "json_phrase": "lepszy sąsiad bliski, niż brat daleki",
+      "source_nums": [
+        289
+      ]
+    },
+    {
+      "id": 263,
+      "google_doc_phrase_candidate": "spać, zasnąć snem wiecznym",
+      "json_phrase": "Zasnąć snem wiecznym",
+      "source_nums": [
+        290
+      ]
+    },
+    {
+      "id": 271,
+      "google_doc_phrase_candidate": "lecieć, szybować na skrzydłach wiatru",
+      "json_phrase": "Lecieć na skrzydłach wiatru",
+      "source_nums": [
+        298
+      ]
+    },
+    {
+      "id": 275,
+      "google_doc_phrase_candidate": "wziąć pod swoje skrzydła",
+      "json_phrase": "Wziąć kogoś pod swoje skrzydła",
+      "source_nums": [
+        302
+      ]
+    },
+    {
+      "id": 281,
+      "google_doc_phrase_candidate": "(a) słowo stało się ciałem!",
+      "json_phrase": "A słowo stało się ciałem",
+      "source_nums": [
+        310
+      ]
+    },
+    {
+      "id": 289,
+      "google_doc_phrase_candidate": "(jedyni) sprawiedliwi w Sodomie",
+      "json_phrase": "Sprawiedliwi w Sodomie",
+      "source_nums": [
+        319
+      ]
+    },
+    {
+      "id": 293,
+      "google_doc_phrase_candidate": "od stóp aż do głów",
+      "json_phrase": "od stóp aż do głów całkowicie",
+      "source_nums": [
+        323
+      ]
+    },
+    {
+      "id": 297,
+      "google_doc_phrase_candidate": "iść",
+      "json_phrase": "iść, chodzić utartymi ścieżkami",
+      "source_nums": [
+        327
+      ]
+    },
+    {
+      "id": 312,
+      "google_doc_phrase_candidate": "przejść przez ucho igielne",
+      "json_phrase": "Przecisnąć się przez ucho igielne",
+      "source_nums": [
+        343
+      ]
+    },
+    {
+      "id": 315,
+      "google_doc_phrase_candidate": "chytry jak wąż -bardzo chytry, przebiegły",
+      "json_phrase": "chytry jak wąż",
+      "source_nums": [
+        346
+      ]
+    },
+    {
+      "id": 320,
+      "google_doc_phrase_candidate": "wiara góry przenosi",
+      "json_phrase": "Wet za wet",
+      "source_nums": [
+        351
+      ]
+    },
+    {
+      "id": 324,
+      "google_doc_phrase_candidate": "wiedzieć skąd wieje wiatr",
+      "json_phrase": "wiedzieć, skąd wieje wiatr",
+      "source_nums": [
+        355
+      ]
+    },
+    {
+      "id": 325,
+      "google_doc_phrase_candidate": "wierzyć w coś jak w ewangelię",
+      "json_phrase": "Wiedzieć, skąd wieje wiatr",
+      "source_nums": [
+        356
+      ]
+    },
+    {
+      "id": 327,
+      "google_doc_phrase_candidate": "rwać, drzeć włosy z głowy",
+      "json_phrase": "rwać włosy z głowy",
+      "source_nums": [
+        360
+      ]
+    },
+    {
+      "id": 328,
+      "google_doc_phrase_candidate": "włos komuś z głowy nie spadnie",
+      "json_phrase": "Rwać włosy z głowy",
+      "source_nums": [
+        361
+      ]
+    },
+    {
+      "id": 331,
+      "google_doc_phrase_candidate": "wybiła godzina",
+      "json_phrase": "Wybiła czyjaś ostatnia godzina",
+      "source_nums": [
+        364
+      ]
+    },
+    {
+      "id": 334,
+      "google_doc_phrase_candidate": "budować, stawiać zamki na lodzie",
+      "json_phrase": "budować zamki na piasku",
+      "source_nums": [
+        367
+      ]
+    },
+    {
+      "id": 336,
+      "google_doc_phrase_candidate": "zaprzeć się kogoś, czegoś, samego siebie",
+      "json_phrase": "Zamknąć na siedem spustów",
+      "source_nums": [
+        370
+      ]
+    },
+    {
+      "id": 338,
+      "google_doc_phrase_candidate": "odróżniać, ziarno od plewy",
+      "json_phrase": "Zgrzytać zębami",
+      "source_nums": [
+        373
+      ]
+    },
+    {
+      "id": 341,
+      "google_doc_phrase_candidate": "niech mnie ziemia pochłonie!",
+      "json_phrase": "niech mnie ziemia pochłonie",
+      "source_nums": [
+        376
+      ]
+    },
+    {
+      "id": 342,
+      "google_doc_phrase_candidate": "ziemia obiecana",
+      "json_phrase": "Niech mnie ziemia pochłonie!",
+      "source_nums": [
+        377
+      ]
+    },
+    {
+      "id": 345,
+      "google_doc_phrase_candidate": "Znaki na niebie i ziemi wskazują coś, zapowiadają coś",
+      "json_phrase": "Znaki na niebie i ziemi",
+      "source_nums": [
+        380
+      ]
+    },
+    {
+      "id": 346,
+      "google_doc_phrase_candidate": "zrównać coś z ziemią",
+      "json_phrase": "Zrównać z ziemią",
+      "source_nums": [
+        381
+      ]
+    },
+    {
+      "id": 347,
+      "google_doc_phrase_candidate": "Niedobra żona",
+      "json_phrase": "Dobra żona — męża korona",
+      "source_nums": [
+        382
+      ]
+    }
+  ]
+}
