@@ -76,3 +76,9 @@ Pełne losowanie Biblizmów 227/227 i Mitologizmów 202/202 bez powtórek numer�
 - Brak pełnej kolacji 381 pozycji ze skanem; poziomy trudności nadal robocze.
 - #263 „Raj na ziemi” łączy „jak w raju” i „raj na ziemi”: do decyzji, czy rozdzielić.
 - Mitologia: bez zmian (#196 nadal bez znaczenia).
+
+## Decyzja Adama: poziomy odzyskanych haseł (16.11.2026)
+Skrypt `tools/audit/poziomy_odzyskane_2026-11-16.py` (uruchamiać po skrypcie korekty).
+- Do talii: Ziemia obiecana (E8), Ważyć słowa (E8), Zamknąć się w wieży z kości słoniowej (LO P), Zaprzeć się kogoś (LO P; pełna postać w bazie), Rozpędzić kogoś na cztery wiatry (LO P), Bodaj cię święta ziemia nie nosiła! (PRO).
+- Poza grą: Wybiła godzina (myli się z „Wybiła czyjaś ostatnia godzina”), Dobry uczynek (nie obrazowy frazeologizm), Nie wszyscy mają jednakie talenty (archaiczne; w talii jest „talent”).
+- Talia: **233 karty**. Baza: gra 233, poza grą 86, do weryfikacji 28. Test pełnego losowania 233/233 bez powtórek: PASS.

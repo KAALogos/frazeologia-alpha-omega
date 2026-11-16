@@ -3998,12 +3998,13 @@
    ],
    "haslo": "Ważyć słowa",
    "znaczenie": "wypowiadać się z namysłem",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 2,
+   "status": "gra",
    "warianty": [
     "ważyć (dobierać) słowa ‘wypowiadać się z namysłem’"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "częste w użyciu"
   },
   {
    "id": 311,
@@ -4335,11 +4336,12 @@
    "haslo": "Nie wszyscy mają jednakie talenty",
    "znaczenie": "każdy ma inny talent od Boga",
    "poziom": null,
-   "status": "do weryfikacji",
+   "status": "poza grą",
    "warianty": [
     "nie wszyscy mają jednakie talenta - każdy ma inny talent od Boga"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "archaiczne przysłowie; w talii jest już „talent”"
   },
   {
    "id": 336,
@@ -4461,11 +4463,12 @@
    "haslo": "Dobry uczynek",
    "znaczenie": "czyn zgodny z zasadami moralnymi, godny naśladowania, szlachetny, sprawiedliwy",
    "poziom": null,
-   "status": "do weryfikacji",
+   "status": "poza grą",
    "warianty": [
     "dobry (miłosierny) uczynek - czyn zgodny z zasadami moralnymi, godny naśladowania, szlachetny, sprawiedliwy"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "zwykłe połączenie wyrazowe, nie obrazowy frazeologizm"
   },
   {
    "id": 345,
@@ -4586,12 +4589,13 @@
    ],
    "haslo": "Rozpędzić kogoś na cztery wiatry",
    "znaczenie": "rozpędzić, wypędzić, wygnać brutalnie, bezwzględnie,, na wszystkie strony, bezpowrotnie",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 3,
+   "status": "gra",
    "warianty": [
     "rozpędzić, wypędzić, wygnać itp. kogoś na cztery wiatry - rozpędzić, wypędzić, wygnać brutalnie, bezwzględnie,, na wszystkie strony, bezpowrotnie"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "poziom jak pozostałe hasła z „wiatrem”"
   },
   {
    "id": 354,
@@ -4614,12 +4618,13 @@
    ],
    "haslo": "Zamknąć się w wieży z kości słoniowej",
    "znaczenie": "odizolować się od życia lub otoczenia, w celu zajęcia się sprawami wznioślejszymi, np: twórczością artystyczną",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 3,
+   "status": "gra",
    "warianty": [
     "zamknąć się w wieży z kości słoniowej - odizolować się od życia lub otoczenia, w celu zajęcia się sprawami wznioślejszymi, np: twórczością artystyczną"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "język literacki"
   },
   {
    "id": 359,
@@ -4685,11 +4690,12 @@
    "haslo": "Wybiła godzina",
    "znaczenie": "nadszedł czas",
    "poziom": null,
-   "status": "do weryfikacji",
+   "status": "poza grą",
    "warianty": [
     "wybiła godzina - nadszedł czas"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "za bliskie „Wybiła czyjaś ostatnia godzina” — myli się w kalamburach (BIB-005)"
   },
   {
    "id": 364,
@@ -4756,12 +4762,14 @@
    ],
    "haslo": "Zaprzeć się kogoś, czegoś, samego siebie",
    "znaczenie": "nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 3,
+   "status": "gra",
    "warianty": [
     "zaprzeć się kogoś, czegoś, samego siebie - nie przyznać się do związków z kimś, do czegoś; postąpić niezgodnie z własnymi przekonaniami"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "znane z historii Piotra; na karcie jedna naturalna postać",
+   "karta": "Zaprzeć się kogoś"
   },
   {
    "id": 370,
@@ -4826,12 +4834,13 @@
    ],
    "haslo": "Bodaj cię święta ziemia nie nosiła!",
    "znaczenie": "rodzaj przekleństwa",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 5,
+   "status": "gra",
    "warianty": [
     "bodaj (żeby) cię święta ziemia nie nosiła! (niewart, żę go swięta ziemia nosi) - rodzaj przekleństwa"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "archaiczne przekleństwo"
   },
   {
    "id": 375,
@@ -4854,12 +4863,13 @@
    ],
    "haslo": "Ziemia obiecana",
    "znaczenie": "miejsce najbardziej pożądane, wydające się rajem; kraj szczęśliwości i bogactwa",
-   "poziom": null,
-   "status": "do weryfikacji",
+   "poziom": 2,
+   "status": "gra",
    "warianty": [
     "ziemia obiecana - miejsce najbardziej pożądane, wydające się rajem; kraj szczęśliwości i bogactwa"
    ],
-   "liczba_wariantow": 1
+   "liczba_wariantow": 1,
+   "powod_decyzji": "powszechnie znane, łatwe do pokazania"
   },
   {
    "id": 377,

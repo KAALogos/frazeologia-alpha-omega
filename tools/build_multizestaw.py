@@ -11,7 +11,7 @@ myt = (root/'apps/kalambury_mitologia_v3.html').read_text(encoding='utf-8')
 myth = json.loads(re.search(r'const CARDS = (\[.*?\]);', myt).group(1))
 base = json.loads((root/'data/biblia_baza_kanoniczna.json').read_text(encoding='utf-8'))
 records = base['records']
-bible = [{'id': r['id'], 'haslo': r['haslo'], 'karta': r['haslo'], 'znaczenie': r['znaczenie'], 'poziom': r['poziom'],
+bible = [{'id': r['id'], 'haslo': r['haslo'], 'karta': r.get('karta', r['haslo']), 'znaczenie': r['znaczenie'], 'poziom': r['poziom'],
           'raw': r['warianty'][0], 'numery_zrodlowe': r['numery_uczniowskie'],
           'uwaga': 'Kanoniczny zapis dydaktyczny; źródło: Jan Godyń.'}
          for r in sorted(records, key=lambda r: r['id']) if r['status'] == 'gra']

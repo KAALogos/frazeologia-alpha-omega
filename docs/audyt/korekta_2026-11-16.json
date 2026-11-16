@@ -475,5 +475,131 @@
    "do weryfikacji"
   ],
   "powod": "przesunięcie tytułu o jedną pozycję; duplikat #375 usunięty z talii"
+ },
+ {
+  "id": 382,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   2,
+   "gra",
+   "Ważyć słowa"
+  ],
+  "powod": "częste w użyciu"
+ },
+ {
+  "id": 383,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   null,
+   "poza grą",
+   "Nie wszyscy mają jednakie talenty"
+  ],
+  "powod": "archaiczne przysłowie; w talii jest już „talent”"
+ },
+ {
+  "id": 344,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   null,
+   "poza grą",
+   "Dobry uczynek"
+  ],
+  "powod": "zwykłe połączenie wyrazowe, nie obrazowy frazeologizm"
+ },
+ {
+  "id": 353,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   3,
+   "gra",
+   "Rozpędzić kogoś na cztery wiatry"
+  ],
+  "powod": "poziom jak pozostałe hasła z „wiatrem”"
+ },
+ {
+  "id": 384,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   3,
+   "gra",
+   "Zamknąć się w wieży z kości słoniowej"
+  ],
+  "powod": "język literacki"
+ },
+ {
+  "id": 363,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   null,
+   "poza grą",
+   "Wybiła godzina"
+  ],
+  "powod": "za bliskie „Wybiła czyjaś ostatnia godzina” — myli się w kalamburach (BIB-005)"
+ },
+ {
+  "id": 385,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   3,
+   "gra",
+   "Zaprzeć się kogoś"
+  ],
+  "powod": "znane z historii Piotra; na karcie jedna naturalna postać"
+ },
+ {
+  "id": 386,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   5,
+   "gra",
+   "Bodaj cię święta ziemia nie nosiła!"
+  ],
+  "powod": "archaiczne przekleństwo"
+ },
+ {
+  "id": 376,
+  "akcja": "decyzja Adama: poziom/status",
+  "przed": [
+   null,
+   "do weryfikacji"
+  ],
+  "po": [
+   2,
+   "gra",
+   "Ziemia obiecana"
+  ],
+  "powod": "powszechnie znane, łatwe do pokazania"
  }
 ]
