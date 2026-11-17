@@ -84,3 +84,12 @@ body[data-deck] :is(button,a,summary):focus-visible{outline:2px solid var(--acce
  body[data-deck] .level-tile{flex:0 0 auto;width:auto;min-height:38px;padding:5px 8px 5px 12px;gap:8px;border-radius:99px;scroll-snap-align:start}
  body[data-deck="myth"] .shell{padding-top:34px}
 }
+
+/* Pole "Skąd to?" na rewersie */
+.back .origin{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.18);max-width:640px}
+.back .origin .label{margin-bottom:4px}
+.back .origin p{margin:0;font-size:14px;line-height:1.45;opacity:.92}
+.back .origin-ref{font-weight:750;letter-spacing:.01em;white-space:nowrap}
+body[data-deck="bible"] .back .origin-ref{color:#e6c77e}
+body[data-deck="myth"] .back .origin-ref{color:#e09a74}
+@media (max-width:620px){.back .origin{margin-top:10px;padding-top:9px}.back .origin p{font-size:13px}}

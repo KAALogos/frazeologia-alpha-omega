@@ -19,6 +19,14 @@ names = [c['karta'].lower() for c in bible]
 assert len(names) == len(set(names)), 'duplikaty hasel w talii biblijnej'
 assert all(c['poziom'] in (1, 2, 3, 4, 5) for c in bible)
 
+# Pole "Skad to?" (data/skad.json): [odnosnik, nota] dla id karty w talii
+skad = json.loads((root/'data/skad.json').read_text(encoding='utf-8'))
+for talia, karty in (('biblia', bible), ('mitologia', myth)):
+    for c in karty:
+        w = skad[talia].get(str(c['id']))
+        if w:
+            c['skad'] = {'ref': w[0], 'nota': w[1]}
+
 m = re.search(r'const DATASETS = (\{.*?\});\n', bib)
 ds = json.loads(m.group(1))
 assert ds['myth'] == [], 'v5 ma juz dane myth'
@@ -46,5 +54,10 @@ sub('<span class="deck-symbol">αω</span>', '<span class="deck-symbol">ΑΩ</sp
 css = (root/'tools/motywy_talii.css').read_text(encoding='utf-8')
 out = out.replace('</style>', css + '\n</style>', 1)
 sub('function render(){', 'function render(){document.body.dataset.deck=activeDeck;')
+# rewers: blok "Skad to?" pod znaczeniem
+sub('<p class="def" id="definition"></p></div>',
+    '<p class="def" id="definition"></p></div>\n     <div class="origin" id="origin" hidden><div class="label">Skąd to?</div>'
+    '<p><span class="origin-ref" id="originref"></span> <span class="origin-note" id="originnote"></span></p></div>')
+sub("ui.def.className='def'", "(()=>{const o=document.getElementById('origin'),s=item.skad;o.hidden=!s;if(s){document.getElementById('originref').textContent=s.ref;document.getElementById('originnote').textContent=s.nota?'— '+s.nota:''}})();ui.def.className='def'")
 (root/'index.html').write_text(out, encoding='utf-8')
 print('index.html:', len(bible), 'biblizmow,', len(myth), 'mitologizmow')
