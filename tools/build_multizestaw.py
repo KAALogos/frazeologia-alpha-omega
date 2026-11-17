@@ -1,10 +1,13 @@
 """Buduje index.html: interfejs Biblia v5 + talia biblijna z kanonicznej bazy JSON
 + talia mitologiczna z v3 (dane bez zmian).
 Uruchomienie: python tools/build_multizestaw.py  (z katalogu repo)
+Motyw domyślny: „księga” (tools/motyw_ksiega.css + fonts/eb-garamond).
+Poprzedni ciemny motyw: python tools/build_multizestaw.py --motyw talie --podglad  -> preview.html
 
 Źródło prawdy dla biblizmów: data/biblia_baza_kanoniczna.json (status "gra" = karta w talii).
 Dane biblijne osadzone w apps/kalambury_biblia_v5.html są ignorowane."""
-import json, re, pathlib
+import json, re, pathlib, sys
+MOTYW = sys.argv[sys.argv.index('--motyw') + 1] if '--motyw' in sys.argv else 'ksiega'
 root = pathlib.Path(__file__).resolve().parent.parent
 bib = (root/'apps/kalambury_biblia_v5.html').read_text(encoding='utf-8')
 myt = (root/'apps/kalambury_mitologia_v3.html').read_text(encoding='utf-8')
@@ -51,7 +54,19 @@ sub('<title>Kalambury αω — bibliczne / wersja kanoniczna', '<title>Kalambury
 sub('<span>α</span><span>ω</span>', '<span>Α</span><span>Ω</span>')
 sub('<span class="deck-symbol">αω</span>', '<span class="deck-symbol">ΑΩ</span>')
 # motywy talii (osobne tlo i kolory dla Biblii i mitologii)
-css = (root/'tools/motywy_talii.css').read_text(encoding='utf-8')
+if MOTYW == 'ksiega':
+    # EB Garamond (SIL OFL 1.1, fonts/eb-garamond/OFL.txt), podzbiory jak w @fontsource
+    R = {'latin': 'U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD',
+         'latin-ext': 'U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF',
+         'greek': 'U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF'}
+    faces = []
+    for f in sorted((root/'fonts/eb-garamond').glob('*.woff2')):
+        m = re.match(r'eb-garamond-(latin-ext|latin|greek)-(\d+)-(normal|italic)\.woff2', f.name)
+        faces.append(f"@font-face{{font-family:'EB Garamond';font-style:{m[3]};font-weight:{m[2]};font-display:swap;"
+                     f"src:url(fonts/eb-garamond/{f.name}) format('woff2');unicode-range:{R[m[1]]}}}")
+    css = '\n'.join(faces) + '\n' + (root/'tools/motyw_ksiega.css').read_text(encoding='utf-8')
+else:
+    css = (root/'tools/motywy_talii.css').read_text(encoding='utf-8')
 out = out.replace('</style>', css + '\n</style>', 1)
 sub('function render(){', 'function render(){document.body.dataset.deck=activeDeck;')
 # rewers: blok "Skad to?" pod znaczeniem
@@ -59,5 +74,7 @@ sub('<p class="def" id="definition"></p></div>',
     '<p class="def" id="definition"></p></div>\n     <div class="origin" id="origin" hidden><div class="label">Skąd to?</div>'
     '<p><span class="origin-ref" id="originref"></span> <span class="origin-note" id="originnote"></span></p></div>')
 sub("ui.def.className='def'", "(()=>{const o=document.getElementById('origin'),s=item.skad;o.hidden=!s;if(s){document.getElementById('originref').textContent=s.ref;document.getElementById('originnote').textContent=s.nota?'— '+s.nota:''}})();ui.def.className='def'")
-(root/'index.html').write_text(out, encoding='utf-8')
+cel = 'preview.html' if '--podglad' in sys.argv else 'index.html'
+(root/cel).write_text(out, encoding='utf-8')
+print('zapisano', cel)
 print('index.html:', len(bible), 'biblizmow,', len(myth), 'mitologizmow')

@@ -1,0 +1,202 @@
+/* Motyw „księga” (podgląd 18.11.2026) — wstrzykiwany przez tools/build_multizestaw.py --motyw ksiega.
+   Zasady: strona książki, nie panel aplikacji. Jeden krój z tradycją (EB Garamond, OFL, pliki w fonts/),
+   papier + atrament + jeden kolor wyróżnień. Bez złota, poświat, gradientów, pigułek i ikon.
+   Biblia: rubrykacja — czerwień rubrykatorska jak w rękopisach i księgach liturgicznych.
+   Mitologia: epigrafika — wersaliki inskrypcji, kamień, jedna terakota. */
+
+body[data-deck]{
+ --serif:"EB Garamond","Garamond","Palatino Linotype",Georgia,serif;
+ font-family:var(--serif);
+ font-size:18px;
+ font-variant-numeric:oldstyle-nums proportional-nums;
+ -webkit-font-smoothing:antialiased;
+ color:var(--ink);
+ background:var(--desk);
+ transition:none;
+}
+html:has(body[data-deck="bible"]){background:#e7e0d1}
+html:has(body[data-deck="myth"]){background:#e3e1dc}
+
+body[data-deck="bible"]{
+ --desk:#e7e0d1;            /* płótno pod kartą */
+ --paper:#fffdf8;           /* karta */
+ --ink:#1f1a17;
+ --muted:#6b6158;
+ --rubric:#a3241a;          /* czerwień rubrykatorska */
+ --rule:rgba(31,26,23,.16);
+ --navy:var(--ink);--accent:var(--rubric);--accent-soft:transparent;--line:var(--rule);
+}
+body[data-deck="myth"]{
+ --desk:#e3e1dc;            /* kamień */
+ --paper:#fcfbf8;
+ --ink:#191817;
+ --muted:#66625d;
+ --rubric:#9a4522;          /* terakota */
+ --rule:rgba(25,24,23,.16);
+ --navy:var(--ink);--accent:var(--rubric);--accent-soft:transparent;--line:var(--rule);
+}
+
+/* wspólne drobiazgi typograficzne */
+body[data-deck] :is(.brand,.phase,.progresslabels,.face-header,.card-bottom,.eyebrow,.label,.level-selector h2,.tile-name,.action,.deck-tab,.footer,.context-title){
+ font-family:var(--serif)}
+body[data-deck] .sc{font-variant:small-caps}
+body[data-deck] button:focus-visible,body[data-deck] a:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+
+/* ---------- układ strony ---------- */
+body[data-deck] .shell{width:min(100%,1040px);padding:26px 40px 28px}
+
+/* nagłówek: cienka linia, kapitaliki */
+body[data-deck] .topline{padding-bottom:12px;border-bottom:1px solid var(--rule)}
+body[data-deck] .brand{font-size:15px;font-weight:500;letter-spacing:.06em;text-transform:lowercase;font-variant:small-caps;color:var(--ink);gap:12px}
+body[data-deck] .brandmark{width:auto;height:auto;background:none;border-radius:0;box-shadow:none;color:var(--rubric);font-family:var(--serif);font-size:22px;letter-spacing:.02em}
+body[data-deck] .phase{font-size:15px;font-weight:400;font-style:italic;color:var(--muted)}
+body[data-deck] .phase:before{display:none}
+
+/* tytuł */
+body[data-deck] .intro{margin-top:30px}
+body[data-deck] h1{font-family:var(--serif);font-weight:400;color:var(--ink);letter-spacing:0;line-height:1.05;font-size:clamp(38px,5vw,60px)}
+body[data-deck="bible"] h1::first-letter{color:var(--rubric)}
+body[data-deck="myth"] h1{text-transform:uppercase;letter-spacing:.16em;font-weight:500;font-size:clamp(28px,3.6vw,44px)}
+body[data-deck] .intro p{font-style:italic;color:var(--muted);font-size:17px;margin-top:10px}
+
+/* talie jako zakładki tekstowe */
+body[data-deck] .decks{margin-top:16px;gap:28px;width:auto}
+body[data-deck] .deck-tab{flex:0 0 auto;min-height:0;padding:4px 0;border:0;border-radius:0;background:none;box-shadow:none;
+ color:var(--muted);font-size:19px;font-weight:400;border-bottom:1px solid transparent}
+body[data-deck] .deck-tab:hover{color:var(--ink)}
+body[data-deck] .deck-tab .deck-symbol{font-family:var(--serif);font-size:19px;color:inherit}
+body[data-deck] .deck-tab small{background:none;padding:0;font-size:15px;color:var(--muted);font-style:italic}
+body[data-deck] .deck-tab[aria-pressed="true"]{background:none;color:var(--ink);border-bottom-color:var(--rubric);box-shadow:none}
+body[data-deck] .deck-tab[aria-pressed="true"] .deck-symbol{color:var(--rubric)}
+body[data-deck] .deck-tab[aria-pressed="true"] small{background:none;color:var(--muted)}
+
+/* postęp: włosowa linia */
+body[data-deck] .progresszone{width:min(100%,960px);margin:26px auto 14px}
+body[data-deck] .progresslabels{font-size:15px;font-weight:400;font-style:italic;color:var(--muted)}
+body[data-deck] .progresslabels strong{font-style:normal;font-weight:500;color:var(--ink);font-size:16px}
+body[data-deck] .meter{height:1px;background:var(--rule);overflow:visible}
+body[data-deck] .meter>div{height:2px;margin-top:-.5px;background:var(--rubric)}
+
+/* ---------- obszar gry: karta + spis poziomów ---------- */
+body[data-deck] .play-area{width:min(100%,960px);grid-template-columns:minmax(0,1fr) 200px;gap:40px}
+body[data-deck] .stage{height:clamp(340px,47vh,460px)}
+
+/* KARTA = arkusz papieru leżący na płótnie */
+body[data-deck] .card:disabled{opacity:1;cursor:default}
+body[data-deck] .card{border-radius:3px}
+body[data-deck] .face{border-radius:3px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:30px 40px;
+ box-shadow:0 1px 1px rgba(40,30,20,.08),0 2px 6px rgba(40,30,20,.08),0 24px 48px -12px rgba(40,30,20,.28)}
+body[data-deck] .face::before,body[data-deck] .face::after{content:none}
+body[data-deck] .face-header{font-size:15px;font-weight:400;letter-spacing:.06em;text-transform:lowercase;font-variant:small-caps;color:var(--muted)}
+body[data-deck] .front .number,body[data-deck] #backno{font-variant:normal;letter-spacing:0;font-style:italic;color:var(--muted);text-transform:none}
+body[data-deck] .level-pill{background:none;border:0;padding:0;font-size:15px;font-weight:400;letter-spacing:.06em;color:var(--rubric);text-transform:lowercase;font-variant:small-caps}
+body[data-deck] .topright{gap:12px}
+body[data-deck] .eyebrow{font-size:16px;font-weight:400;letter-spacing:.08em;text-transform:lowercase;font-variant:small-caps;color:var(--rubric);margin-bottom:6px}
+body[data-deck] .mode-pill{background:none;border:0;padding:0;margin:0 0 18px;border-radius:0;font-size:17px;font-weight:400;letter-spacing:0;text-transform:lowercase;font-style:italic;color:var(--muted)}
+body[data-deck] .mode-pill .mode-pict{display:none}
+body[data-deck] .phrase{font-family:var(--serif);font-weight:500;letter-spacing:-.005em;line-height:1.12;color:var(--ink);font-size:clamp(32px,4.4vw,54px);max-width:620px}
+body[data-deck] .phrase.long{font-size:clamp(26px,3.4vw,40px)}
+body[data-deck] .phrase.xlong{font-size:clamp(21px,2.6vw,30px)}
+body[data-deck] .phrase.xxlong{font-size:clamp(18px,2.1vw,24px)}
+body[data-deck] .empty-sub{font-style:italic;color:var(--muted);font-size:17px}
+body[data-deck] .card-bottom{font-size:15px;font-style:italic;color:var(--muted)}
+body[data-deck] .card-bottom .turn span{width:auto;height:auto;background:none;color:var(--rubric);font-style:normal;font-size:16px}
+
+/* rewers: ten sam papier, inny porządek — znaczenie jak tekst główny, pochodzenie jak przypis */
+body[data-deck] .back{background:var(--paper);color:var(--ink);border-color:var(--rule)}
+body[data-deck] .back .face-content{justify-content:center;gap:0;padding:6px 0}
+body[data-deck] .back .label{font-size:16px;font-weight:400;letter-spacing:.08em;text-transform:lowercase;font-variant:small-caps;color:var(--rubric);margin:0 0 8px}
+body[data-deck] .back .def{font-family:var(--serif);font-size:clamp(21px,2.5vw,28px);line-height:1.35;font-weight:400;color:var(--ink);max-height:none}
+body[data-deck] .back .def.long{font-size:clamp(18px,2vw,22px)}
+body[data-deck] .back .def.xlong{font-size:clamp(16px,1.7vw,19px)}
+body[data-deck] .back .card-bottom,body[data-deck] .back .face-header{color:var(--muted)}
+body[data-deck] .back .turn span{background:none;color:var(--rubric)}
+
+/* „Skąd to?” jako przypis */
+body[data-deck] .back .origin{margin-top:26px;padding-top:12px;border-top:0;position:relative;max-width:560px}
+body[data-deck] .back .origin::before{content:"";position:absolute;top:0;left:0;width:64px;border-top:1px solid var(--rule)}
+body[data-deck] .back .origin .label{display:inline;margin:0 .4em 0 0;font-size:15px}
+body[data-deck="bible"] .back .origin .label::before{content:"¶ "}
+body[data-deck] .back .origin p{display:inline;font-size:16px;line-height:1.45;color:var(--muted)}
+body[data-deck] .back .origin-ref{color:var(--ink);font-weight:500;font-style:normal}
+body[data-deck] .back .origin-note{font-style:italic}
+
+/* spis poziomów jak spis treści: nazwa, kropki, liczba */
+body[data-deck] .level-selector{background:none;border:0;border-left:1px solid var(--rule);border-radius:0;box-shadow:none;padding:4px 0 4px 24px;gap:6px;backdrop-filter:none}
+body[data-deck] .level-selector h2{font-size:16px;font-weight:400;letter-spacing:.08em;text-transform:lowercase;font-variant:small-caps;color:var(--rubric);margin-bottom:2px}
+body[data-deck] .level-selector .level-instruction{font-style:italic;font-size:15px;color:var(--muted);margin-bottom:8px}
+body[data-deck] .level-tiles{gap:2px}
+body[data-deck] .level-tile{min-height:0;padding:6px 0;border:0;border-radius:0;background:none;box-shadow:none;color:var(--ink);gap:6px;align-items:baseline}
+body[data-deck] .level-tile .tile-name{font-size:17px;font-weight:400}
+body[data-deck] .level-tile::after{content:"";order:1;flex:1;border-bottom:1px dotted rgba(31,26,23,.35);transform:translateY(-4px)}
+body[data-deck] .level-tile .tile-remaining{order:2;background:none;padding:0;min-width:0;font-size:16px;font-weight:400;color:var(--muted);border-radius:0}
+body[data-deck] .level-tile:hover:not(:disabled){background:none;color:var(--rubric)}
+body[data-deck] .level-tile[aria-pressed="true"]{background:none;color:var(--rubric);box-shadow:none}
+body[data-deck] .level-tile[aria-pressed="true"] .tile-name{font-weight:600}
+body[data-deck] .level-tile[aria-pressed="true"] .tile-remaining{background:none;color:var(--rubric)}
+body[data-deck] .level-tile:disabled{opacity:.45}
+body[data-deck] .level-hint{font-style:italic;font-size:14px;color:var(--muted);margin-top:8px}
+
+/* przyciski: jeden pełny (atrament), reszta jako odsyłacze tekstowe */
+body[data-deck] .controls{margin-top:26px;gap:8px 26px}
+body[data-deck] .action svg{display:none}
+body[data-deck] .action{min-height:0;padding:6px 0;border:0;border-radius:0;background:none;box-shadow:none;color:var(--ink);font-size:18px;font-weight:400;
+ text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:5px;text-decoration-thickness:1px}
+body[data-deck] .action:hover:not(:disabled){background:none;box-shadow:none;text-decoration-color:var(--rubric);color:var(--rubric)}
+body[data-deck] .action.primary{min-width:0;padding:12px 26px;background:var(--ink);color:var(--paper);border-radius:2px;text-decoration:none;
+ letter-spacing:.06em;text-transform:lowercase;font-variant:small-caps;font-size:19px}
+body[data-deck] .action.primary:hover:not(:disabled){background:var(--rubric);color:var(--paper)}
+body[data-deck] .action.primary:disabled{opacity:.4}
+body[data-deck] .action.panel .count{font-size:16px;font-weight:400;font-style:italic;color:var(--muted)}
+body[data-deck] .action.quiet{font-style:italic;color:var(--muted);font-size:16px}
+body[data-deck] .action:disabled{opacity:.4}
+
+/* konteksty i stopka */
+body[data-deck] .context-card{background:var(--paper);border:1px solid var(--rule);border-radius:3px}
+body[data-deck] .context-card blockquote{font-family:var(--serif);color:var(--ink);font-size:19px}
+body[data-deck] .context-title{font-variant:small-caps;text-transform:lowercase;letter-spacing:.08em;color:var(--rubric)}
+body[data-deck] .footer{width:min(100%,960px);margin-top:auto;padding-top:22px;border-top:1px solid var(--rule);font-size:15px;font-style:italic;color:var(--muted)}
+
+/* okna dialogowe w tym samym kroju */
+body[data-deck] dialog{font-family:var(--serif);border-radius:3px;background:var(--paper)}
+body[data-deck] dialog :is(input,select){font-family:var(--serif);font-size:17px;border-radius:2px;border:0;border-bottom:1px solid var(--rule);background:transparent;padding:8px 2px}
+body[data-deck] dialog :is(input,select):focus{outline:none;border-bottom-color:var(--rubric)}
+body[data-deck] .closebtn{border:0;background:none;border-radius:0;font-size:26px;color:var(--muted)}
+body[data-deck] .closebtn:hover{color:var(--rubric)}
+body[data-deck] .record{border:0;border-bottom:1px solid var(--rule);border-radius:0;margin:0;background:none}
+body[data-deck] .record summary{font-size:17px}
+body[data-deck] .record summary:hover{background:rgba(0,0,0,.025)}
+body[data-deck] .record-title{font-weight:500}
+body[data-deck] .record-n{font-style:italic;font-size:15px}
+body[data-deck] .record-right :is(.tier,.game-mode){background:none;border:0;padding:0;font-size:15px;font-style:italic;color:var(--muted)}
+body[data-deck] .record-right .tier:first-child{font-style:normal;letter-spacing:.06em;text-transform:lowercase;font-variant:small-caps;color:var(--rubric)}
+body[data-deck] .record .details{font-size:16px;border-top:0}
+body[data-deck] .record .details .small-title{font-size:14px;font-weight:400;letter-spacing:.08em;text-transform:lowercase;font-variant:small-caps;color:var(--rubric)}
+
+/* ---------- telefon ---------- */
+@media (max-width:690px){
+ body[data-deck] .shell{padding:18px 18px 22px}
+ body[data-deck] .brand > span:last-child{display:none}
+ body[data-deck] .intro{margin-top:18px}
+ body[data-deck] .intro p{display:none}
+ body[data-deck] h1{font-size:38px}
+ body[data-deck="myth"] h1{font-size:25px;letter-spacing:.12em}
+ body[data-deck] .decks{gap:22px;margin-top:12px}
+ body[data-deck] .deck-tab{font-size:18px}
+ body[data-deck] .progresszone{margin:18px auto 10px}
+ body[data-deck] .play-area{gap:14px}
+ body[data-deck] .level-selector{border-left:0;padding:0;gap:0}
+ body[data-deck] .level-selector h2,body[data-deck] .level-selector .level-instruction,body[data-deck] .level-hint{display:none}
+ body[data-deck] .level-tiles{display:flex;flex-direction:row;gap:18px;overflow-x:auto;scrollbar-width:none;padding:2px 0 6px;border-bottom:1px solid var(--rule)}
+ body[data-deck] .level-tiles::-webkit-scrollbar{display:none}
+ body[data-deck] .level-tile{flex:0 0 auto;width:auto;padding:4px 0;gap:5px}
+ body[data-deck] .level-tile::after{display:none}
+ body[data-deck] .level-tile .tile-remaining{font-size:14px;font-style:italic}
+ body[data-deck] .level-tile[aria-pressed="true"]{border-bottom:1px solid var(--rubric)}
+ body[data-deck] .face{padding:22px 22px}
+ body[data-deck] .phrase{font-size:34px}
+ body[data-deck] .controls{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 20px}
+ body[data-deck] .action.primary{width:100%;order:-1;margin-bottom:6px}
+ body[data-deck] .action{font-size:17px}
+ body[data-deck] .back .origin{margin-top:18px}
+}
