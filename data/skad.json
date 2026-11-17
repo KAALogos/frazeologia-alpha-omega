@@ -1,220 +1,1652 @@
 {
- "opis": "Pole „Skąd to?” na rewersie karty: miejsce w Biblii (skróty wg Biblii Tysiąclecia) i krótka nota. Klucz = id karty w talii. Status „robocze” = opracowanie Claude 2026-11-17, do weryfikacji przez Adama; karty bez wpisu nie pokazują pola.",
+ "opis": "Pole „Skąd to?” na rewersie karty: miejsce w Biblii (skróty wg Biblii Tysiąclecia) albo mit i tekst antyczny i krótka nota. Klucz = id karty w talii. Status „robocze” = opracowanie Claude 2026-11-17, do weryfikacji przez Adama; karty bez wpisu nie pokazują pola.",
  "status": "robocze",
  "biblia": {
-  "1": ["Łk 16, 22", "żartobliwe przekształcenie „łona Abrahama” z przypowieści o bogaczu i Łazarzu"],
-  "2": ["Łk 16, 22", "w przypowieści ubogi Łazarz po śmierci zostaje zaniesiony na łono Abrahama"],
-  "4": ["Rdz 2–3", "Adam i Ewa — pierwsi ludzie"],
-  "5": ["Rdz 2, 25", "Adam i Ewa byli nadzy i nie odczuwali wstydu"],
-  "6": ["Rdz 2–3", "Adam i Ewa — pierwsi ludzie, początek dziejów"],
-  "7": ["Rdz 2, 21–22", "Bóg stworzył kobietę z żebra Adama"],
-  "8": ["Ap 1, 8; 22, 13", "„Jam jest Alfa i Omega” — pierwsza i ostatnia litera alfabetu greckiego"],
-  "10": ["Ps 91, 11; Mt 18, 10", "aniołowie, którym Bóg powierza strzeżenie człowieka"],
-  "11": ["J 18, 13–24", "pojmany Jezus prowadzony od arcykapłana Annasza do Kajfasza"],
-  "14": ["Apokalipsa św. Jana", "ostatnia księga Biblii — wizje końca świata"],
-  "15": ["Ap 6, 1–8", "czterej jeźdźcy wyjeżdżający po zdjęciu pieczęci"],
-  "18": ["Rdz 11, 1–9", "budowa wieży i pomieszanie języków"],
-  "19": ["Iz 53, 7; Jr 11, 19", "baranek prowadzony na rzeź, który nie otwiera ust"],
-  "20": ["Rdz 35, 18; 42–44", "Beniamin, najmłodszy i ukochany syn Jakuba"],
-  "23": ["Ewangelie", "Ewangelia jako Dobra Nowina, której się nie podważa"],
-  "24": ["Łk 15, 4–7; Mt 18, 12–14", "przypowieść o zagubionej owcy"],
-  "26": ["Łk 15, 4–7", "przypowieść o zagubionej owcy"],
-  "28": ["Hi 1, 21", "słowa Hioba po utracie dzieci i majątku"],
-  "30": ["Hi 1, 21", "„Nagi wyszedłem z łona matki i nagi tam wrócę”"],
-  "32": ["Mt 12, 30; Łk 11, 23", "słowa Jezusa"],
-  "33": ["Mt 22, 21; Mk 12, 17; Łk 20, 25", "odpowiedź Jezusa na pytanie o podatek dla cesarza"],
-  "36": ["Mt 6, 11", "prośba z Modlitwy Pańskiej"],
-  "37": ["Pwt 8, 3; Mt 4, 4", "odpowiedź Jezusa kuszonemu na pustyni"],
-  "38": ["Łk 3, 23", "według tradycji Jezus zmarł w wieku 33 lat"],
-  "40": ["Mt 11, 7; Łk 7, 24", "„trzcina kołysana wiatrem” w mowie Jezusa o Janie Chrzcicielu"],
-  "41": ["J 1, 14", "prolog Ewangelii Janowej"],
-  "42": ["Wj 32", "Izraelici oddają cześć złotemu cielcowi pod Synajem"],
-  "44": ["Wj 32, 1–6", "posąg ulany ze złota, gdy Mojżesz był na górze"],
-  "45": ["Wj 10, 21–23", "dziewiąta plaga: trzydniowa ciemność nad Egiptem"],
-  "47": ["Łk 10, 42", "Maria wybrała najlepszą cząstkę — słuchanie Jezusa"],
-  "48": ["Mt 8, 26; 14, 31", "słowa Jezusa do bojaźliwych uczniów i do Piotra"],
-  "49": ["Ap 3, 15–16", "list do Laodycei: „jesteś letni”"],
-  "50": ["Rdz 2, 18", "słowa Boga przed stworzeniem kobiety"],
-  "51": ["Iz 48, 4", "„twoje czoło ze spiżu” — o upartym ludzie"],
-  "53": ["Tb 4, 15", "rada Tobiasza dla syna"],
-  "56": ["1 Sm 17", "pasterz Dawid pokonuje olbrzyma Goliata"],
-  "57": ["Wj 20, 1–17; Pwt 5", "dziesięć przykazań"],
-  "60": ["Rz 12, 21", "„zło dobrem zwyciężaj”"],
-  "61": ["Ps 84, 7", "„dolina płaczu”; także modlitwa „Witaj, Królowo”"],
-  "62": ["Prz 26, 27; Koh 10, 8", "„kto kopie dół, sam w niego wpada”"],
-  "63": ["Prz 26, 27; Koh 10, 8", "„kto kopie dół, sam w niego wpada”"],
-  "64": ["Mt 7, 26–27", "przypowieść o domu na piasku"],
-  "67": ["J 19, 17", "droga Jezusa z krzyżem na Golgotę; nabożeństwo Drogi Krzyżowej"],
-  "71": ["2 Kor 3, 6", "„litera zabija, Duch ożywia”"],
-  "72": ["Mt 26, 41; Mk 14, 38", "słowa Jezusa w Ogrójcu do śpiących uczniów"],
-  "73": ["Mk 15, 37; Łk 23, 46", "śmierć Jezusa na krzyżu"],
-  "76": ["1 Sm 16, 14", "zły duch dręczący króla Saula"],
-  "77": ["Mt 25, 13", "przypowieść o pannach roztropnych i nierozsądnych"],
-  "78": ["Syr 38, 22", "„wczoraj mnie, a dziś tobie”"],
-  "82": ["Księga Wyjścia", "wyjście Izraelitów z niewoli egipskiej"],
-  "83": ["Mt 23", "Jezus piętnuje obłudę faryzeuszów"],
-  "85": ["Rdz 8, 11", "gołębica przynosi Noemu gałązkę oliwną — znak końca potopu"],
-  "86": ["Mt 5, 22", "dolina Hinnom pod Jerozolimą; w Ewangeliach obraz piekła"],
-  "90": ["Iz 40, 3; Mt 3, 3", "zapowiedź Jana Chrzciciela"],
-  "94": ["Mt 8, 20; Łk 9, 58", "„Syn Człowieczy nie ma miejsca, gdzie by głowę mógł położyć”"],
-  "95": ["J 19, 17", "Golgota — miejsce ukrzyżowania"],
-  "96": ["1 Sm 17", "olbrzym Goliat, pokonany przez Dawida"],
-  "97": ["Rdz 8, 8–11", "gołębica wypuszczona z arki"],
-  "98": ["Mt 26, 39", "modlitwa Jezusa w Ogrójcu: „niech mnie ominie ten kielich”"],
-  "99": ["Ps 69, 22; Mt 27, 34", "napój z żółcią podany ukrzyżowanemu"],
-  "100": ["Mt 26, 39", "kielich męki w modlitwie w Ogrójcu"],
-  "103": ["Mt 23, 27", "„groby pobielane” — obraz obłudy"],
-  "105": ["Rdz 3; Rz 5, 12", "grzech pierwszych ludzi"],
-  "106": ["1 J 5, 16", "„grzech, który sprowadza śmierć”"],
-  "108": ["Mt 2, 9", "gwiazda prowadząca Mędrców do Betlejem"],
-  "109": ["Mt 2, 16", "okrutny król Herod"],
-  "110": ["Hi 1, 13–19", "posłańcy przynoszą Hiobowi wieści o nieszczęściach"],
-  "112": ["Jr 7, 11; Mt 21, 13", "Jezus wypędza kupców ze świątyni"],
-  "114": ["Lamentacje", "Jeremiasz opłakujący zburzenie Jerozolimy"],
-  "115": ["Joz 6, 20", "mury Jerycha padają od dźwięku trąb"],
-  "116": ["Joz 6, 4–20", "trąby kapłanów obalające mury Jerycha"],
-  "120": ["Mt 5, 18", "„ani jedna jota nie zmieni się w Prawie”"],
-  "121": ["Mt 5, 18", "jota — najmniejsza litera alfabetu"],
-  "122": ["Mt 5, 18", "jota — najmniejsza litera alfabetu"],
-  "124": ["Mt 26, 14–16. 47–49", "Judasz Iskariota wydaje Jezusa"],
-  "127": ["Mt 26, 48–49; Łk 22, 48", "Judasz wydaje Jezusa pocałunkiem"],
-  "130": ["Rdz 4, 1–16", "Kain zabija brata Abla"],
-  "131": ["Rdz 4, 15", "znak, którym Bóg naznaczył Kaina"],
-  "132": ["Rdz 4, 8", "Kain zabija brata Abla"],
-  "134": ["Mt 18, 6", "kamień młyński zawieszony u szyi"],
-  "135": ["Łk 19, 40", "„kamienie wołać będą”"],
-  "136": ["Mt 24, 2", "zapowiedź zburzenia świątyni"],
-  "139": ["Ps 118, 22; Mt 21, 42", "kamień odrzucony przez budujących stał się węgielnym"],
-  "140": ["Rz 12, 20–21; Mt 5, 44", "sens nauki o odpłacaniu dobrem; samo powiedzenie ludowe"],
-  "141": ["J 8, 7", "„Kto z was jest bez grzechu, niech pierwszy rzuci kamień”"],
-  "147": ["Mt 13, 24–30", "przypowieść o kąkolu wśród pszenicy"],
-  "148": ["Dn 2, 31–45", "posąg ze snu Nabuchodonozora na nogach z gliny"],
-  "149": ["Mt 28, 20", "„aż do skończenia świata”"],
-  "151": ["Mt 27, 29; J 19, 2", "korona z ciernia włożona Jezusowi"],
-  "152": ["Mt 5, 15", "światła nie stawia się pod korcem"],
-  "153": ["Kpł 16, 8–22", "kozioł obarczony grzechami ludu i wypędzony na pustynię"],
-  "155": ["Rdz 2, 23", "słowa Adama o Ewie"],
-  "160": ["Łk 9, 23", "„niech weźmie swój krzyż”"],
-  "161": ["Mt 16, 24; Łk 9, 23", "„niech weźmie swój krzyż i idzie za Mną”"],
-  "162": ["Ap 5, 1", "księga zapieczętowana siedmioma pieczęciami"],
-  "166": ["Mt 6, 3", "nauka o jałmużnie dawanej w ukryciu"],
-  "167": ["Rdz 3, 7", "Adam i Ewa okrywają się liśćmi figowymi"],
-  "168": ["2 Kor 3, 6", "„litera zabija, Duch ożywia”"],
-  "171": ["Rdz 6, 8", "Noe znalazł łaskę w oczach Pana"],
-  "172": ["Łk 16, 19–31", "ubogi Łazarz u bram bogacza"],
-  "173": ["Łk 16, 20–21", "Łazarz okryty wrzodami"],
-  "177": ["Dz 9, 18", "Szawłowi spadły z oczu łuski i odzyskał wzrok"],
-  "179": ["Mt 6, 24", "mamona — bogactwo przeciwstawione Bogu"],
-  "180": ["Mt 6, 24; Łk 16, 13", "„nie możecie służyć Bogu i mamonie”"],
-  "181": ["Wj 16, 4. 14–15", "pokarm zesłany Izraelitom na pustyni"],
-  "183": ["Wj 16", "manna na pustyni"],
-  "186": ["Ez 16, 44", "„jaka matka, taka córka”"],
-  "189": ["Rdz 5, 27", "Matuzalem żył 969 lat"],
-  "190": ["Mt 7, 2", "„taką miarą, jaką wy mierzycie, wam odmierzą”"],
-  "193": ["Mt 26, 52", "słowa Jezusa do Piotra w Ogrójcu"],
-  "194": ["Iz 2, 4; Mi 4, 3", "proroctwo o pokoju"],
-  "195": ["Hbr 4, 12", "słowo Boże ostrzejsze niż miecz obosieczny"],
-  "197": ["Wj 3, 8", "obietnica ziemi dla Izraelitów"],
-  "198": ["Kpł 18, 21; 2 Krl 23, 10", "bóstwo, któremu składano w ofierze dzieci"],
-  "200": ["Mt 5, 37", "„niech wasza mowa będzie: tak, tak; nie, nie”"],
-  "201": ["Pwt 30, 19", "Mojżesz wzywa niebo i ziemię na świadków"],
-  "202": ["2 Kor 12, 2", "Paweł „porwany do trzeciego nieba”; siedem niebios — tradycja żydowska"],
-  "203": ["2 Sm 18, 9", "Absalom zawisł na drzewie między niebem a ziemią"],
-  "208": ["J 20, 24–29", "apostoł Tomasz nie wierzy w zmartwychwstanie, dopóki nie dotknie ran"],
-  "213": ["Mt 13, 9–16", "„Kto ma uszy, niechaj słucha”"],
-  "214": ["Wj 21, 24; Mt 5, 38", "prawo odwetu"],
-  "217": ["Pwt 32, 10; Ps 17, 8", "„strzeże go jak źrenicy oka”"],
-  "219": ["Mt 7, 3–5", "drzazga w oku brata i belka we własnym"],
-  "221": ["Mt 25, 1–13", "por. przypowieść o pannach roztropnych, które miały oliwę w lampach"],
-  "222": ["Mt 25, 1–13", "por. przypowieść o pannach nierozsądnych bez oliwy"],
-  "224": ["Mt 7, 24–25", "dom zbudowany na skale"],
-  "225": ["Ps 18, 3; Mt 16, 18", "Bóg — skała i twierdza; Piotr — opoka"],
-  "226": ["Ps 18, 3", "„Pan jest moją skałą i twierdzą”"],
-  "228": ["Dz 26, 14", "słowa usłyszane przez Szawła pod Damaszkiem"],
-  "229": ["Ps 84, 7", "„dolina płaczu”; także modlitwa „Witaj, Królowo”"],
-  "230": ["Mt 23, 4", "faryzeusze nie chcą ruszyć palcem"],
-  "234": ["Mt 6, 24", "„nikt nie może dwom panom służyć”"],
-  "235": ["Mt 7, 6", "„nie rzucajcie pereł przed świnie”"],
-  "237": ["Łk 18, 13", "celnik bijący się w piersi w świątyni"],
-  "241": ["Credo", "Piłat wymieniony w Wyznaniu wiary: „umęczon pod Ponckim Piłatem”"],
-  "242": ["Wj 7–12", "dziesięć plag zesłanych na Egipt"],
-  "243": ["Mt 8, 12; 13, 42", "obraz odrzuconych przy sądzie"],
-  "247": ["Rdz 4, 10", "krew Abla woła do Boga z ziemi"],
-  "248": ["Rdz 3, 19", "„prochem jesteś i w proch się obrócisz”"],
-  "249": ["Jon 3, 6", "król Niniwy siada w popiele na znak pokuty"],
-  "250": ["Rdz 3, 19", "„w pocie czoła będziesz jadł chleb”"],
-  "252": ["Rdz 6–8", "potop i arka Noego"],
-  "253": ["2 Tes 3, 10", "„kto nie chce pracować, niech też nie je”"],
-  "256": ["Mt 10, 14", "strząsnąć proch z nóg, opuszczając nieprzyjazne miasto"],
-  "258": ["Łk 4, 24; Mt 13, 57", "Jezus odrzucony w rodzinnym Nazarecie"],
-  "261": ["Rdz 6–8", "czasy przed potopem"],
-  "262": ["Mt 6, 26", "ptaki niebieskie nie sieją ani nie żną"],
-  "263": ["Rdz 2, 8", "ogród Eden"],
-  "267": ["Ps 91, 12", "„na rękach nosić cię będą”"],
-  "268": ["Mt 27, 24", "Piłat umywa ręce przed tłumem"],
-  "269": ["Rdz 41", "sen faraona wyłożony przez Józefa: siedem lat obfitości i siedem głodu"],
-  "270": ["Mt 26, 65", "arcykapłan rozdziera szaty na znak oburzenia"],
-  "275": ["Koh 3, 1–8", "„wszystko ma swój czas”"],
-  "276": ["Mt 2, 16", "Herod każe zabić chłopców w Betlejem"],
-  "277": ["1 Krl 3", "nawiązanie do mądrości Salomona; samo przysłowie ludowe"],
-  "278": ["1 Krl 3, 12; 5, 9–14", "Bóg obdarza Salomona mądrością"],
-  "280": ["1 Krl 3, 16–28", "spór dwóch kobiet o dziecko"],
-  "281": ["Łk 10, 30–37", "przypowieść o miłosiernym Samarytaninie"],
-  "283": ["Mt 25, 31–46", "Sąd Ostateczny"],
-  "284": ["Mt 25, 31–46", "Sąd Ostateczny — dzień końca świata"],
-  "286": ["Mt 25, 31–46", "Sąd Ostateczny"],
-  "287": ["Mt 7, 1", "„Nie sądźcie, abyście nie byli sądzeni”"],
-  "290": ["Dn 12, 2", "„ci, co śpią w prochu ziemi”"],
-  "292": ["Mt 12, 34", "„z obfitości serca mówią usta”"],
-  "293": ["Mt 10, 16", "„nieskazitelni jak gołębie”"],
-  "294": ["Ez 36, 26", "serce kamienne zamienione na serce z ciała"],
-  "295": ["Lm 3, 41", "wezwanie mszalne „W górę serca” (Sursum corda)"],
-  "298": ["Ps 104, 3", "Bóg „kroczy na skrzydłach wiatru”"],
-  "299": ["Ps 91, 4; Mt 23, 37", "opieka pod skrzydłami"],
-  "301": ["Ps 91, 4; Mt 23, 37", "„jak kokosz zbiera pisklęta pod skrzydła”"],
-  "302": ["Ps 91, 4; Mt 23, 37", "opieka pod skrzydłami"],
-  "305": ["Koh 1, 9", "„nic nowego pod słońcem”"],
-  "312": ["Rdz 19, 26", "żona Lota obejrzała się i zamieniła w słup soli"],
-  "313": ["Rdz 25, 29–34", "Ezaw oddaje pierworództwo za miskę soczewicy"],
-  "314": ["Rdz 18–19", "zniszczenie grzesznych miast"],
-  "316": ["Mt 5, 13", "„Wy jesteście solą ziemi”"],
-  "320": ["Mt 26, 15", "zapłata dla Judasza za wydanie Jezusa"],
-  "321": ["J 19, 30", "ostatnie słowa Jezusa: „Wykonało się”"],
-  "322": ["Iz 1, 6", "„od stopy do głowy nie ma w nim nic zdrowego”"],
-  "324": ["Łk 15, 11–32", "przypowieść o synu marnotrawnym"],
-  "325": ["Mt 7, 7–8", "„szukajcie, a znajdziecie”"],
-  "329": ["Mt 15, 14; Łk 6, 39", "słowa Jezusa o faryzeuszach"],
-  "332": ["Mt 5, 15", "świecę stawia się na świeczniku"],
-  "333": ["Mt 5, 15", "świeca na świeczniku"],
-  "337": ["Mt 25, 14–30", "przypowieść o talentach — talent był jednostką wagi i pieniądza"],
-  "338": ["Rdz 2, 7", "Bóg tchnął w człowieka tchnienie życia"],
-  "340": ["Mt 11, 15", "słowa Jezusa"],
-  "342": ["Mt 19, 24", "łatwiej wielbłądowi przejść przez ucho igielne niż bogatemu wejść do królestwa"],
-  "343": ["Mt 23", "uczeni w Piśmie — znawcy Prawa w Ewangeliach"],
-  "346": ["Mt 10, 16", "„roztropni jak węże”"],
-  "349": ["Wj 21, 23–25", "prawo odwetu"],
-  "350": ["Mt 17, 20; 1 Kor 13, 2", "wiara przenosząca góry"],
-  "351": ["Oz 8, 7", "„wiatr siali, zbierać będą burzę”"],
-  "352": ["1 Kor 14, 9", "„będziecie mówić na wiatr”"],
-  "353": ["Jr 49, 32. 36", "rozproszenie „na cztery wiatry”"],
-  "359": ["Ezd 9, 3", "Ezdrasz z rozpaczy wyrywa włosy z głowy"],
-  "360": ["Łk 21, 18; 1 Sm 14, 45", "„włos z głowy wam nie zginie”"],
-  "361": ["Hi 4, 15", "włosy zjeżyły się z przerażenia"],
-  "362": ["J 17, 1", "„nadeszła godzina”"],
-  "365": ["Rdz 2, 17; 3, 1–6", "owoc z drzewa poznania dobra i zła"],
-  "366": ["Mt 7, 26–27", "dom zbudowany na piasku"],
-  "370": ["Łk 15, 4–7", "przypowieść o zagubionej owcy"],
-  "372": ["Mt 8, 12", "„płacz i zgrzytanie zębów”"],
-  "373": ["Mt 3, 12", "oddzielenie pszenicy od plew"],
-  "374": ["Mt 13, 24–30", "nieprzyjaciel posiał chwast wśród pszenicy"],
-  "375": ["Lb 16, 31–33", "ziemia pochłonęła buntowników Koracha"],
-  "376": ["Rdz 12, 7; Wj 3, 8", "ziemia obiecana Abrahamowi i jego potomkom"],
-  "377": ["Ap 3, 15–16", "„nie jesteś ani zimny, ani gorący”"],
-  "378": ["Mt 16, 3", "„znaków czasu nie umiecie rozpoznać”"],
-  "380": ["Łk 19, 44", "zapowiedź zburzenia Jerozolimy"],
-  "382": ["Syr 28, 25", "„słowom swoim sporządź wagę”"],
-  "384": ["Pnp 7, 5", "„szyja twoja jak wieża z kości słoniowej”"],
-  "385": ["Mt 26, 69–75", "Piotr trzykrotnie zapiera się Jezusa"]
+  "1": [
+   "Łk 16, 22",
+   "żartobliwe przekształcenie „łona Abrahama” z przypowieści o bogaczu i Łazarzu"
+  ],
+  "2": [
+   "Łk 16, 22",
+   "w przypowieści ubogi Łazarz po śmierci zostaje zaniesiony na łono Abrahama"
+  ],
+  "4": [
+   "Rdz 2–3",
+   "Adam i Ewa — pierwsi ludzie"
+  ],
+  "5": [
+   "Rdz 2, 25",
+   "Adam i Ewa byli nadzy i nie odczuwali wstydu"
+  ],
+  "6": [
+   "Rdz 2–3",
+   "Adam i Ewa — pierwsi ludzie, początek dziejów"
+  ],
+  "7": [
+   "Rdz 2, 21–22",
+   "Bóg stworzył kobietę z żebra Adama"
+  ],
+  "8": [
+   "Ap 1, 8; 22, 13",
+   "„Jam jest Alfa i Omega” — pierwsza i ostatnia litera alfabetu greckiego"
+  ],
+  "10": [
+   "Ps 91, 11; Mt 18, 10",
+   "aniołowie, którym Bóg powierza strzeżenie człowieka"
+  ],
+  "11": [
+   "J 18, 13–24",
+   "pojmany Jezus prowadzony od arcykapłana Annasza do Kajfasza"
+  ],
+  "14": [
+   "Apokalipsa św. Jana",
+   "ostatnia księga Biblii — wizje końca świata"
+  ],
+  "15": [
+   "Ap 6, 1–8",
+   "czterej jeźdźcy wyjeżdżający po zdjęciu pieczęci"
+  ],
+  "18": [
+   "Rdz 11, 1–9",
+   "budowa wieży i pomieszanie języków"
+  ],
+  "19": [
+   "Iz 53, 7; Jr 11, 19",
+   "baranek prowadzony na rzeź, który nie otwiera ust"
+  ],
+  "20": [
+   "Rdz 35, 18; 42–44",
+   "Beniamin, najmłodszy i ukochany syn Jakuba"
+  ],
+  "23": [
+   "Ewangelie",
+   "Ewangelia jako Dobra Nowina, której się nie podważa"
+  ],
+  "24": [
+   "Łk 15, 4–7; Mt 18, 12–14",
+   "przypowieść o zagubionej owcy"
+  ],
+  "26": [
+   "Łk 15, 4–7",
+   "przypowieść o zagubionej owcy"
+  ],
+  "28": [
+   "Hi 1, 21",
+   "słowa Hioba po utracie dzieci i majątku"
+  ],
+  "30": [
+   "Hi 1, 21",
+   "„Nagi wyszedłem z łona matki i nagi tam wrócę”"
+  ],
+  "32": [
+   "Mt 12, 30; Łk 11, 23",
+   "słowa Jezusa"
+  ],
+  "33": [
+   "Mt 22, 21; Mk 12, 17; Łk 20, 25",
+   "odpowiedź Jezusa na pytanie o podatek dla cesarza"
+  ],
+  "36": [
+   "Mt 6, 11",
+   "prośba z Modlitwy Pańskiej"
+  ],
+  "37": [
+   "Pwt 8, 3; Mt 4, 4",
+   "odpowiedź Jezusa kuszonemu na pustyni"
+  ],
+  "38": [
+   "Łk 3, 23",
+   "według tradycji Jezus zmarł w wieku 33 lat"
+  ],
+  "40": [
+   "Mt 11, 7; Łk 7, 24",
+   "„trzcina kołysana wiatrem” w mowie Jezusa o Janie Chrzcicielu"
+  ],
+  "41": [
+   "J 1, 14",
+   "prolog Ewangelii Janowej"
+  ],
+  "42": [
+   "Wj 32",
+   "Izraelici oddają cześć złotemu cielcowi pod Synajem"
+  ],
+  "44": [
+   "Wj 32, 1–6",
+   "posąg ulany ze złota, gdy Mojżesz był na górze"
+  ],
+  "45": [
+   "Wj 10, 21–23",
+   "dziewiąta plaga: trzydniowa ciemność nad Egiptem"
+  ],
+  "47": [
+   "Łk 10, 42",
+   "Maria wybrała najlepszą cząstkę — słuchanie Jezusa"
+  ],
+  "48": [
+   "Mt 8, 26; 14, 31",
+   "słowa Jezusa do bojaźliwych uczniów i do Piotra"
+  ],
+  "49": [
+   "Ap 3, 15–16",
+   "list do Laodycei: „jesteś letni”"
+  ],
+  "50": [
+   "Rdz 2, 18",
+   "słowa Boga przed stworzeniem kobiety"
+  ],
+  "51": [
+   "Iz 48, 4",
+   "„twoje czoło ze spiżu” — o upartym ludzie"
+  ],
+  "53": [
+   "Tb 4, 15",
+   "rada Tobiasza dla syna"
+  ],
+  "56": [
+   "1 Sm 17",
+   "pasterz Dawid pokonuje olbrzyma Goliata"
+  ],
+  "57": [
+   "Wj 20, 1–17; Pwt 5",
+   "dziesięć przykazań"
+  ],
+  "60": [
+   "Rz 12, 21",
+   "„zło dobrem zwyciężaj”"
+  ],
+  "61": [
+   "Ps 84, 7",
+   "„dolina płaczu”; także modlitwa „Witaj, Królowo”"
+  ],
+  "62": [
+   "Prz 26, 27; Koh 10, 8",
+   "„kto kopie dół, sam w niego wpada”"
+  ],
+  "63": [
+   "Prz 26, 27; Koh 10, 8",
+   "„kto kopie dół, sam w niego wpada”"
+  ],
+  "64": [
+   "Mt 7, 26–27",
+   "przypowieść o domu na piasku"
+  ],
+  "67": [
+   "J 19, 17",
+   "droga Jezusa z krzyżem na Golgotę; nabożeństwo Drogi Krzyżowej"
+  ],
+  "71": [
+   "2 Kor 3, 6",
+   "„litera zabija, Duch ożywia”"
+  ],
+  "72": [
+   "Mt 26, 41; Mk 14, 38",
+   "słowa Jezusa w Ogrójcu do śpiących uczniów"
+  ],
+  "73": [
+   "Mk 15, 37; Łk 23, 46",
+   "śmierć Jezusa na krzyżu"
+  ],
+  "76": [
+   "1 Sm 16, 14",
+   "zły duch dręczący króla Saula"
+  ],
+  "77": [
+   "Mt 25, 13",
+   "przypowieść o pannach roztropnych i nierozsądnych"
+  ],
+  "78": [
+   "Syr 38, 22",
+   "„wczoraj mnie, a dziś tobie”"
+  ],
+  "82": [
+   "Księga Wyjścia",
+   "wyjście Izraelitów z niewoli egipskiej"
+  ],
+  "83": [
+   "Mt 23",
+   "Jezus piętnuje obłudę faryzeuszów"
+  ],
+  "85": [
+   "Rdz 8, 11",
+   "gołębica przynosi Noemu gałązkę oliwną — znak końca potopu"
+  ],
+  "86": [
+   "Mt 5, 22",
+   "dolina Hinnom pod Jerozolimą; w Ewangeliach obraz piekła"
+  ],
+  "90": [
+   "Iz 40, 3; Mt 3, 3",
+   "zapowiedź Jana Chrzciciela"
+  ],
+  "94": [
+   "Mt 8, 20; Łk 9, 58",
+   "„Syn Człowieczy nie ma miejsca, gdzie by głowę mógł położyć”"
+  ],
+  "95": [
+   "J 19, 17",
+   "Golgota — miejsce ukrzyżowania"
+  ],
+  "96": [
+   "1 Sm 17",
+   "olbrzym Goliat, pokonany przez Dawida"
+  ],
+  "97": [
+   "Rdz 8, 8–11",
+   "gołębica wypuszczona z arki"
+  ],
+  "98": [
+   "Mt 26, 39",
+   "modlitwa Jezusa w Ogrójcu: „niech mnie ominie ten kielich”"
+  ],
+  "99": [
+   "Ps 69, 22; Mt 27, 34",
+   "napój z żółcią podany ukrzyżowanemu"
+  ],
+  "100": [
+   "Mt 26, 39",
+   "kielich męki w modlitwie w Ogrójcu"
+  ],
+  "103": [
+   "Mt 23, 27",
+   "„groby pobielane” — obraz obłudy"
+  ],
+  "105": [
+   "Rdz 3; Rz 5, 12",
+   "grzech pierwszych ludzi"
+  ],
+  "106": [
+   "1 J 5, 16",
+   "„grzech, który sprowadza śmierć”"
+  ],
+  "108": [
+   "Mt 2, 9",
+   "gwiazda prowadząca Mędrców do Betlejem"
+  ],
+  "109": [
+   "Mt 2, 16",
+   "okrutny król Herod"
+  ],
+  "110": [
+   "Hi 1, 13–19",
+   "posłańcy przynoszą Hiobowi wieści o nieszczęściach"
+  ],
+  "112": [
+   "Jr 7, 11; Mt 21, 13",
+   "Jezus wypędza kupców ze świątyni"
+  ],
+  "114": [
+   "Lamentacje",
+   "Jeremiasz opłakujący zburzenie Jerozolimy"
+  ],
+  "115": [
+   "Joz 6, 20",
+   "mury Jerycha padają od dźwięku trąb"
+  ],
+  "116": [
+   "Joz 6, 4–20",
+   "trąby kapłanów obalające mury Jerycha"
+  ],
+  "120": [
+   "Mt 5, 18",
+   "„ani jedna jota nie zmieni się w Prawie”"
+  ],
+  "121": [
+   "Mt 5, 18",
+   "jota — najmniejsza litera alfabetu"
+  ],
+  "122": [
+   "Mt 5, 18",
+   "jota — najmniejsza litera alfabetu"
+  ],
+  "124": [
+   "Mt 26, 14–16. 47–49",
+   "Judasz Iskariota wydaje Jezusa"
+  ],
+  "127": [
+   "Mt 26, 48–49; Łk 22, 48",
+   "Judasz wydaje Jezusa pocałunkiem"
+  ],
+  "130": [
+   "Rdz 4, 1–16",
+   "Kain zabija brata Abla"
+  ],
+  "131": [
+   "Rdz 4, 15",
+   "znak, którym Bóg naznaczył Kaina"
+  ],
+  "132": [
+   "Rdz 4, 8",
+   "Kain zabija brata Abla"
+  ],
+  "134": [
+   "Mt 18, 6",
+   "kamień młyński zawieszony u szyi"
+  ],
+  "135": [
+   "Łk 19, 40",
+   "„kamienie wołać będą”"
+  ],
+  "136": [
+   "Mt 24, 2",
+   "zapowiedź zburzenia świątyni"
+  ],
+  "139": [
+   "Ps 118, 22; Mt 21, 42",
+   "kamień odrzucony przez budujących stał się węgielnym"
+  ],
+  "140": [
+   "Rz 12, 20–21; Mt 5, 44",
+   "sens nauki o odpłacaniu dobrem; samo powiedzenie ludowe"
+  ],
+  "141": [
+   "J 8, 7",
+   "„Kto z was jest bez grzechu, niech pierwszy rzuci kamień”"
+  ],
+  "147": [
+   "Mt 13, 24–30",
+   "przypowieść o kąkolu wśród pszenicy"
+  ],
+  "148": [
+   "Dn 2, 31–45",
+   "posąg ze snu Nabuchodonozora na nogach z gliny"
+  ],
+  "149": [
+   "Mt 28, 20",
+   "„aż do skończenia świata”"
+  ],
+  "151": [
+   "Mt 27, 29; J 19, 2",
+   "korona z ciernia włożona Jezusowi"
+  ],
+  "152": [
+   "Mt 5, 15",
+   "światła nie stawia się pod korcem"
+  ],
+  "153": [
+   "Kpł 16, 8–22",
+   "kozioł obarczony grzechami ludu i wypędzony na pustynię"
+  ],
+  "155": [
+   "Rdz 2, 23",
+   "słowa Adama o Ewie"
+  ],
+  "160": [
+   "Łk 9, 23",
+   "„niech weźmie swój krzyż”"
+  ],
+  "161": [
+   "Mt 16, 24; Łk 9, 23",
+   "„niech weźmie swój krzyż i idzie za Mną”"
+  ],
+  "162": [
+   "Ap 5, 1",
+   "księga zapieczętowana siedmioma pieczęciami"
+  ],
+  "166": [
+   "Mt 6, 3",
+   "nauka o jałmużnie dawanej w ukryciu"
+  ],
+  "167": [
+   "Rdz 3, 7",
+   "Adam i Ewa okrywają się liśćmi figowymi"
+  ],
+  "168": [
+   "2 Kor 3, 6",
+   "„litera zabija, Duch ożywia”"
+  ],
+  "171": [
+   "Rdz 6, 8",
+   "Noe znalazł łaskę w oczach Pana"
+  ],
+  "172": [
+   "Łk 16, 19–31",
+   "ubogi Łazarz u bram bogacza"
+  ],
+  "173": [
+   "Łk 16, 20–21",
+   "Łazarz okryty wrzodami"
+  ],
+  "177": [
+   "Dz 9, 18",
+   "Szawłowi spadły z oczu łuski i odzyskał wzrok"
+  ],
+  "179": [
+   "Mt 6, 24",
+   "mamona — bogactwo przeciwstawione Bogu"
+  ],
+  "180": [
+   "Mt 6, 24; Łk 16, 13",
+   "„nie możecie służyć Bogu i mamonie”"
+  ],
+  "181": [
+   "Wj 16, 4. 14–15",
+   "pokarm zesłany Izraelitom na pustyni"
+  ],
+  "183": [
+   "Wj 16",
+   "manna na pustyni"
+  ],
+  "186": [
+   "Ez 16, 44",
+   "„jaka matka, taka córka”"
+  ],
+  "189": [
+   "Rdz 5, 27",
+   "Matuzalem żył 969 lat"
+  ],
+  "190": [
+   "Mt 7, 2",
+   "„taką miarą, jaką wy mierzycie, wam odmierzą”"
+  ],
+  "193": [
+   "Mt 26, 52",
+   "słowa Jezusa do Piotra w Ogrójcu"
+  ],
+  "194": [
+   "Iz 2, 4; Mi 4, 3",
+   "proroctwo o pokoju"
+  ],
+  "195": [
+   "Hbr 4, 12",
+   "słowo Boże ostrzejsze niż miecz obosieczny"
+  ],
+  "197": [
+   "Wj 3, 8",
+   "obietnica ziemi dla Izraelitów"
+  ],
+  "198": [
+   "Kpł 18, 21; 2 Krl 23, 10",
+   "bóstwo, któremu składano w ofierze dzieci"
+  ],
+  "200": [
+   "Mt 5, 37",
+   "„niech wasza mowa będzie: tak, tak; nie, nie”"
+  ],
+  "201": [
+   "Pwt 30, 19",
+   "Mojżesz wzywa niebo i ziemię na świadków"
+  ],
+  "202": [
+   "2 Kor 12, 2",
+   "Paweł „porwany do trzeciego nieba”; siedem niebios — tradycja żydowska"
+  ],
+  "203": [
+   "2 Sm 18, 9",
+   "Absalom zawisł na drzewie między niebem a ziemią"
+  ],
+  "208": [
+   "J 20, 24–29",
+   "apostoł Tomasz nie wierzy w zmartwychwstanie, dopóki nie dotknie ran"
+  ],
+  "213": [
+   "Mt 13, 9–16",
+   "„Kto ma uszy, niechaj słucha”"
+  ],
+  "214": [
+   "Wj 21, 24; Mt 5, 38",
+   "prawo odwetu"
+  ],
+  "217": [
+   "Pwt 32, 10; Ps 17, 8",
+   "„strzeże go jak źrenicy oka”"
+  ],
+  "219": [
+   "Mt 7, 3–5",
+   "drzazga w oku brata i belka we własnym"
+  ],
+  "221": [
+   "Mt 25, 1–13",
+   "por. przypowieść o pannach roztropnych, które miały oliwę w lampach"
+  ],
+  "222": [
+   "Mt 25, 1–13",
+   "por. przypowieść o pannach nierozsądnych bez oliwy"
+  ],
+  "224": [
+   "Mt 7, 24–25",
+   "dom zbudowany na skale"
+  ],
+  "225": [
+   "Ps 18, 3; Mt 16, 18",
+   "Bóg — skała i twierdza; Piotr — opoka"
+  ],
+  "226": [
+   "Ps 18, 3",
+   "„Pan jest moją skałą i twierdzą”"
+  ],
+  "228": [
+   "Dz 26, 14",
+   "słowa usłyszane przez Szawła pod Damaszkiem"
+  ],
+  "229": [
+   "Ps 84, 7",
+   "„dolina płaczu”; także modlitwa „Witaj, Królowo”"
+  ],
+  "230": [
+   "Mt 23, 4",
+   "faryzeusze nie chcą ruszyć palcem"
+  ],
+  "234": [
+   "Mt 6, 24",
+   "„nikt nie może dwom panom służyć”"
+  ],
+  "235": [
+   "Mt 7, 6",
+   "„nie rzucajcie pereł przed świnie”"
+  ],
+  "237": [
+   "Łk 18, 13",
+   "celnik bijący się w piersi w świątyni"
+  ],
+  "241": [
+   "Credo",
+   "Piłat wymieniony w Wyznaniu wiary: „umęczon pod Ponckim Piłatem”"
+  ],
+  "242": [
+   "Wj 7–12",
+   "dziesięć plag zesłanych na Egipt"
+  ],
+  "243": [
+   "Mt 8, 12; 13, 42",
+   "obraz odrzuconych przy sądzie"
+  ],
+  "247": [
+   "Rdz 4, 10",
+   "krew Abla woła do Boga z ziemi"
+  ],
+  "248": [
+   "Rdz 3, 19",
+   "„prochem jesteś i w proch się obrócisz”"
+  ],
+  "249": [
+   "Jon 3, 6",
+   "król Niniwy siada w popiele na znak pokuty"
+  ],
+  "250": [
+   "Rdz 3, 19",
+   "„w pocie czoła będziesz jadł chleb”"
+  ],
+  "252": [
+   "Rdz 6–8",
+   "potop i arka Noego"
+  ],
+  "253": [
+   "2 Tes 3, 10",
+   "„kto nie chce pracować, niech też nie je”"
+  ],
+  "256": [
+   "Mt 10, 14",
+   "strząsnąć proch z nóg, opuszczając nieprzyjazne miasto"
+  ],
+  "258": [
+   "Łk 4, 24; Mt 13, 57",
+   "Jezus odrzucony w rodzinnym Nazarecie"
+  ],
+  "261": [
+   "Rdz 6–8",
+   "czasy przed potopem"
+  ],
+  "262": [
+   "Mt 6, 26",
+   "ptaki niebieskie nie sieją ani nie żną"
+  ],
+  "263": [
+   "Rdz 2, 8",
+   "ogród Eden"
+  ],
+  "267": [
+   "Ps 91, 12",
+   "„na rękach nosić cię będą”"
+  ],
+  "268": [
+   "Mt 27, 24",
+   "Piłat umywa ręce przed tłumem"
+  ],
+  "269": [
+   "Rdz 41",
+   "sen faraona wyłożony przez Józefa: siedem lat obfitości i siedem głodu"
+  ],
+  "270": [
+   "Mt 26, 65",
+   "arcykapłan rozdziera szaty na znak oburzenia"
+  ],
+  "275": [
+   "Koh 3, 1–8",
+   "„wszystko ma swój czas”"
+  ],
+  "276": [
+   "Mt 2, 16",
+   "Herod każe zabić chłopców w Betlejem"
+  ],
+  "277": [
+   "1 Krl 3",
+   "nawiązanie do mądrości Salomona; samo przysłowie ludowe"
+  ],
+  "278": [
+   "1 Krl 3, 12; 5, 9–14",
+   "Bóg obdarza Salomona mądrością"
+  ],
+  "280": [
+   "1 Krl 3, 16–28",
+   "spór dwóch kobiet o dziecko"
+  ],
+  "281": [
+   "Łk 10, 30–37",
+   "przypowieść o miłosiernym Samarytaninie"
+  ],
+  "283": [
+   "Mt 25, 31–46",
+   "Sąd Ostateczny"
+  ],
+  "284": [
+   "Mt 25, 31–46",
+   "Sąd Ostateczny — dzień końca świata"
+  ],
+  "286": [
+   "Mt 25, 31–46",
+   "Sąd Ostateczny"
+  ],
+  "287": [
+   "Mt 7, 1",
+   "„Nie sądźcie, abyście nie byli sądzeni”"
+  ],
+  "290": [
+   "Dn 12, 2",
+   "„ci, co śpią w prochu ziemi”"
+  ],
+  "292": [
+   "Mt 12, 34",
+   "„z obfitości serca mówią usta”"
+  ],
+  "293": [
+   "Mt 10, 16",
+   "„nieskazitelni jak gołębie”"
+  ],
+  "294": [
+   "Ez 36, 26",
+   "serce kamienne zamienione na serce z ciała"
+  ],
+  "295": [
+   "Lm 3, 41",
+   "wezwanie mszalne „W górę serca” (Sursum corda)"
+  ],
+  "298": [
+   "Ps 104, 3",
+   "Bóg „kroczy na skrzydłach wiatru”"
+  ],
+  "299": [
+   "Ps 91, 4; Mt 23, 37",
+   "opieka pod skrzydłami"
+  ],
+  "301": [
+   "Ps 91, 4; Mt 23, 37",
+   "„jak kokosz zbiera pisklęta pod skrzydła”"
+  ],
+  "302": [
+   "Ps 91, 4; Mt 23, 37",
+   "opieka pod skrzydłami"
+  ],
+  "305": [
+   "Koh 1, 9",
+   "„nic nowego pod słońcem”"
+  ],
+  "312": [
+   "Rdz 19, 26",
+   "żona Lota obejrzała się i zamieniła w słup soli"
+  ],
+  "313": [
+   "Rdz 25, 29–34",
+   "Ezaw oddaje pierworództwo za miskę soczewicy"
+  ],
+  "314": [
+   "Rdz 18–19",
+   "zniszczenie grzesznych miast"
+  ],
+  "316": [
+   "Mt 5, 13",
+   "„Wy jesteście solą ziemi”"
+  ],
+  "320": [
+   "Mt 26, 15",
+   "zapłata dla Judasza za wydanie Jezusa"
+  ],
+  "321": [
+   "J 19, 30",
+   "ostatnie słowa Jezusa: „Wykonało się”"
+  ],
+  "322": [
+   "Iz 1, 6",
+   "„od stopy do głowy nie ma w nim nic zdrowego”"
+  ],
+  "324": [
+   "Łk 15, 11–32",
+   "przypowieść o synu marnotrawnym"
+  ],
+  "325": [
+   "Mt 7, 7–8",
+   "„szukajcie, a znajdziecie”"
+  ],
+  "329": [
+   "Mt 15, 14; Łk 6, 39",
+   "słowa Jezusa o faryzeuszach"
+  ],
+  "332": [
+   "Mt 5, 15",
+   "świecę stawia się na świeczniku"
+  ],
+  "333": [
+   "Mt 5, 15",
+   "świeca na świeczniku"
+  ],
+  "337": [
+   "Mt 25, 14–30",
+   "przypowieść o talentach — talent był jednostką wagi i pieniądza"
+  ],
+  "338": [
+   "Rdz 2, 7",
+   "Bóg tchnął w człowieka tchnienie życia"
+  ],
+  "340": [
+   "Mt 11, 15",
+   "słowa Jezusa"
+  ],
+  "342": [
+   "Mt 19, 24",
+   "łatwiej wielbłądowi przejść przez ucho igielne niż bogatemu wejść do królestwa"
+  ],
+  "343": [
+   "Mt 23",
+   "uczeni w Piśmie — znawcy Prawa w Ewangeliach"
+  ],
+  "346": [
+   "Mt 10, 16",
+   "„roztropni jak węże”"
+  ],
+  "349": [
+   "Wj 21, 23–25",
+   "prawo odwetu"
+  ],
+  "350": [
+   "Mt 17, 20; 1 Kor 13, 2",
+   "wiara przenosząca góry"
+  ],
+  "351": [
+   "Oz 8, 7",
+   "„wiatr siali, zbierać będą burzę”"
+  ],
+  "352": [
+   "1 Kor 14, 9",
+   "„będziecie mówić na wiatr”"
+  ],
+  "353": [
+   "Jr 49, 32. 36",
+   "rozproszenie „na cztery wiatry”"
+  ],
+  "359": [
+   "Ezd 9, 3",
+   "Ezdrasz z rozpaczy wyrywa włosy z głowy"
+  ],
+  "360": [
+   "Łk 21, 18; 1 Sm 14, 45",
+   "„włos z głowy wam nie zginie”"
+  ],
+  "361": [
+   "Hi 4, 15",
+   "włosy zjeżyły się z przerażenia"
+  ],
+  "362": [
+   "J 17, 1",
+   "„nadeszła godzina”"
+  ],
+  "365": [
+   "Rdz 2, 17; 3, 1–6",
+   "owoc z drzewa poznania dobra i zła"
+  ],
+  "366": [
+   "Mt 7, 26–27",
+   "dom zbudowany na piasku"
+  ],
+  "370": [
+   "Łk 15, 4–7",
+   "przypowieść o zagubionej owcy"
+  ],
+  "372": [
+   "Mt 8, 12",
+   "„płacz i zgrzytanie zębów”"
+  ],
+  "373": [
+   "Mt 3, 12",
+   "oddzielenie pszenicy od plew"
+  ],
+  "374": [
+   "Mt 13, 24–30",
+   "nieprzyjaciel posiał chwast wśród pszenicy"
+  ],
+  "375": [
+   "Lb 16, 31–33",
+   "ziemia pochłonęła buntowników Koracha"
+  ],
+  "376": [
+   "Rdz 12, 7; Wj 3, 8",
+   "ziemia obiecana Abrahamowi i jego potomkom"
+  ],
+  "377": [
+   "Ap 3, 15–16",
+   "„nie jesteś ani zimny, ani gorący”"
+  ],
+  "378": [
+   "Mt 16, 3",
+   "„znaków czasu nie umiecie rozpoznać”"
+  ],
+  "380": [
+   "Łk 19, 44",
+   "zapowiedź zburzenia Jerozolimy"
+  ],
+  "382": [
+   "Syr 28, 25",
+   "„słowom swoim sporządź wagę”"
+  ],
+  "384": [
+   "Pnp 7, 5",
+   "„szyja twoja jak wieża z kości słoniowej”"
+  ],
+  "385": [
+   "Mt 26, 69–75",
+   "Piotr trzykrotnie zapiera się Jezusa"
+  ]
  },
- "mitologia": {}
+ "mitologia": {
+  "1": [
+   "Achilles",
+   "Tetyda zanurzyła syna w Styksie, trzymając go za piętę — jedyne miejsce, gdzie był śmiertelny"
+  ],
+  "2": [
+   "Homer, Odyseja IX–XII",
+   "Odyseusz opowiada królowi Alkinoosowi długie dzieje swojej tułaczki"
+  ],
+  "3": [
+   "Homer, Odyseja VII",
+   "Alkinoos słynął z obfitych sadów — dawać mu jabłka to rzecz zbędna"
+  ],
+  "4": [
+   "Amaltea",
+   "koza (lub nimfa), która wykarmiła małego Zeusa; jej róg dawał wszystko w obfitości"
+  ],
+  "5": [
+   "Amaltea",
+   "róg obfitości — róg kozy, która wykarmiła Zeusa"
+  ],
+  "6": [
+   "Amor (Eros)",
+   "bóg miłości raniący strzałami ludzi i bogów"
+  ],
+  "7": [
+   "Amor (Eros)",
+   "bóg miłości raniący strzałami ludzi i bogów"
+  ],
+  "8": [
+   "Amor (Eros)",
+   "bóg miłości raniący strzałami ludzi i bogów"
+  ],
+  "9": [
+   "przysłowie greckie",
+   "Ankajos zginął od dzika, zanim zdążył wypić wino z własnej winnicy"
+  ],
+  "10": [
+   "Apollo",
+   "bóg światła i sztuki, wzór męskiej urody"
+  ],
+  "11": [
+   "Apollo",
+   "przewodnik Muz, opiekun poetów i artystów"
+  ],
+  "12": [
+   "Apollo",
+   "bóg światła i sztuki, wzór męskiej urody"
+  ],
+  "13": [
+   "Ares",
+   "grecki bóg wojny (rzymski Mars)"
+  ],
+  "14": [
+   "Apoloniusz z Rodos, Argonautyka",
+   "Jazon i Argonauci płyną do Kolchidy po złote runo"
+  ],
+  "15": [
+   "Argonauci",
+   "złota skóra barana strzeżona przez smoka w Kolchidzie"
+  ],
+  "16": [
+   "Argonauci",
+   "Jazon wyrusza po złote runo"
+  ],
+  "17": [
+   "Argus",
+   "stuoki olbrzym, któremu Hera kazała pilnować Io"
+  ],
+  "18": [
+   "Argus",
+   "stuoki olbrzym — część oczu czuwała, gdy inne spały"
+  ],
+  "19": [
+   "Argus",
+   "stuoki strażnik krowy Io"
+  ],
+  "20": [
+   "Ariadna",
+   "dzięki jej nici Tezeusz wyszedł z labiryntu po zabiciu Minotaura"
+  ],
+  "21": [
+   "Ariadna",
+   "Tezeusz wraca z labiryntu po rozwiniętej nici"
+  ],
+  "22": [
+   "Atlas",
+   "tytan skazany na dźwiganie sklepienia niebieskiego"
+  ],
+  "23": [
+   "Herakles",
+   "stajnie króla Augiasza nie były sprzątane od lat"
+  ],
+  "24": [
+   "Herakles",
+   "oczyścił stajnie Augiasza, kierując w nie nurt rzek"
+  ],
+  "25": [
+   "Bachus (Dionizos)",
+   "bóg wina i hucznych świąt"
+  ],
+  "26": [
+   "Bachus (Dionizos)",
+   "bóg wina"
+  ],
+  "27": [
+   "Bachus (Dionizos)",
+   "bóg wina"
+  ],
+  "28": [
+   "Bachus (Dionizos)",
+   "bóg wina; jego czciciele świętowali przy winie"
+  ],
+  "29": [
+   "bazyliszek",
+   "stwór zabijający wzrokiem (Pliniusz Starszy, Historia naturalna VIII)"
+  ],
+  "31": [
+   "Homer, Iliada VI",
+   "Bellerofont zaniósł list z poleceniem, by go zgładzono"
+  ],
+  "32": [
+   "Bellona",
+   "rzymska bogini wojny"
+  ],
+  "33": [
+   "Cerber",
+   "trzygłowy pies strzegący wejścia do Hadesu"
+  ],
+  "34": [
+   "Charon",
+   "przewoźnik dusz zmarłych przez Styks"
+  ],
+  "35": [
+   "Homer, Odyseja XII",
+   "potwór Scylla i wir Charybda po obu stronach cieśniny"
+  ],
+  "36": [
+   "Homer, Odyseja XII",
+   "Odyseusz musi przepłynąć między Scyllą a Charybdą"
+  ],
+  "37": [
+   "Homer, Odyseja XII",
+   "Odyseusz przepływa cieśninę, tracąc sześciu towarzyszy"
+  ],
+  "38": [
+   "Danae",
+   "Zeus przybył do uwięzionej Danae pod postacią złotego deszczu"
+  ],
+  "39": [
+   "Danaidy",
+   "za zabicie mężów musiały w Hadesie napełniać dziurawą beczkę"
+  ],
+  "40": [
+   "Dejanira",
+   "dała Heraklesowi szatę nasączoną trującą krwią Nessosa"
+  ],
+  "41": [
+   "Owidiusz, Metamorfozy I",
+   "Deukalion i Pyrra ocaleni z potopu"
+  ],
+  "42": [
+   "Deukalion",
+   "greckie podanie o potopie"
+  ],
+  "43": [
+   "Homer, Iliada VI",
+   "Glaukos oddał Diomedesowi złotą zbroję za spiżową"
+  ],
+  "44": [
+   "Diomedes",
+   "zmusił Odyseusza, by szedł przed nim pod mieczem"
+  ],
+  "45": [
+   "Dionizos",
+   "grecki bóg wina i ekstatycznych świąt"
+  ],
+  "46": [
+   "Dodona",
+   "spiżowe kotły w wyroczni Zeusa rozbrzmiewały bez końca"
+  ],
+  "47": [
+   "Edyp",
+   "odgadł zagadkę Sfinksa"
+  ],
+  "48": [
+   "egida",
+   "tarcza Zeusa i Ateny, znak boskiej opieki"
+  ],
+  "49": [
+   "Wergiliusz, Eneida VI",
+   "Pola Elizejskie — kraina szczęśliwych dusz w zaświatach"
+  ],
+  "50": [
+   "Homer, Odyseja IV; Wergiliusz, Eneida VI",
+   "kraina szczęśliwych dusz w zaświatach"
+  ],
+  "51": [
+   "Owidiusz, Metamorfozy XIII",
+   "Eos, bogini jutrzenki, opłakuje syna Memnona; jej łzy to rosa"
+  ],
+  "52": [
+   "Eris",
+   "złote jabłko „dla najpiękniejszej” poróżniło boginie i doprowadziło do wojny trojańskiej"
+  ],
+  "53": [
+   "Eskulap (Asklepios)",
+   "bóg sztuki lekarskiej"
+  ],
+  "54": [
+   "Wergiliusz, Eneida IV",
+   "Fama — bogini plotki o wielu ustach i językach"
+  ],
+  "55": [
+   "Wergiliusz, Eneida IV",
+   "Fama — bogini wieści i plotki"
+  ],
+  "56": [
+   "Wergiliusz, Eneida IV",
+   "Fama — bogini wieści i plotki"
+  ],
+  "57": [
+   "Helios (Apollo)",
+   "bóg słońca przemierzający niebo rydwanem"
+  ],
+  "58": [
+   "feniks",
+   "ptak odradzający się z własnych popiołów"
+  ],
+  "59": [
+   "Flora",
+   "rzymska bogini kwiatów i wiosny"
+  ],
+  "61": [
+   "Fortuna",
+   "rzymska bogini szczęścia i losu"
+  ],
+  "62": [
+   "Fortuna",
+   "przedstawiana z kołem, które obraca losy ludzi"
+  ],
+  "63": [
+   "Fortuna",
+   "przedstawiana z kołem, które obraca losy ludzi"
+  ],
+  "64": [
+   "Fortuna",
+   "przedstawiana z przepaską na oczach"
+  ],
+  "65": [
+   "Fortuna",
+   "rzymska bogini szczęścia"
+  ],
+  "66": [
+   "Fortuna",
+   "rzymska bogini szczęścia"
+  ],
+  "67": [
+   "Fortuna",
+   "rzymska bogini szczęścia"
+  ],
+  "68": [
+   "Fortuna",
+   "bogini zmiennego losu"
+  ],
+  "69": [
+   "Fortuna",
+   "przedstawiana na kuli lub kole — nieuchwytna"
+  ],
+  "70": [
+   "Fortuna",
+   "bogini zmiennego losu"
+  ],
+  "71": [
+   "Wergiliusz, Eneida X, 284",
+   "„Audentes fortuna iuvat”"
+  ],
+  "72": [
+   "Furie (Erynie)",
+   "boginie zemsty ścigające winowajców"
+  ],
+  "73": [
+   "Furie (Erynie)",
+   "boginie zemsty ścigające winowajców"
+  ],
+  "74": [
+   "Furie (Erynie)",
+   "boginie zemsty ścigające winowajców"
+  ],
+  "75": [
+   "Furie (Erynie)",
+   "boginie zemsty ścigające winowajców"
+  ],
+  "76": [
+   "Gracje (Charyty)",
+   "trzy boginie wdzięku i piękna"
+  ],
+  "77": [
+   "Harmonia",
+   "naszyjnik od Hefajstosa przynosił nieszczęście kolejnym właścicielkom"
+  ],
+  "78": [
+   "Harmonia",
+   "ślubny dar dla Harmonii przynoszący nieszczęście"
+  ],
+  "79": [
+   "Herakles (Herkules)",
+   "heros słynący z nadludzkiej siły"
+  ],
+  "80": [
+   "Herakles (Herkules)",
+   "dwanaście prac Heraklesa"
+  ],
+  "81": [
+   "Herakles (Herkules)",
+   "heros słynący z nadludzkiej siły"
+  ],
+  "82": [
+   "Ksenofont, Wspomnienia o Sokratesie II 1",
+   "Herakles na rozdrożu wybiera między Cnotą a Rozkoszą"
+  ],
+  "83": [
+   "Hermes",
+   "bóg szczęśliwych znalezisk — znaleziskiem trzeba się podzielić"
+  ],
+  "84": [
+   "Hermes",
+   "wierzono, że cisza w rozmowie oznacza przejście boga"
+  ],
+  "85": [
+   "Hesperydy",
+   "złote jabłka z ogrodu Hesperyd, zdobyte przez Heraklesa"
+  ],
+  "86": [
+   "Hydra lernejska",
+   "w miejsce każdej odciętej głowy wyrastały nowe"
+  ],
+  "87": [
+   "Hydra lernejska",
+   "Herakles zabił Hydrę, przypalając szyje po odcięciu głów"
+  ],
+  "88": [
+   "Hydra lernejska",
+   "potwór o odrastających głowach"
+  ],
+  "89": [
+   "Owidiusz, Metamorfozy VIII",
+   "Ikar zbliżył się do słońca i spadł do morza"
+  ],
+  "90": [
+   "Owidiusz, Metamorfozy VIII",
+   "skrzydła z piór i wosku, które stopiło słońce"
+  ],
+  "91": [
+   "Iksjon",
+   "za karę przykuty do wiecznie obracającego się, płonącego koła"
+  ],
+  "92": [
+   "Homer, Odyseja XVIII",
+   "Iros — żebrak z Itaki"
+  ],
+  "93": [
+   "Janus",
+   "rzymski bóg o dwóch twarzach, patrzących w przeciwne strony"
+  ],
+  "94": [
+   "Jowisz (Zeus)",
+   "najwyższy bóg, ciskający pioruny w gniewie"
+  ],
+  "95": [
+   "Jowisz (Zeus)",
+   "najwyższy bóg Olimpu"
+  ],
+  "96": [
+   "Homer, Iliada I",
+   "Zeus zmarszczył brwi, a Olimp zadrżał"
+  ],
+  "98": [
+   "Wergiliusz, Bukoliki III, 60",
+   "„Ab Iove principium” — od Jowisza zacznijmy"
+  ],
+  "99": [
+   "Horacy, Pieśni I 1, 25",
+   "„sub Iove frigido” — pod chłodnym niebem"
+  ],
+  "100": [
+   "Jowisz (Zeus)",
+   "najwyższy bóg, władca piorunów"
+  ],
+  "101": [
+   "Teby",
+   "Eteokles i Polinejkes, potomkowie Kadmosa, zginęli z rąk siebie nawzajem"
+  ],
+  "102": [
+   "Kastalia",
+   "źródło w Delfach u stóp Parnasu, poświęcone Muzom"
+  ],
+  "103": [
+   "Dioskurowie",
+   "bracia bliźniacy Kastor i Polluks, nierozłączni nawet po śmierci"
+  ],
+  "104": [
+   "Homer, Odyseja XI",
+   "Kimmerowie żyli w krainie wiecznego mroku"
+  ],
+  "105": [
+   "Lapici",
+   "na weselu Pejritoosa pijani centaurowie wszczęli bójkę"
+  ],
+  "106": [
+   "Lary i penaty",
+   "rzymskie bóstwa opiekuńcze domu"
+  ],
+  "107": [
+   "Lel i Polel",
+   "bóstwa wymienione przez Jana Długosza w opisie religii dawnych Polaków"
+  ],
+  "108": [
+   "Lel i Polel",
+   "bóstwa wymienione przez Jana Długosza"
+  ],
+  "109": [
+   "Lel i Polel",
+   "bóstwa wymienione przez Jana Długosza"
+  ],
+  "110": [
+   "Lel i Polel",
+   "bóstwa wymienione przez Jana Długosza"
+  ],
+  "111": [
+   "Lemnos",
+   "kobiety z Lemnos wymordowały swoich mężów"
+  ],
+  "112": [
+   "Lete",
+   "rzeka zapomnienia w zaświatach"
+  ],
+  "113": [
+   "Lete",
+   "dusze piły z niej wodę, by zapomnieć o ziemskim życiu"
+  ],
+  "114": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "115": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "116": [
+   "Pole Marsowe",
+   "plac w Rzymie, gdzie ćwiczyło wojsko"
+  ],
+  "117": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "118": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "119": [
+   "Mars",
+   "rzymski bóg wojny, groźny i ponury"
+  ],
+  "120": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "121": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "122": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "123": [
+   "Mars",
+   "rzymski bóg wojny"
+  ],
+  "124": [
+   "Medea",
+   "odmłodziła w kotle Ajsona, ojca Jazona"
+  ],
+  "125": [
+   "Eurypides, Medea",
+   "zatruta szata, którą Medea posłała rywalce"
+  ],
+  "126": [
+   "Meduza",
+   "Gorgona, której spojrzenie zamieniało w kamień"
+  ],
+  "128": [
+   "przysłowie łacińskie",
+   "„Non ex quovis ligno fit Mercurius”"
+  ],
+  "129": [
+   "Owidiusz, Metamorfozy XI",
+   "Apollo dał Midasowi ośle uszy za głupi werdykt w konkursie muzycznym"
+  ],
+  "130": [
+   "Owidiusz, Metamorfozy XI",
+   "Midas z oślimi uszami"
+  ],
+  "131": [
+   "Owidiusz, Metamorfozy XI",
+   "Midas z oślimi uszami"
+  ],
+  "132": [
+   "Owidiusz, Metamorfozy XI",
+   "wszystko, czego dotknął Midas, zamieniało się w złoto"
+  ],
+  "133": [
+   "przysłowie łacińskie",
+   "„Sus Minervam” — świnia (poucza) Minerwę (Cyceron)"
+  ],
+  "134": [
+   "Horacy, Sztuka poetycka 385",
+   "„invita Minerva” — wbrew woli bogini mądrości"
+  ],
+  "135": [
+   "Atena (Minerwa)",
+   "wyskoczyła w zbroi z głowy Zeusa"
+  ],
+  "136": [
+   "Mojry (Parki)",
+   "boginie przędące, odmierzające i przecinające nić życia"
+  ],
+  "137": [
+   "Mojry (Parki)",
+   "Atropos przecina nić życia"
+  ],
+  "138": [
+   "Owidiusz, Metamorfozy XI",
+   "Morfeusz — bóg snów"
+  ],
+  "139": [
+   "Owidiusz, Metamorfozy XI",
+   "Morfeusz — bóg snów"
+  ],
+  "140": [
+   "Muzy",
+   "dziewięć Muz opiekowało się sztukami; film dopisano jako dziesiątą"
+  ],
+  "141": [
+   "Muzy",
+   "po dziesiątej muzie (film) — telewizja jako jedenasta"
+  ],
+  "142": [
+   "Muzy",
+   "boginie natchnienia artystycznego"
+  ],
+  "143": [
+   "Muzy",
+   "boginie sztuki; „lekka” — o rozrywce"
+  ],
+  "144": [
+   "Muzy",
+   "boginie sztuki; „podkasana” — o frywolnej rozrywce"
+  ],
+  "145": [
+   "Cyceron",
+   "„sibi et Musis” — słowa przypisywane muzykowi Antygenidasowi"
+  ],
+  "146": [
+   "Owidiusz, Metamorfozy III",
+   "Narcyz zakochał się we własnym odbiciu"
+  ],
+  "147": [
+   "Owidiusz, Metamorfozy III",
+   "Narcyz zakochał się we własnym odbiciu"
+  ],
+  "148": [
+   "Owidiusz, Metamorfozy III",
+   "Narcyz zakochał się we własnym odbiciu"
+  ],
+  "149": [
+   "nektar",
+   "napój bogów zapewniający nieśmiertelność"
+  ],
+  "150": [
+   "Nemezis",
+   "bogini sprawiedliwej zemsty i odpłaty"
+  ],
+  "151": [
+   "Neptun (Posejdon)",
+   "bóg mórz"
+  ],
+  "152": [
+   "Owidiusz, Metamorfozy VI",
+   "Niobe po śmierci dzieci zamieniona w płaczący kamień"
+  ],
+  "153": [
+   "Oknos",
+   "w Hadesie wiecznie plecie sznur, który zjada osioł (Pauzaniasz)"
+  ],
+  "154": [
+   "Olimp",
+   "góra, siedziba bogów"
+  ],
+  "155": [
+   "Olimp",
+   "bogowie olimpijscy — spokojni i niewzruszeni"
+  ],
+  "156": [
+   "Olimp",
+   "góra, siedziba bogów"
+  ],
+  "157": [
+   "Olimp",
+   "góra, siedziba bogów"
+  ],
+  "158": [
+   "Delfy",
+   "omfalos — kamień w Delfach uważany za pępek świata"
+  ],
+  "159": [
+   "Delfy",
+   "omfalos — kamień w Delfach uważany za pępek świata"
+  ],
+  "160": [
+   "Pan",
+   "bóg pasterzy, którego nagłe pojawienie budziło przerażenie"
+  ],
+  "161": [
+   "Pan",
+   "bóg pasterzy, którego nagłe pojawienie budziło przerażenie"
+  ],
+  "162": [
+   "Hezjod, Prace i dni",
+   "Pandora otworzyła naczynie, z którego wyleciały nieszczęścia"
+  ],
+  "163": [
+   "Hezjod, Prace i dni",
+   "Pandora otworzyła naczynie z nieszczęściami"
+  ],
+  "164": [
+   "Parnas",
+   "góra Apollina i Muz"
+  ],
+  "165": [
+   "Parnas",
+   "góra Apollina i Muz, symbol poezji"
+  ],
+  "166": [
+   "Pegaz",
+   "skrzydlaty koń; od jego kopyta wytrysnęło źródło natchnienia Hippokrene"
+  ],
+  "167": [
+   "penaty",
+   "rzymskie bóstwa domowe"
+  ],
+  "168": [
+   "penaty",
+   "rzymskie bóstwa domowe"
+  ],
+  "169": [
+   "penaty",
+   "rzymskie bóstwa domowe"
+  ],
+  "170": [
+   "Homer, Odyseja XIX",
+   "Penelopa nocami pruła całun tkany w dzień, by zwodzić zalotników"
+  ],
+  "171": [
+   "Homer, Odyseja",
+   "Penelopa przez dwadzieścia lat czekała na Odyseusza"
+  ],
+  "172": [
+   "Prokrustes",
+   "rozbójnik dopasowujący wędrowców do łoża — przez rozciąganie lub obcinanie"
+  ],
+  "173": [
+   "Prometeusz",
+   "tytan, który wbrew Zeusowi wykradł ogień dla ludzi"
+  ],
+  "174": [
+   "Prometeusz",
+   "ogień wykradziony bogom i dany ludziom"
+  ],
+  "175": [
+   "Pytia",
+   "kapłanka wyroczni w Delfach, wieszcząca dwuznacznie"
+  ],
+  "176": [
+   "wyrocznia delficka",
+   "Pytia przekazywała odpowiedzi boga"
+  ],
+  "177": [
+   "Pytia",
+   "kapłanka wyroczni w Delfach"
+  ],
+  "178": [
+   "satyrowie",
+   "leśne demony z orszaku Dionizosa, rozpustne i swawolne"
+  ],
+  "179": [
+   "satyrowie",
+   "pół ludzie, pół kozły"
+  ],
+  "180": [
+   "Sfinks",
+   "potwór zadający zagadki pod Tebami"
+  ],
+  "181": [
+   "Sfinks",
+   "potwór zadający zagadki pod Tebami"
+  ],
+  "182": [
+   "Sfinks",
+   "potwór zadający zagadki pod Tebami"
+  ],
+  "183": [
+   "Sfinks",
+   "potwór zadający zagadki pod Tebami"
+  ],
+  "184": [
+   "Homer, Iliada V",
+   "Stentor — wojownik o głosie jak pięćdziesięciu mężów"
+  ],
+  "185": [
+   "Sybilla",
+   "wieszczka przepowiadająca nieszczęścia"
+  ],
+  "186": [
+   "Homer, Odyseja XII",
+   "syreny wabiły żeglarzy śpiewem na zgubę"
+  ],
+  "187": [
+   "Homer, Odyseja XII",
+   "syreny wabiły żeglarzy śpiewem"
+  ],
+  "188": [
+   "Homer, Odyseja XI",
+   "Syzyf w Hadesie wtacza głaz, który zawsze stacza się w dół"
+  ],
+  "189": [
+   "Homer, Odyseja XI",
+   "Syzyf wtacza głaz pod górę bez końca"
+  ],
+  "190": [
+   "Homer, Odyseja XI",
+   "Tantal cierpi głód i pragnienie, choć woda i owoce są tuż obok"
+  ],
+  "191": [
+   "Homer, Odyseja XI",
+   "męki Tantala w Hadesie"
+  ],
+  "192": [
+   "Homer, Odyseja VIII; Wergiliusz, Eneida II",
+   "drewniany koń z ukrytymi wojownikami"
+  ],
+  "193": [
+   "wojna trojańska",
+   "Grecy złupili i spalili Troję"
+  ],
+  "194": [
+   "Troja",
+   "starożytne miasto zburzone przez Greków"
+  ],
+  "195": [
+   "tytani",
+   "potężne bóstwa, poprzednicy bogów olimpijskich"
+  ],
+  "196": [
+   "tytani",
+   "potężne bóstwa, poprzednicy bogów olimpijskich"
+  ],
+  "197": [
+   "tytani",
+   "potężne bóstwa walczące z Zeusem"
+  ],
+  "198": [
+   "tytani",
+   "potężne bóstwa walczące z Zeusem"
+  ],
+  "199": [
+   "Tytan",
+   "poetyckie imię Słońca (Helios, syn tytana Hyperiona)"
+  ],
+  "200": [
+   "Homer, Odyseja",
+   "przemyślny Odyseusz (Ulisses)"
+  ],
+  "201": [
+   "Wenus (Afrodyta)",
+   "bogini miłości i piękna"
+  ],
+  "202": [
+   "Westa (Hestia)",
+   "bogini domowego ogniska; jej kapłankami były westalki"
+  ]
+ }
 }
