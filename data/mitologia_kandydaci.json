@@ -1,0 +1,35 @@
+{
+ "opis": "Kandydaci do talii mitologicznej spoza listy Pudy-Blokesz. Build ich NIE czyta; przeniesienie do apps/kalambury_mitologia_v3.html dopiero po decyzji Adama.",
+ "records": [
+  {
+   "id": "K1",
+   "haslo": "miecz Damoklesa / Damoklesowy",
+   "karta": "miecz Damoklesa",
+   "znaczenie": "stale wiszące nad kimś zagrożenie, które może spaść w każdej chwili",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "anegdota antyczna (Cyceron, Rozmowy tuskulańskie V), nie mit — do decyzji"
+  },
+  {
+   "id": "K2",
+   "haslo": "pyrrusowe zwycięstwo",
+   "karta": "pyrrusowe zwycięstwo",
+   "znaczenie": "zwycięstwo okupione tak wielkimi stratami, że niewiele różni się od klęski",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "historia (Pyrrus, król Epiru; Plutarch), nie mit — do decyzji"
+  },
+  {
+   "id": "K3",
+   "haslo": "węzeł gordyjski || przeciąć / rozciąć węzeł gordyjski",
+   "karta": "węzeł gordyjski",
+   "znaczenie": "bardzo zawiła sprawa; przeciąć go — rozwiązać ją jednym zdecydowanym ruchem",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "legenda o Aleksandrze Wielkim, nie mit — do decyzji"
+  }
+ ]
+}

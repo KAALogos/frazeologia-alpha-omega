@@ -4940,6 +4940,76 @@
     "Niedobra żona — cierniowa korona. Dobra żona — męża korona — przysłowie (Prz 12, 4); Godyń przywołuje również nawiązanie z „Pieśni” Jana Kochanowskiego."
    ],
    "liczba_wariantow": 1
+  },
+  {
+   "id": 387,
+   "numery_uczniowskie": [],
+   "haslo": "W stroju Ewy",
+   "znaczenie": "żart. ‘nago’ (o kobiecie)",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "warianty": [
+    "W stroju Ewy — żart. ‘nago’ (o kobiecie)"
+   ],
+   "liczba_wariantow": 1,
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "Rdz 2, 25; para do karty „W stroju Adama”"
+  },
+  {
+   "id": 388,
+   "numery_uczniowskie": [],
+   "haslo": "Niewola egipska",
+   "znaczenie": "‘ciężkie zniewolenie, uciążliwa i długotrwała zależność od kogoś’",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "warianty": [
+    "Niewola egipska — ‘ciężkie zniewolenie, uciążliwa i długotrwała zależność od kogoś’"
+   ],
+   "liczba_wariantow": 1,
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "Wj 1–14"
+  },
+  {
+   "id": 389,
+   "numery_uczniowskie": [],
+   "haslo": "Po nas choćby potop",
+   "znaczenie": "‘nie obchodzi nas, co będzie potem; liczy się tylko dziś’",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "warianty": [
+    "Po nas choćby potop — ‘nie obchodzi nas, co będzie potem; liczy się tylko dziś’"
+   ],
+   "liczba_wariantow": 1,
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "nawiązanie do potopu (Rdz 6–8); samo powiedzenie przypisywane dworowi Ludwika XV — do decyzji, czy to biblizm"
+  },
+  {
+   "id": 390,
+   "numery_uczniowskie": [],
+   "haslo": "Judaszowe srebrniki",
+   "znaczenie": "‘zapłata za zdradę; pieniądze zdobyte nieuczciwie, kosztem kogoś’",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "warianty": [
+    "Judaszowe srebrniki — ‘zapłata za zdradę; pieniądze zdobyte nieuczciwie, kosztem kogoś’"
+   ],
+   "liczba_wariantow": 1,
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "Mt 26, 15; 27, 3–5; bliskie karcie #320, ale inne wyrażenie"
+  },
+  {
+   "id": 391,
+   "numery_uczniowskie": [],
+   "haslo": "Tron Piotrowy",
+   "znaczenie": "książk. ‘urząd papieża, papiestwo’",
+   "poziom": null,
+   "status": "do weryfikacji",
+   "warianty": [
+    "Tron Piotrowy — książk. ‘urząd papieża, papiestwo’"
+   ],
+   "liczba_wariantow": 1,
+   "zrodlo": "przeglad LingLogos 2026-11-17 (slownik frazeologiczny); znaczenie opracowane samodzielnie",
+   "powod_decyzji": "Mt 16, 18–19"
   }
  ]
 }
