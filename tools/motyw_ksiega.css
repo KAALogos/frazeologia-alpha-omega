@@ -290,3 +290,10 @@ body[data-deck] .back .face-content > div:first-child > .label{display:none}
  body[data-deck] .progresslabels{display:none}
  body[data-deck] .progresszone{margin:14px auto 8px}
 }
+
+/* rewers: hasło jako nagłówek strony, pod nim cienka linia i znaczenie */
+body[data-deck] .back .back-phrase{font-family:var(--serif);font-weight:500;font-size:clamp(26px,2.9vw,34px);line-height:1.15;color:var(--ink);
+ padding-bottom:12px;margin-bottom:16px;border-bottom:1px solid var(--rule)}
+body[data-deck="bible"] .back .back-phrase::first-letter{color:var(--rubric)}
+body[data-deck] .back .back-phrase:empty{display:none}
+@media (max-width:690px){body[data-deck] .back .back-phrase{font-size:24px;padding-bottom:8px;margin-bottom:10px}body[data-deck] .back{padding-top:16px;padding-bottom:16px}body[data-deck] .back .origin{margin-top:14px}}

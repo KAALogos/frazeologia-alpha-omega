@@ -73,7 +73,10 @@ sub('function render(){', 'function render(){document.body.dataset.deck=activeDe
 sub('<p class="def" id="definition"></p></div>',
     '<p class="def" id="definition"></p></div>\n     <div class="origin" id="origin" hidden><div class="label">Skąd to?</div>'
     '<p><span class="origin-ref" id="originref"></span> <span class="origin-note" id="originnote"></span></p></div>')
-sub("ui.def.className='def'", "(()=>{const o=document.getElementById('origin'),s=item.skad;o.hidden=!s;if(s){document.getElementById('originref').textContent=s.ref;document.getElementById('originnote').textContent=s.nota?'— '+s.nota:''}})();ui.def.className='def'")
+# rewers: hasło nad znaczeniem (do nauki — widać, czego dotyczy znaczenie)
+sub('<div><div class="label">Znaczenie frazeologizmu</div>',
+    '<div><div class="back-phrase" id="backphrase"></div><div class="label">Znaczenie frazeologizmu</div>')
+sub("ui.def.className='def'", "(()=>{document.getElementById('backphrase').textContent=item.karta;const o=document.getElementById('origin'),s=item.skad;o.hidden=!s;if(s){document.getElementById('originref').textContent=s.ref;document.getElementById('originnote').textContent=s.nota?'— '+s.nota:''}})();ui.def.className='def'")
 # UX: poziom "Wszystkie" zaznaczony od razu (takze po zmianie talii), zeby mozna bylo losowac bez dodatkowego klikniecia
 out = out.replace('</body>', """<script>(()=>{const pick=()=>{if(!document.querySelector('.level-tile[aria-pressed="true"]')){const t=document.querySelector('.level-tile[data-pick-level="all"]');if(t&&!t.disabled)t.click()}};
 pick();document.querySelectorAll('.deck-tab').forEach(b=>b.addEventListener('click',()=>setTimeout(pick,0)));})();</script>
