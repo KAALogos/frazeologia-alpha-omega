@@ -38,8 +38,13 @@ sub('Biblizmy <small>235</small>', f'Biblizmy <small>{len(bible)}</small>')
 sub('347 haseł w wersji czystej; 235 zakwalifikowano do kalamburów. Oryginał i numery źródłowe pozostają w Google Docs.',
     f'{len(records)} haseł w bazie kanonicznej (wersja {base["version"]}); {len(bible)} zakwalifikowano do kalamburów. '
     'Oryginał i numery źródłowe pozostają w Google Docs.')
-sub('<title>Kalambury αω — bibliczne / wersja kanoniczna', '<title>Kalambury αω — biblizmy i mitologizmy')
-# logo: .brand ma text-transform:uppercase, przez co α ω wyswietla sie jako 'AΩ'
-out = out.replace('</style>', '.brandmark{text-transform:none}</style>', 1)
+sub('<title>Kalambury αω — bibliczne / wersja kanoniczna', '<title>Kalambury ΑΩ — biblizmy i mitologizmy')
+# Alfa i Omega wielkimi literami greckimi (U+0391, U+03A9), nie łacińskim "A"
+sub('<span>α</span><span>ω</span>', '<span>Α</span><span>Ω</span>')
+sub('<span class="deck-symbol">αω</span>', '<span class="deck-symbol">ΑΩ</span>')
+# motywy talii (osobne tlo i kolory dla Biblii i mitologii)
+css = (root/'tools/motywy_talii.css').read_text(encoding='utf-8')
+out = out.replace('</style>', css + '\n</style>', 1)
+sub('function render(){', 'function render(){document.body.dataset.deck=activeDeck;')
 (root/'index.html').write_text(out, encoding='utf-8')
 print('index.html:', len(bible), 'biblizmow,', len(myth), 'mitologizmow')

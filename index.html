@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
 <meta name="color-scheme" content="light" />
 <meta name="theme-color" content="#F4F1EA" />
-<title>Kalambury αω — biblizmy i mitologizmy</title>
+<title>Kalambury ΑΩ — biblizmy i mitologizmy</title>
 <style>
 :root{--bg:#f4f1ea;--paper:#fffdfa;--ink:#212b39;--muted:#657180;--line:#dedfdc;--accent:#9a513a;--accent-soft:#f5e8df;--navy:#1e3546;--soft-blue:#e7eef1;--green:#176b5b;--shadow:0 28px 70px rgba(26,44,51,.11),0 3px 8px rgba(26,44,51,.05)}
 *{box-sizing:border-box}
@@ -172,12 +172,67 @@ h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,4vw
 .context-record blockquote{font-size:15px;font-family:Georgia,serif;margin:4px 0 6px}
 .review-flag{margin-top:10px;background:#fbf5ef;border-left:3px solid #b5855d;padding:9px 11px;color:#744d34;font-size:12px}
 @media(max-width:620px){.brandmark{width:42px;height:37px}.decks{margin:15px auto 0;gap:7px}.deck-tab{min-height:47px;padding:7px 6px;font-size:12px}.deck-tab .deck-symbol{font-size:22px}.context-card{padding:14px 13px}.context-card blockquote{font-size:15px}}
-.brandmark{text-transform:none}</style>
+/* Motywy talii — wstrzykiwane przez tools/build_multizestaw.py.
+   Biblia: iluminowany rękopis (welin, złoto, purpura).  Mitologia: marmur, meander, czarnofigurowa ceramika. */
+body{transition:background-color .4s ease}
+.brandmark{text-transform:none}
+
+/* ---------- BIBLIA ---------- */
+body[data-deck="bible"]{
+ --bg:#eee3cb;--paper:#fffaf0;--ink:#2b1d18;--muted:#6f5f50;--navy:#431a22;--accent:#a8812f;--accent-soft:#f3e7c9;
+ background:
+  radial-gradient(70% 45% at 50% -8%,rgba(255,236,186,.85) 0%,rgba(255,236,186,0) 70%),
+  radial-gradient(140% 110% at 50% 40%,rgba(0,0,0,0) 55%,rgba(92,58,22,.16) 100%),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34'%3E%3Cpath d='M17 1L33 17L17 33L1 17Z' fill='none' stroke='%23a8812f' stroke-opacity='.16' stroke-width='.7'/%3E%3Ccircle cx='17' cy='17' r='1.3' fill='%23a8812f' fill-opacity='.22'/%3E%3C/svg%3E"),
+  linear-gradient(180deg,#f3eadb 0%,#eadcbf 100%);
+ background-attachment:fixed}
+body[data-deck="bible"] .brandmark{background:linear-gradient(150deg,#5a2430,#2f0f16);color:#e6c77e;box-shadow:inset 0 0 0 1px rgba(230,199,126,.55)}
+body[data-deck="bible"] h1{color:#431a22;font-variant:small-caps;letter-spacing:.01em}
+body[data-deck="bible"] .front{box-shadow:var(--shadow),inset 0 0 0 7px var(--paper),inset 0 0 0 8px rgba(168,129,47,.45),inset 0 0 0 11px var(--paper),inset 0 0 0 12px rgba(168,129,47,.22);border-color:#e2d3b0}
+body[data-deck="bible"] .back{background:radial-gradient(90% 70% at 50% 0%,#5e2532 0%,#3a121b 70%,#2c0c13 100%);border-color:#7d5a26;box-shadow:var(--shadow),inset 0 0 0 7px transparent,inset 0 0 0 8px rgba(230,199,126,.4)}
+body[data-deck="bible"] .back .face-header,body[data-deck="bible"] .back .label,body[data-deck="bible"] .back .card-bottom{color:#e2c98e}
+body[data-deck="bible"] .meter>div{background:linear-gradient(90deg,#8e6a22,#d1ad5a)}
+
+/* ---------- MITOLOGIA ---------- */
+body[data-deck="myth"]{
+ --bg:#ebeae5;--paper:#fdfcf8;--ink:#1f1c1a;--muted:#6a6560;--navy:#211d1a;--accent:#b4532a;--accent-soft:#f4e2d6;
+ background:
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='22'%3E%3Cpath d='M0 19H32V3H10V13H22V9' fill='none' stroke='%23b4532a' stroke-opacity='.55' stroke-width='2.2'/%3E%3C/svg%3E") top left/40px 22px repeat-x,
+  linear-gradient(117deg,rgba(255,255,255,0) 38%,rgba(150,146,140,.14) 39.2%,rgba(255,255,255,0) 41%),
+  linear-gradient(64deg,rgba(255,255,255,0) 61%,rgba(140,136,130,.11) 61.8%,rgba(255,255,255,0) 63.5%),
+  linear-gradient(152deg,rgba(255,255,255,0) 72%,rgba(150,146,140,.10) 72.6%,rgba(255,255,255,0) 74%),
+  linear-gradient(28deg,rgba(255,255,255,0) 18%,rgba(160,156,150,.09) 18.7%,rgba(255,255,255,0) 20%),
+  radial-gradient(60% 50% at 20% 10%,rgba(255,255,255,.9) 0%,rgba(255,255,255,0) 70%),
+  radial-gradient(70% 60% at 85% 75%,rgba(255,255,255,.6) 0%,rgba(255,255,255,0) 70%),
+  linear-gradient(180deg,#f2f1ec 0%,#e3e1da 100%);
+ background-attachment:scroll,fixed,fixed,fixed,fixed,fixed,fixed,fixed}
+body[data-deck="myth"] .shell{padding-top:46px}
+body[data-deck="myth"] .brandmark{background:#211d1a;color:#d9774a;box-shadow:inset 0 0 0 1px rgba(217,119,74,.5)}
+body[data-deck="myth"] h1{color:#211d1a;letter-spacing:.02em;text-transform:uppercase;font-weight:500;font-size:clamp(26px,3.4vw,42px)}
+body[data-deck="myth"] .front{border-color:#dad6cd;box-shadow:var(--shadow),inset 0 -14px 0 -8px rgba(180,83,42,.0)}
+body[data-deck="myth"] .front::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14px;opacity:.5;
+ background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='14'%3E%3Cpath d='M0 12H21V2H7V8H15V5' fill='none' stroke='%23b4532a' stroke-width='1.6'/%3E%3C/svg%3E") left bottom/26px 14px repeat-x}
+body[data-deck="myth"] .back{background:radial-gradient(90% 70% at 50% 0%,#2f2925 0%,#1d1916 75%);border-color:#3a322c}
+body[data-deck="myth"] .back::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14px;opacity:.75;
+ background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='14'%3E%3Cpath d='M0 12H21V2H7V8H15V5' fill='none' stroke='%23d9774a' stroke-width='1.6'/%3E%3C/svg%3E") left bottom/26px 14px repeat-x}
+body[data-deck="myth"] .back .face-header,body[data-deck="myth"] .back .label,body[data-deck="myth"] .back .card-bottom{color:#e09a74}
+body[data-deck="myth"] .meter>div{background:linear-gradient(90deg,#8f3c1c,#d06b3d)}
+
+/* ---------- wspólne dopasowania ---------- */
+body[data-deck] .deck-tab{color:var(--muted);background:var(--paper)}
+body[data-deck] .deck-tab small,body[data-deck] .level-tile .tile-remaining{background:var(--accent-soft);color:var(--ink)}
+body[data-deck] .deck-tab[aria-pressed="true"],body[data-deck] .level-tile[aria-pressed="true"]{color:#fff;background:var(--navy);border-color:var(--navy)}
+body[data-deck] .deck-tab[aria-pressed="true"] small,body[data-deck] .level-tile[aria-pressed="true"] .tile-remaining{background:rgba(255,255,255,.16);color:#fff}
+body[data-deck] .mode-pill{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,transparent);color:var(--navy)}
+body[data-deck="bible"] .deck-tab[data-deck="bible"] .deck-symbol{color:#e6c77e}
+body[data-deck="myth"] .deck-tab[data-deck="myth"] .deck-symbol{color:#e08a5e}
+
+</style>
 </head>
 <body>
 <main class="shell">
  <header class="topline">
-  <div class="brand"><span class="brandmark" aria-hidden="true"><span>α</span><span>ω</span></span><span>Kalambury / źródła kultury</span></div>
+  <div class="brand"><span class="brandmark" aria-hidden="true"><span>Α</span><span>Ω</span></span><span>Kalambury / źródła kultury</span></div>
   <span class="phase" id="topphase">Biblizmy · osobna talia</span>
  </header>
  <section class="intro" aria-label="Tytuł gry">
@@ -187,7 +242,7 @@ h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,4vw
  <nav class="decks" role="group" aria-label="Wybór talii">
   
   <button class="deck-tab" type="button" data-deck="myth" aria-pressed="false"><span class="deck-symbol">μ</span> Mitologizmy <small>202</small></button>
-  <button class="deck-tab" type="button" data-deck="bible" aria-pressed="false"><span class="deck-symbol">αω</span> Biblizmy <small>233</small></button>
+  <button class="deck-tab" type="button" data-deck="bible" aria-pressed="false"><span class="deck-symbol">ΑΩ</span> Biblizmy <small>233</small></button>
  </nav>
  <section class="progresszone" aria-label="Postęp rozgrywki">
   <div class="progresslabels"><span>Wylosowane karty</span><span><strong id="progress">0 / 202</strong> <span id="remain">· pozostało 202</span></span></div>
@@ -290,7 +345,7 @@ function renderLevelTiles(){const counts=remainingCounts();for(const btn of ui.l
 const eligible=selectedLevel!==null?counts[selectedLevel]:0;ui.next.disabled=eligible===0;if(counts.all===0){ui.nextlabel.textContent='Talia wyczerpana';ui.levelhint.textContent='Wylosowano wszystkie karty tej talii.';}else if(selectedLevel===null){ui.nextlabel.textContent='Wybierz poziom';ui.levelhint.textContent='Najpierw wybierz jeden z poziomów.';}else if(eligible===0){ui.nextlabel.textContent='Brak haseł na tym poziomie';ui.levelhint.textContent='Wybierz inny poziom.';}else{ui.nextlabel.textContent=`Losuj ${state.index<0?'pierwszą':'kolejną'} kartę`;ui.levelhint.textContent=`Wybrano: ${selectedLevel==='all'?'wszystkie poziomy':LEVELS[selectedLevel].short} · ${eligible} ${eligible===1?'hasło pozostało':'haseł pozostało'}.`}}
 function setFlip(v){flipped=state.index>=0?v:false;ui.card.classList.toggle('flipped',flipped);ui.front.setAttribute('aria-hidden',flipped?'true':'false');ui.back.setAttribute('aria-hidden',flipped?'false':'true');ui.fliplabel.textContent=flipped?'Pokaż awers':'Pokaż rewers';ui.card.setAttribute('aria-label',flipped?'Odwróć kartę, aby zobaczyć hasło i typ kalamburu':'Odwróć kartę, aby zobaczyć znaczenie');updateContext();}
 function updateContext(){const item=state.index>=0?CARDS[state.order[state.index]]:null;const c=flipped&&item&&item.context;ui.contextcard.hidden=!c;if(!c)return;ui.contextkind.textContent=c.kind;ui.contextquote.textContent='„'+c.quote+'”';ui.contextauthor.textContent=c.author+' · '+c.work;ui.contextlink.href=c.url;ui.contextcomment.textContent=c.comment}
-function render(){const n=CARDS.length,count=state.index+1;el('maintitle').textContent=DECKINFO[activeDeck].title;el('topphase').textContent=`${n} haseł · ${DECKINFO[activeDeck].name.toLowerCase()}`;el('deckintro').textContent='Losowanie bez powtórek. Hasło i typ na awersie; znaczenie na rewersie. Historia i ranking dostępne bez cofania losowania.';el('rankingdesc').textContent=`${n} pozycji, pięć poziomów. Pełne zapisy w podglądzie.`;el('footerdesc').textContent=activeDeck==='myth'?'202 pozycji z zestawu mitologizmów. Zapis źródłowy zachowany, autentyczne cytaty tylko przy zweryfikowanych przykładach.':'347 haseł w bazie kanonicznej (wersja 2026-11-16); 233 zakwalifikowano do kalamburów. Oryginał i numery źródłowe pozostają w Google Docs.';ui.progress.textContent=count+' / '+n;ui.remain.textContent='· pozostało '+(n-count);ui.fill.style.width=(count/n*100)+'%';ui.meter.setAttribute('aria-valuemax',n);ui.meter.setAttribute('aria-valuenow',count);ui.historycount.textContent=String(count);for(const btn of ui.deckButtons)btn.setAttribute('aria-pressed',btn.dataset.deck===activeDeck?'true':'false');el('contextcount').textContent=String(CARDS.filter(x=>x.context).length);
+function render(){document.body.dataset.deck=activeDeck;const n=CARDS.length,count=state.index+1;el('maintitle').textContent=DECKINFO[activeDeck].title;el('topphase').textContent=`${n} haseł · ${DECKINFO[activeDeck].name.toLowerCase()}`;el('deckintro').textContent='Losowanie bez powtórek. Hasło i typ na awersie; znaczenie na rewersie. Historia i ranking dostępne bez cofania losowania.';el('rankingdesc').textContent=`${n} pozycji, pięć poziomów. Pełne zapisy w podglądzie.`;el('footerdesc').textContent=activeDeck==='myth'?'202 pozycji z zestawu mitologizmów. Zapis źródłowy zachowany, autentyczne cytaty tylko przy zweryfikowanych przykładach.':'347 haseł w bazie kanonicznej (wersja 2026-11-16); 233 zakwalifikowano do kalamburów. Oryginał i numery źródłowe pozostają w Google Docs.';ui.progress.textContent=count+' / '+n;ui.remain.textContent='· pozostało '+(n-count);ui.fill.style.width=(count/n*100)+'%';ui.meter.setAttribute('aria-valuemax',n);ui.meter.setAttribute('aria-valuenow',count);ui.historycount.textContent=String(count);for(const btn of ui.deckButtons)btn.setAttribute('aria-pressed',btn.dataset.deck===activeDeck?'true':'false');el('contextcount').textContent=String(CARDS.filter(x=>x.context).length);
 const has=count>0;ui.card.disabled=!has;ui.flip.disabled=!has;
 if(has){const item=CARDS[state.order[state.index]],mode=state.modes[state.index];ui.cardno.textContent='#'+String(item.id).padStart(3,'0');ui.backno.textContent='#'+String(item.id).padStart(3,'0');ui.fronttitle.textContent='HASŁO DO ODGADNIĘCIA';ui.phrase.textContent=item.karta;ui.phrase.className='phrase'+(item.karta.length>100?' xxlong':item.karta.length>65?' xlong':item.karta.length>40?' long':'');ui.def.textContent=item.znaczenie||'(W materiale źródłowym brak osobnej definicji; hasło wymaga weryfikacji.)';ui.def.className='def'+(ui.def.textContent.length>200?' xlong':ui.def.textContent.length>125?' long':'');ui.modepill.hidden=false;ui.mode.textContent=mode.toUpperCase();ui.modeicon.textContent=mode==='rysowany'?'✎':'♧';ui.levelpill.textContent=LEVELS[item.poziom].short;ui.levelpill.hidden=false;ui.welcome.hidden=true;ui.status.textContent=`${DECKINFO[activeDeck].name} · hasło źródłowe ${item.id} · ${mode}`;}
 else{ui.cardno.textContent='—';ui.backno.textContent='—';ui.fronttitle.textContent='Czas na grę';ui.phrase.textContent='Losowanie gotowe';ui.phrase.className='phrase';ui.modepill.hidden=true;ui.levelpill.hidden=true;ui.welcome.hidden=false;ui.status.textContent='Oczekiwanie na losowanie'}
