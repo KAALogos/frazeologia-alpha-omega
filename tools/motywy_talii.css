@@ -52,3 +52,35 @@ body[data-deck] .deck-tab[aria-pressed="true"] small,body[data-deck] .level-tile
 body[data-deck] .mode-pill{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,transparent);color:var(--navy)}
 body[data-deck="bible"] .deck-tab[data-deck="bible"] .deck-symbol{color:#e6c77e}
 body[data-deck="myth"] .deck-tab[data-deck="myth"] .deck-symbol{color:#e08a5e}
+
+/* ---------- Estetyka 2026-11-17: spójna typografia, kolory talii, telefon ---------- */
+/* rewers: znaczenie tym samym krojem szeryfowym co hasło na awersie */
+body[data-deck] .back .def{font-family:Georgia,"Times New Roman",serif;line-height:1.45;font-weight:400;letter-spacing:.005em}
+body[data-deck] .back .label{letter-spacing:.14em}
+/* znacznik poziomu w kolorach talii zamiast chłodnego szaroniebieskiego */
+body[data-deck] .level-pill{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent);color:var(--navy)}
+body[data-deck] .back .level-pill{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.25);color:inherit}
+/* przyciski drugorzędne wyglądają jak przyciski, nie jak linki */
+body[data-deck] .action.panel{background:color-mix(in srgb,var(--paper) 70%,transparent);border-color:color-mix(in srgb,var(--accent) 22%,transparent)}
+body[data-deck] .action.panel:hover:not(:disabled){background:var(--paper)}
+body[data-deck] .action.primary{box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 30%,transparent)}
+body[data-deck] .action.primary:hover:not(:disabled){background:color-mix(in srgb,var(--accent) 85%,#000)}
+/* pasek postępu: grubszy i czytelny */
+body[data-deck] .meter{height:6px;border-radius:99px;background:color-mix(in srgb,var(--accent) 14%,transparent)}
+body[data-deck] .meter>div{border-radius:99px}
+/* stopka czytelniejsza */
+body[data-deck] .footer{color:var(--muted)}
+/* fokus z klawiatury widoczny w kolorze talii */
+body[data-deck] :is(button,a,summary):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* telefon: poziomy jako jeden rząd przewijanych chipów, karta wyżej na ekranie */
+@media (max-width:690px){
+ body[data-deck] .intro p{display:none}
+ body[data-deck] .level-selector{padding:10px 10px 8px;gap:6px;border-radius:14px}
+ body[data-deck] .level-selector .level-instruction,body[data-deck] .level-selector .level-hint{display:none}
+ body[data-deck] .level-selector h2{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+ body[data-deck] .level-tiles{display:flex;flex-direction:row;overflow-x:auto;gap:6px;scrollbar-width:none;padding-bottom:2px;scroll-snap-type:x proximity}
+ body[data-deck] .level-tiles::-webkit-scrollbar{display:none}
+ body[data-deck] .level-tile{flex:0 0 auto;width:auto;min-height:38px;padding:5px 8px 5px 12px;gap:8px;border-radius:99px;scroll-snap-align:start}
+ body[data-deck="myth"] .shell{padding-top:34px}
+}
