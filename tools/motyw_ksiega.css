@@ -200,3 +200,93 @@ body[data-deck] .record .details .small-title{font-size:14px;font-weight:400;let
  body[data-deck] .action{font-size:17px}
  body[data-deck] .back .origin{margin-top:18px}
 }
+
+/* ======================================================================
+   REWIZJA UX (18.11.2026): mniej metakomentarza, większe pismo.
+   Garamond ma niskie litery — tekst pomocniczy nie mniej niż 18 px, sterowanie 20 px.
+   ====================================================================== */
+
+/* 1. Usunięty metakomentarz: opisy działania, numeracja stron karty, notki techniczne */
+body[data-deck] :is(#topphase,#deckintro,.progresslabels > span:first-child,#remain,
+  .face-header > span:first-child,#cardno,#backno,#fronttitle,.card-bottom,
+  .level-instruction,#levelhint,.footer,.empty-sub){display:none!important}
+/* Konteksty tylko wtedy, gdy są (dla biblizmów lista jest pusta) */
+body[data-deck="bible"] #contexts{display:none}
+
+/* 2. Nagłówek: marka + przełącznik talii w jednej linii, tytuł niżej */
+body[data-deck] .brand{font-size:18px}
+body[data-deck] .intro{margin-top:26px}
+body[data-deck] .decks{margin-top:18px;gap:34px}
+body[data-deck] .deck-tab{font-size:22px}
+body[data-deck] .deck-tab .deck-symbol{font-size:22px}
+body[data-deck] .deck-tab small{font-size:18px}
+
+/* 3. Postęp: sama liczba, bez etykiety */
+body[data-deck] .progresslabels{justify-content:flex-end;margin-bottom:6px}
+body[data-deck] .progresslabels strong{font-size:19px;font-weight:400;color:var(--muted)}
+
+/* 4. Karta: tylko to, co potrzebne do gry — poziom, sposób przedstawienia, hasło */
+body[data-deck] .face-header{justify-content:flex-end;min-height:0}
+body[data-deck] .level-pill{font-size:19px;letter-spacing:.08em}
+body[data-deck] .front .face-content{padding:0 0 18px}
+body[data-deck] .mode-pill{font-size:23px;font-style:italic;color:var(--rubric);margin:0 0 14px;letter-spacing:.01em}
+body[data-deck] .phrase{font-size:clamp(36px,4.8vw,60px)}
+body[data-deck] .phrase.long{font-size:clamp(30px,3.8vw,46px)}
+body[data-deck] .phrase.xlong{font-size:clamp(25px,3vw,36px)}
+body[data-deck] .phrase.xxlong{font-size:clamp(21px,2.4vw,28px)}
+/* rewers: znaczenie i przypis większe */
+body[data-deck] .back .face-content{padding:0}
+body[data-deck] .back .label{font-size:19px}
+body[data-deck] .back .def{font-size:clamp(24px,2.8vw,32px)}
+body[data-deck] .back .def.long{font-size:clamp(21px,2.3vw,26px)}
+body[data-deck] .back .def.xlong{font-size:clamp(18px,1.9vw,22px)}
+body[data-deck] .back .origin .label{font-size:18px}
+body[data-deck] .back .origin p{font-size:19px}
+
+/* 5. Poziomy: krótszy nagłówek, większe pozycje */
+body[data-deck] .level-selector h2{font-size:19px;margin-bottom:10px}
+body[data-deck] .level-tile{padding:8px 0}
+body[data-deck] .level-tile .tile-name{font-size:21px}
+body[data-deck] .level-tile .tile-remaining{font-size:19px}
+
+/* 6. Sterowanie */
+body[data-deck] .controls{gap:10px 30px;margin-top:28px}
+body[data-deck] .action{font-size:21px}
+body[data-deck] .action.primary{font-size:22px;padding:14px 30px}
+body[data-deck] .action.panel .count{font-size:19px}
+body[data-deck] .action.quiet{font-size:19px}
+
+/* okna */
+body[data-deck] dialog .panelheader p,body[data-deck] .dialog p{font-size:18px}
+body[data-deck] .record summary{font-size:20px}
+body[data-deck] .record-right :is(.tier,.game-mode){font-size:18px}
+body[data-deck] .record .details{font-size:19px}
+
+@media (max-width:690px){
+ body[data-deck] .brand{font-size:17px}
+ body[data-deck] h1{font-size:40px}
+ body[data-deck="myth"] h1{font-size:27px}
+ body[data-deck] .deck-tab{font-size:20px}
+ body[data-deck] .deck-tab small{font-size:17px}
+ body[data-deck] .level-tile .tile-name{font-size:20px}
+ body[data-deck] .level-tile .tile-remaining{font-size:17px}
+ body[data-deck] .phrase{font-size:38px}
+ body[data-deck] .phrase.long{font-size:31px}
+ body[data-deck] .phrase.xlong{font-size:26px}
+ body[data-deck] .phrase.xxlong{font-size:22px}
+ body[data-deck] .mode-pill{font-size:21px}
+ body[data-deck] .back .def{font-size:25px}
+ body[data-deck] .back .origin p{font-size:18px}
+ body[data-deck] .action{font-size:19px}
+ body[data-deck] .action.primary{font-size:21px}
+}
+
+/* rewizja UX, c.d.: rewers bez etykiety „Znaczenie frazeologizmu” (zostaje tylko „Skąd to?”) */
+body[data-deck] .back .face-content > div:first-child > .label{display:none}
+@media (max-width:690px){
+ /* telefon: bez pustego wiersza z logo; licznik zamiast osobnej linii — tylko pasek postępu */
+ body[data-deck] .topline{display:none}
+ body[data-deck] .intro{margin-top:6px}
+ body[data-deck] .progresslabels{display:none}
+ body[data-deck] .progresszone{margin:14px auto 8px}
+}
